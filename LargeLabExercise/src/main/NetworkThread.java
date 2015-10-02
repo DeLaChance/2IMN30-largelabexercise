@@ -32,9 +32,20 @@ public class NetworkThread implements Runnable {
     private DataOutputStream out;
     private BufferedReader in;    
     private String ip;    
+    private int port = PORT_NO;
     
     private ArrayList<String> queue;
 
+    public NetworkThread(String ip, int port)
+    {
+        this.isRunning = true;
+        this.ip = ip;
+        this.port = port;
+        isMaster = false;
+        log("starting networkthread as slave with master ip " + ip);
+        this.queue = new ArrayList<String>();
+    }
+    
     /**
      * Constructor for master, no ip needed
      * 
@@ -44,6 +55,7 @@ public class NetworkThread implements Runnable {
         isMaster = true;
         log("starting networkthread as master with id " + id);
         this.id = id;
+        port = PORT_NO;
         this.queue = new ArrayList<String>();
     }
     
@@ -56,6 +68,7 @@ public class NetworkThread implements Runnable {
     {
         this.isRunning = true;
         this.ip = ip;
+        port = PORT_NO;
         isMaster = false;
         log("starting networkthread as slave with master ip " + ip);
         this.queue = new ArrayList<String>();
@@ -74,7 +87,7 @@ public class NetworkThread implements Runnable {
         {
             try 
             {
-                ServerSocket welcomeSocket = new ServerSocket(PORT_NO);
+                ServerSocket welcomeSocket = new ServerSocket(port);
                 socket = welcomeSocket.accept();
                 in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                 out = new DataOutputStream(socket.getOutputStream());         
@@ -93,7 +106,7 @@ public class NetworkThread implements Runnable {
         {
             try 
             {
-                socket = new Socket(ip, PORT_NO);
+                socket = new Socket(ip, port);
                 out = new DataOutputStream(socket.getOutputStream());        
                 in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             } 
