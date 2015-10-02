@@ -3,20 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package largelabexercise;
+package main;
 
 /**
  *
  * @author lucien
  */
-public class Machine implements Runnable {
-    
-    
-    
-    public Machine()
-    {
-    
-    }
+public class Communication implements Runnable {
 
     @Override
     public void run() {
