@@ -63,4 +63,8 @@ public class MachineData {
         
         return false;
     }
+
+    public String getIp() {
+        return ip_address;
+    }
 }
