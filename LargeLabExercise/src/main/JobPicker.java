@@ -5,6 +5,7 @@
  */
 package main;
 
+import aws.AWS;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -38,34 +39,12 @@ public class JobPicker implements Runnable {
     public void initialize()
     {
         this.availableJobs = new ArrayList<String>();  
-        
-        ArrayList<String> l = this.getAllObjectKeys();
+
+        ArrayList<String> l = AWS.listFilesInBucket();
         for(String s : l)
         {
             this.availableJobs.add(s);
         }
-    }
-    
-    public ArrayList<String> getAllObjectKeys() 
-    {
-        // Take all amazon s3 object keys in our bucket
-        
-        ArrayList<String> l = new ArrayList<String>();
-        
-        File folder = new File("/home/lucien/tmp/img/");
-        File[] listOfFiles = folder.listFiles();
-
-        for (int i = 0; i < listOfFiles.length; i++) 
-        {
-            File a = listOfFiles[i];
-            
-            if (a.isFile()) 
-            {
-                l.add(a.getName());
-            } 
-        }       
-        
-        return l;
     }
     
     public static JobPicker getInstance()

@@ -1,5 +1,6 @@
 package largelabexercise;
 
+import aws.AWS;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import magick.MagickException;
@@ -19,6 +20,9 @@ public class LargeLabExercise {
      */
     public static void main(String[] args) 
     {
+        AWS a = AWS.getInstance();
+        a.listFilesInBucket();
+        
 //        if( args[0].equals("slave") )
 //        {
 //            System.out.println("starting slave");
@@ -36,24 +40,22 @@ public class LargeLabExercise {
 //            sch.start();
 //            mon.start();
 //        }
-        
 // Test case for networking        
-        if( args[0].equals("slave"))
-        {
-            System.out.println("starting slave");
-            NetworkThread nt = new NetworkThread("localhost");
-            Thread t = new Thread(nt);   
-            t.start();
-            nt.appendMessage("hello world!");
-        }
-        else 
-        {
-            System.out.println("starting master");
-            NetworkThread nt2 = new NetworkThread(0);
-            Thread t2 = new Thread(nt2); 
-            t2.start();
-        }        
-
+//        if( args[0].equals("slave"))
+//        {
+//            System.out.println("starting slave");
+//            NetworkThread nt = new NetworkThread("localhost");
+//            Thread t = new Thread(nt);   
+//            t.start();
+//            nt.appendMessage("hello world!");
+//        }
+//        else 
+//        {
+//            System.out.println("starting master");
+//            NetworkThread nt2 = new NetworkThread(0);
+//            Thread t2 = new Thread(nt2); 
+//            t2.start();
+//        }
 //        try {
 //            Image im = new Image("/home/lucien/Documents/Studies/Year 5/Q1/2IMN30/pictures/40bd6a7e-2809-4008-82da-d3c68a07f1ae.jpg");
 //            long start = System.currentTimeMillis();
