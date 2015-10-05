@@ -6,6 +6,7 @@
 package main;
 
 import aws.AWS;
+import aws.S3Object;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -24,7 +25,7 @@ public class JobPicker implements Runnable {
     private static JobPicker instance = null;   
     private boolean isRunning = false;
     
-    private ArrayList<String> availableJobs;
+    private ArrayList<S3Object> availableJobs;
     private JobQueue jobqueue;
     
     private JobPicker() 
@@ -38,13 +39,7 @@ public class JobPicker implements Runnable {
     
     public void initialize()
     {
-        this.availableJobs = new ArrayList<String>();  
-
-        ArrayList<String> l = AWS.listFilesInBucket();
-        for(String s : l)
-        {
-            this.availableJobs.add(s);
-        }
+        this.availableJobs = AWS.getInstance().listFilesInBucket(); 
     }
     
     public static JobPicker getInstance()
@@ -77,9 +72,10 @@ public class JobPicker implements Runnable {
                 {
                     // Randomly pick a job
                     int j = rand.nextInt(this.availableJobs.size());
-                    String s = this.availableJobs.get(j);
-                    int l = rand.nextInt(100);
-                    int p = rand.nextInt(3);
+                    S3Object s3o = this.availableJobs.get(j);
+                    String s = s3o.getKey();
+                    long l = s3o.getSize();
+                    int p = 3;
                     log("Picked job " + s + " with load " + l + " priority " + p);
 
                     Job job = new Job(s, l);

@@ -23,7 +23,7 @@ public class AWS {
     
     private static AWS instance = null;
     private static String bucketName = "2imn30imguplsk";
-    private static String prefix = "InputImage";
+    private static String prefix = "InputImage/";
     private static AmazonS3 s3client;
     
     private AWS()
@@ -80,8 +80,11 @@ public class AWS {
                 listing = s3client.listObjects(request);
               
                 for (S3ObjectSummary o : listing.getObjectSummaries()) {
-                    S3Object s3o = new S3Object(o.getKey(), o.getSize());
-                    keys.add(s3o);
+                    if( o.getKey().length() > prefix.length() )
+                    {
+                        S3Object s3o = new S3Object(o.getKey(), o.getSize());
+                        keys.add(s3o);
+                    }
                 }              
               
                 request.setMarker(listing.getNextMarker());
@@ -110,19 +113,6 @@ public class AWS {
         
         return keys;
     }
-    
-    /**
-     * Given a bucket and an object key, this method returns the file metadata,
-     * e.g. the file name and size.
-     * 
-     * @param bucketName
-     * @param key
-     * @return 
-     */
-    public static String getFileMetadataFromBucket(String bucketName, String key)
-    {
-        return null;
-    }    
 
     /**
      * Given a bucket and an object key, this method returns the actual contents

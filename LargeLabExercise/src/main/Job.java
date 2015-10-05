@@ -14,15 +14,17 @@ import largelabexercise.Image;
 public class Job {
     
     private String key;
-    private int fileSize = 0;
+    private long fileSize = 0; // the size in bytes
     
-    private int cpuLoad;
-    private int memoryLoad;
+    private long cpuLoad;
+    private long memoryLoad;
     
-    public Job(String key, int fileSize)
+    public Job(String key, long fileSize)
     {
         this.key = key;
         this.fileSize = fileSize;
+        
+        this.estimateLoad();
     }
     
     public void estimateLoad()
@@ -31,12 +33,12 @@ public class Job {
         memoryLoad = fileSize % 100 + 1;
     }
     
-    public int[] getLoad()
+    public long[] getLoad()
     {
-        return new int[]{cpuLoad, memoryLoad};
+        return new long[]{cpuLoad, memoryLoad};
     }
     
-    public int getLoadBottleneck()
+    public long getLoadBottleneck()
     {
         if( cpuLoad > memoryLoad )
         {

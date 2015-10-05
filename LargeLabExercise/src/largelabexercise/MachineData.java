@@ -55,7 +55,7 @@ public class MachineData {
     
     public boolean canRunJob(Job job)
     {
-        int[] load = job.getLoad();
+        long[] load = job.getLoad();
         if( load[0] < this.cpuLoad && load[1] < this.memoryLoad )
         {
             return true;

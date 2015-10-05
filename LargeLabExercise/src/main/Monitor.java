@@ -15,7 +15,7 @@ import java.util.logging.Logger;
  */
 public class Monitor implements Runnable {
     
-    private final int MONITOR_RATE = 100;
+    private final int MONITOR_RATE = 10;
     private final int REPLY = 10;
     
     private static Monitor instance = null;    

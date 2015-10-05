@@ -20,9 +20,6 @@ public class LargeLabExercise {
      */
     public static void main(String[] args) 
     {
-        AWS a = AWS.getInstance();
-        a.listFilesInBucket();
-        
 //        if( args[0].equals("slave") )
 //        {
 //            System.out.println("starting slave");
@@ -56,17 +53,26 @@ public class LargeLabExercise {
 //            Thread t2 = new Thread(nt2); 
 //            t2.start();
 //        }
-//        try {
-//            Image im = new Image("/home/lucien/Documents/Studies/Year 5/Q1/2IMN30/pictures/40bd6a7e-2809-4008-82da-d3c68a07f1ae.jpg");
-//            long start = System.currentTimeMillis();
-//            im.processImage();
-//            long end = System.currentTimeMillis();
-//            long delta = end - start;
+        
+        try 
+        {
+            Thread mon = new Thread(Monitor.getInstance(false));
+            mon.start();
+            Thread.sleep(10);
+            
+            Image im = new Image(args[0]);
+            long start = System.currentTimeMillis();
+            im.processImage();
+            long end = System.currentTimeMillis();
+            long delta = end - start;
 //            System.out.println(im.getFileSize() + " : " + delta);
-//            im.write("/home/lucien/Downloads/iconjpg.jpg");
-//        } catch (MagickException ex) {
-//            Logger.getLogger(LargeLabExercise.class.getName()).log(Level.SEVERE, null, ex);
-//        }
+            im.write("/home/lucien/Downloads/iconjpg.jpg");
+            System.out.println("Done");
+        } 
+        catch (Exception ex) 
+        {
+            Logger.getLogger(LargeLabExercise.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
     
 }
