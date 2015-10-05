@@ -60,6 +60,7 @@ public class LargeLabExercise {
             mon.start();
             Thread.sleep(1000);
             
+            System.out.println("Starting processing...");
             Image im = new Image(args[0]);
             long start = System.currentTimeMillis();
             im.processImage();
