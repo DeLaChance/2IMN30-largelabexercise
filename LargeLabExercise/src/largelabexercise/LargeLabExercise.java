@@ -58,7 +58,7 @@ public class LargeLabExercise {
         {
             Thread mon = new Thread(Monitor.getInstance(false));
             mon.start();
-            Thread.sleep(1500);
+            Thread.sleep(2000);
             
             System.out.println("Starting processing...");
             Image im = new Image(args[0]);

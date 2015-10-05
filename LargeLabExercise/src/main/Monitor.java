@@ -143,7 +143,8 @@ public class Monitor implements Runnable {
         {
             String cmd = "top -bn 2 -d 0.01 | grep '^%Cpu' | tail -n 1 | gawk '{print $2+$4+$6}'";
             String output = this.sch.runShellCommand(cmd).replaceAll("\n", "");
-            return Integer.parseInt(output);
+            Double d = Double.parseDouble(output);
+            return d.intValue();
         }
         catch(Exception e)
         {
