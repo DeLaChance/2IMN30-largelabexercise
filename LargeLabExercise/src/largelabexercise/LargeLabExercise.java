@@ -65,9 +65,8 @@ public class LargeLabExercise {
             im.processImage();
             long end = System.currentTimeMillis();
             long delta = end - start;
-//            System.out.println(im.getFileSize() + " : " + delta);
-            im.write("/home/lucien/Downloads/iconjpg.jpg");
-            System.out.println("Done");
+            im.write(args[1]);
+            System.out.println("Done in " + delta + " milliseconds.");
         } 
         catch (Exception ex) 
         {
