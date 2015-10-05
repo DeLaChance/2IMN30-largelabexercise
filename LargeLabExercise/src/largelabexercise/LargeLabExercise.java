@@ -58,7 +58,7 @@ public class LargeLabExercise {
         {
             Thread mon = new Thread(Monitor.getInstance(false));
             mon.start();
-            Thread.sleep(10);
+            Thread.sleep(1000);
             
             Image im = new Image(args[0]);
             long start = System.currentTimeMillis();
