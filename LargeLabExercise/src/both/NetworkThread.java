@@ -133,9 +133,12 @@ public class NetworkThread implements Runnable {
                 }
 
                 String s = in.readLine();
-                if( !s.equals("") )
+                if( s != null )
                 {
-                    addIncomingMessage(s);
+                    if( !s.equals("") )
+                    {
+                        addIncomingMessage(s);
+                    }
                 }
                 
                 sendAllMessages();
