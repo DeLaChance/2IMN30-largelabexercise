@@ -9,8 +9,10 @@ import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.ConnectException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.net.SocketTimeoutException;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -101,16 +103,19 @@ public class NetworkThread implements Runnable {
         }   
         else
         {
-            try 
+            int attempts = 1;
+            while( tryConnect() == false && attempts < 10 )
             {
-                socket = new Socket(ip, port);
-                out = new DataOutputStream(socket.getOutputStream());        
-                in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            } 
-            catch (Exception ex) 
-            {
-                stop();                
-                Logger.getLogger(NetworkThread.class.getName()).log(Level.SEVERE, null, ex);
+                try
+                {
+                    Thread.sleep(1000);
+                    attempts += 1;
+                    log("trying to connect, attempt" + attempts);
+                }
+                catch(Exception e)
+                {
+                
+                }
             }
         }
         
@@ -141,6 +146,31 @@ public class NetworkThread implements Runnable {
             stop();                
             Logger.getLogger(NetworkThread.class.getName()).log(Level.SEVERE, null, ex);
         }        
+    }
+    
+    private boolean tryConnect()
+    {
+        try 
+        {
+            socket = new Socket(ip, port);
+            out = new DataOutputStream(socket.getOutputStream());        
+            in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            return true;
+        } 
+        catch (ConnectException e) 
+        {
+            log("Error while connecting. " + e.getMessage());
+        } 
+        catch (SocketTimeoutException e) 
+        {
+            log("Connection: " + e.getMessage() + ".");
+        } 
+        catch (IOException e) 
+        {
+            stop();
+        }    
+        
+        return false;
     }
     
     public synchronized void appendMessage(String message)
@@ -213,12 +243,12 @@ public class NetworkThread implements Runnable {
     {
         if( this.isMaster )
         {
-            System.out.println("ListenerThread[master, " + this.id + ", " + 
+            System.out.println("NetworkThread[master, " + this.id + ", " + 
                 this.ip + "]: " + message);        
         }
         else
         {
-            System.out.println("ListenerThread[slave, " + this.ip + "]: " + message);        
+            System.out.println("NetworkThread[slave, " + this.ip + "]: " + message);        
         }
     }
     
