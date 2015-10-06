@@ -63,24 +63,27 @@ public class Slave implements Runnable {
                 // Get the top message of the incoming network queue
                 String msg = nt.readTopMessage();
                 
-                // Look up the type of the message
-                if( msg.startsWith(NetworkThread.JOB_MSGID) )
+                if( msg != null )
                 {
-                    // Start doing job
-                    String[] parts = msg.split(NetworkThread.MSG_DEL);
-                    String objectKey = parts[1];
-                    
-                    log("Running job: " + objectKey);
-                    // Get the actual file contents
-                    //aws.getFileContentsFromBucket(objectKey);
-                    
-                    // Process it 
-                    
-                    // Complete
-                    
-                    // Notify of completion
-                    nt.appendMessage(NetworkThread.JOBCMP_MSGID + NetworkThread.MSG_DEL 
-                        + objectKey);
+                    // Look up the type of the message
+                    if( msg.startsWith(NetworkThread.JOB_MSGID) )
+                    {
+                        // Start doing job
+                        String[] parts = msg.split(NetworkThread.MSG_DEL);
+                        String objectKey = parts[1];
+
+                        log("Running job: " + objectKey);
+                        // Get the actual file contents
+                        //aws.getFileContentsFromBucket(objectKey);
+
+                        // Process it 
+
+                        // Complete
+
+                        // Notify of completion
+                        nt.appendMessage(NetworkThread.JOBCMP_MSGID + NetworkThread.MSG_DEL 
+                            + objectKey);
+                    }
                 }
             }
             catch(Exception e)
@@ -99,7 +102,7 @@ public class Slave implements Runnable {
     
     public void log(String message)
     {
-        System.out.println("Machine: " + message);
+        System.out.println("Slave: " + message);
     }
     
 }
