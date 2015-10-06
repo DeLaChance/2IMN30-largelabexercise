@@ -120,6 +120,7 @@ public class NetworkThread implements Runnable {
             }
         }
         
+        log("Starting up...");
         isRunning = true;
         
         try

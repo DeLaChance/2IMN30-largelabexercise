@@ -44,7 +44,7 @@ public class LargeLabExercise {
         else 
         {
             System.out.println("starting master");
-            NetworkThread nt2 = new NetworkThread(0, "52.26.218.113");
+            NetworkThread nt2 = new NetworkThread(0, "5.199.148.110");
             Thread t2 = new Thread(nt2); 
             t2.start();
         }
