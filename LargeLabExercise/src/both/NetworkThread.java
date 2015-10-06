@@ -29,6 +29,7 @@ public class NetworkThread implements Runnable {
     public final static String JOB_MSGID = "1";
     public final static String MON_MSGID = "2";
     public final static String JOBCMP_MSGID = "3";
+    public final static String STARTUP_MSGID = "4";
     public final static String MSG_DEL = ":";    
     
     private boolean isRunning = false;
@@ -187,6 +188,7 @@ public class NetworkThread implements Runnable {
         {
             for(String s : this.outgoingQueue)
             {
+                log("sending message " + s);
                 out.writeBytes(s + "\n");
             }
             

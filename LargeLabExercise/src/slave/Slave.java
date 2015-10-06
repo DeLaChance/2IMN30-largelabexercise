@@ -53,6 +53,8 @@ public class Slave implements Runnable {
     public void run() {
         
         isRunning = true;
+        // Inform master that slave is running
+        nt.appendMessage(NetworkThread.STARTUP_MSGID + NetworkThread.MSG_DEL);
         
         while( isRunning )
         {
@@ -61,6 +63,7 @@ public class Slave implements Runnable {
                 Thread.sleep(PAUSE_TIME);
     
                 // Get the top message of the incoming network queue
+                // null if no message is there
                 String msg = nt.readTopMessage();
                 
                 if( msg != null )

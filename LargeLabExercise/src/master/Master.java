@@ -100,6 +100,12 @@ public class Master implements Runnable {
                     log("job completed " + a);
                     jq.completeJob(a);
                 }
+                
+                if( msg.startsWith(NetworkThread.STARTUP_MSGID) )
+                {
+                    log(" new machine booted up");
+                    md.activate();
+                }
             }
         }
     }
@@ -118,7 +124,7 @@ public class Master implements Runnable {
             try
             {
                 Thread.sleep(MASTER_RATE);
-
+                updateMachineStatus();
             }
             catch(Exception e)
             {
