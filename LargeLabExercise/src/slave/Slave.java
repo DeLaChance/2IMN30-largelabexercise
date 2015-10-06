@@ -15,7 +15,7 @@ import gen.AWS;
  */
 public class Slave implements Runnable {
     
-    private final String MASTER_IP = "52.26.218.113";
+    private final String MASTER_IP = "131.155.202.166"; // tmp, master should be 52.26.218.113
     private final int PAUSE_TIME = 1000;
     
     private NetworkThread nt = null;
@@ -32,19 +32,25 @@ public class Slave implements Runnable {
     {
         System.out.println("Starting slave");
         aws = AWS.getInstance();
+        
+        initialize();
     }
 
-    @Override
-    public void run() {
+    public void initialize()
+    {
         // Start slave network thread and make the connection
         nt = new NetworkThread(MASTER_IP);
         this.networkThread = new Thread(nt);
         this.networkThread.start();
         
         // Start monitor
-        this.monitor = new Monitor(true, nt);
+        this.monitor = new Monitor(nt);
         this.monitorThread = new Thread(this.monitor);
-        this.monitorThread.start();
+        this.monitorThread.start();    
+    }
+    
+    @Override
+    public void run() {
         
         isRunning = true;
         

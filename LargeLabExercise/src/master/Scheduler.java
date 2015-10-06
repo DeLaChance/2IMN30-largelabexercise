@@ -17,7 +17,7 @@ import gen.JobQueue;
  */
 public class Scheduler implements Runnable {
 
-    public final int MIN_MACHINES = 1;
+    public final int MIN_MACHINES = 0;
     public final int MAX_MACHINES = 1;
     
     private final int SAMPLE_RATE = 500; // The sample rate in milliseconds
@@ -25,21 +25,11 @@ public class Scheduler implements Runnable {
     private static Scheduler instance = null;    
     private boolean isRunning = false;
     private JobQueue jq;
-    private ArrayList<MachineData> machines;
     
     private Scheduler() 
     {
         log("starting scheduler");
         this.jq = JobQueue.getInstance();
-        this.machines = new ArrayList<MachineData>();
-        
-        initialize();
-    }
-    
-    private void initialize()
-    {
-        MachineData md = new MachineData(1000, 0, "");
-        this.machines.add(md);     
     }
     
     public static Scheduler getInstance()
@@ -62,6 +52,8 @@ public class Scheduler implements Runnable {
             try 
             {
                 Thread.sleep(SAMPLE_RATE);
+                
+                // Try to assign a job to a machine
                 Job j = getJob();
                 
                 if( j == null )
@@ -78,12 +70,17 @@ public class Scheduler implements Runnable {
                         if( canLeaseMachine() )
                         {
                             log(" leasing machine ");
-                            AWS.getInstance().leaseMachine();
-                            startWaiting();
+                            
+                            // tmp test
+                            m = MachineContainer.getInstance().getData().get(0);
+                            m.leaseMachine("52.26.218.113");
+                            
+                            //AWS.getInstance().leaseMachine();
+                            //startWaiting();
                         }
                         else
                         {
-                            log(this.machines.size() + " out of " + this.MAX_MACHINES 
+                            log(MachineContainer.getInstance().getData().size() + " out of " + this.MAX_MACHINES 
                                 + " machines have been leased");
                             startWaiting();
                         }
@@ -110,7 +107,7 @@ public class Scheduler implements Runnable {
             return false;
         }
         
-        for(MachineData md : this.machines)
+        for(MachineData md : MachineContainer.getInstance().getData())
         {
             if( !md.isRunning() )
             {
@@ -123,7 +120,7 @@ public class Scheduler implements Runnable {
     
     private boolean isWaitingForMachine()
     {
-        for(MachineData md : this.machines)
+        for(MachineData md : MachineContainer.getInstance().getData())
         {
             if( md.hasBeenLeased() && !md.isRunning() )
             {
@@ -176,14 +173,14 @@ public class Scheduler implements Runnable {
             return null;
         }
         
-        int maxLoad = 100;
+        int maxCapacity = 0;
         MachineData m1 = null;
         
-        for(MachineData m : this.machines)
+        for(MachineData m : MachineContainer.getInstance().getData())
         {
-            if( m.canRunJob(job) && m.getLoad() < maxLoad)
+            if( m.canRunJob(job) && m.getCurCapacityAsPercentage() > maxCapacity)
             {
-                maxLoad = m.getLoad();
+                maxCapacity = m.getCurCapacityAsPercentage();
                 m1 = m;
             }
         }

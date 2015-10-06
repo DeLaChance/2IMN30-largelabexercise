@@ -16,7 +16,7 @@ import gen.ShellCommandHandler;
  */
 public class Monitor implements Runnable {
     
-    private final int MONITOR_RATE = 10;
+    private final int MONITOR_RATE = 100;
     private final int REPLY = 10;
     
     private static Monitor instance = null;    
@@ -31,21 +31,45 @@ public class Monitor implements Runnable {
     
     private NetworkThread nt = null;
     
-    public Monitor(boolean isSlave, NetworkThread nt) 
+    /**
+     * Constructor for monitor as a master. Does not need networkthread, 
+     * because message receiving is not done here.
+     * 
+     */
+    public Monitor()
     {
-        System.out.println("starting monitor");
-        this.isRunning = true;     
-        this.isSlave = isSlave;
+        System.out.println("starting monitor as master");
+        this.isSlave = false;
+        
+        initialize();    
+    }
+    
+    /**
+     * Constructor for monitor as a slave. Does need networkthread, because
+     * monitor messages are sent from here.
+     * 
+     * @param nt 
+     */
+    public Monitor(NetworkThread nt) 
+    {
+        System.out.println("starting monitor as slave");
+        this.nt = nt;
+        this.isSlave = true;
+        
+        initialize();
+    }
+    
+    public void initialize()
+    {
         this.sch = ShellCommandHandler.getInstance();
         this.histCpu = new int[10];
         this.histMem = new int[10];
-        
-        this.nt = nt;
     }
 
     @Override
     public void run() 
     {
+        this.isRunning = true; 
         int reply = 0;
         
         while( isRunning )

@@ -62,9 +62,29 @@ public class JobQueue {
         scheduledJobs.add(job);
     }
     
-    public synchronized void completeJob(Job job)
+    public synchronized void completeJob(String key)
     {
-        scheduledJobs.remove(job);
+        for(Job job : scheduledJobs)
+        {
+            if( job.getKey().equals(key) )
+            {
+                scheduledJobs.remove(job);
+            }
+        }
+        
+    }
+    
+    public synchronized boolean isEmpty()
+    {
+        for(int i = MIN_PRIORITY; i <= MAX_PRIORITY; i++)
+        {
+            if( !l.get(i).isEmpty() )
+            {
+                return false;
+            }
+        }
+        
+        return true;
     }
     
 }

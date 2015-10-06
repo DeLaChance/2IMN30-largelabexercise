@@ -32,18 +32,19 @@ public class MachineData {
     private boolean isRunning = false;
     private boolean hasBeenLeased = false;
     
-    public MachineData(int memoryCapacity, int index, String ip)
+    public MachineData(int memoryCapacity, int index)
     {
         this.maxMemoryCapacity = memoryCapacity;
         this.curMemoryCapacity = this.maxMemoryCapacity;
         
         this.index = index;
-        nt = new NetworkThread(this.index, ip);
-        this.networkThread = new Thread(nt);        
     }    
     
-    public void leaseMachine()
+    public void leaseMachine(String ip)
     {
+        nt = new NetworkThread(this.index, ip);
+        this.networkThread = new Thread(nt); 
+        
         this.networkThread.start();
         this.hasBeenLeased = true;
     }
@@ -79,24 +80,49 @@ public class MachineData {
         this.curMemoryCapacity = maxMemoryCapacity; 
     }
     
-    public int getLoad()
+    public int getCurCapacityAsAbsolute()
     {
         return this.curMemoryCapacity;
     }
     
-    public void setLoad(int load) 
+    public int getCurCapacityAsPercentage()
     {
-        if( load < 0 || load > maxMemoryCapacity)
+        double d = this.curMemoryCapacity;
+        double e = this.maxMemoryCapacity;
+        Double f = d/e * 100;
+                
+        return f.intValue();
+    }
+
+    public void setCurCapacityAsAbsolute(int curCapacity) 
+    {
+        if( curCapacity < 0 || curCapacity > maxMemoryCapacity)
         {
             return;
         }
         
-        this.curMemoryCapacity = load;
+        this.curMemoryCapacity = curCapacity;
+    }
+    
+    public void setCurCapacityAsPercentage(int curCapacity)
+    {
+        if( curCapacity < 0 || curCapacity > 100)
+        {
+            return;
+        }
+        
+        double d = curCapacity;
+        d = d / 100;
+        double e = this.maxMemoryCapacity;
+        Double f = e * d;
+        
+        this.curMemoryCapacity = f.intValue();
     }
     
     public boolean canRunJob(Job job)
     {
-        return this.curMemoryCapacity > job.getLoad() && this.isRunning;
+        return this.getCurCapacityAsPercentage() > job.getLoad() && 
+            this.isRunning == true;
     }
 
     /**
@@ -112,5 +138,10 @@ public class MachineData {
     public void assignJob(Job job)
     {
         this.nt.appendMessage(NetworkThread.JOB_MSGID + NetworkThread.MSG_DEL + job.getKey());
+    }
+    
+    public NetworkThread getNetworkThread()
+    {
+        return this.nt;
     }
 }

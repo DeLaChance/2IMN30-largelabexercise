@@ -26,10 +26,11 @@ public class LargeLabExercise {
         {
             // Need to start monitor, processor
             Slave slave = new Slave();
+            slave.run();
         }
         else 
         {
-            Master master = new Master();
+            Master master = Master.getInstance();
         }
 // Test case for networking        
 //        if( args[0].equals("slave"))

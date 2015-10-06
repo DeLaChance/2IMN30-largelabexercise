@@ -39,8 +39,8 @@ public class NetworkThread implements Runnable {
     private String ip;    
     private int port = PORT_NO;
     
-    private ArrayList<String> inqueue;
-    private ArrayList<String> outqueue;
+    private ArrayList<String> outgoingQueue;
+    private ArrayList<String> incomingQueue;
 
     /**
      * Constructor for slave
@@ -53,8 +53,8 @@ public class NetworkThread implements Runnable {
         this.ip = ip;
         this.port = PORT_NO;
         this.isMaster = false;
-        this.inqueue = new ArrayList<String>();
-        this.outqueue = new ArrayList<String>();
+        this.outgoingQueue = new ArrayList<String>();
+        this.incomingQueue = new ArrayList<String>();
     }
     
     /**
@@ -70,8 +70,8 @@ public class NetworkThread implements Runnable {
         this.id = id;
         this.port = PORT_NO;
         this.ip = ip;
-        this.inqueue = new ArrayList<String>();
-        this.outqueue = new ArrayList<String>();
+        this.outgoingQueue = new ArrayList<String>();
+        this.incomingQueue = new ArrayList<String>();
     }
     
     public void stop()
@@ -130,7 +130,7 @@ public class NetworkThread implements Runnable {
                 String s = in.readLine();
                 if( !s.equals("") )
                 {
-                    readMessage(s);
+                    addIncomingMessage(s);
                 }
                 
                 sendAllMessages();
@@ -145,17 +145,19 @@ public class NetworkThread implements Runnable {
     
     public synchronized void appendMessage(String message)
     {
-        this.inqueue.add(message);
+        this.outgoingQueue.add(message);
     }
 
     private synchronized void sendAllMessages()
     {
         try
         {
-            for(String s : this.inqueue)
+            for(String s : this.outgoingQueue)
             {
                 out.writeBytes(s + "\n");
             }
+            
+            outgoingQueue.clear();
         }
         catch(Exception e)
         {
@@ -164,15 +166,45 @@ public class NetworkThread implements Runnable {
         }
     }
     
-    private synchronized void readMessage(String s)
+    private synchronized void addIncomingMessage(String s)
     {
         log(" incoming message: " + s);
-        this.outqueue.add(s);
+        this.incomingQueue.add(s);
     }
     
+    /**
+     * Reads top message of incoming queue messages and removes that message
+     * from the queue.
+     * 
+     * @return 
+     */
     public synchronized String readTopMessage()
     {
-        return this.outqueue.remove(0);
+        if( this.incomingQueue.size() > 0 )
+        {
+            return this.incomingQueue.remove(0);
+        }
+        
+        return null;
+    }
+    
+    /**
+     * Reads all the incoming messsages and returns it as a list. Then clears
+     * the list.
+     * 
+     * @return 
+     */
+    public synchronized ArrayList<String> readAllMessages()
+    {
+        ArrayList<String> l = new ArrayList<String>();
+        
+        for(String s : this.incomingQueue)
+        {
+            l.add(s);
+        }
+        
+        this.incomingQueue.clear();
+        return l;
     }
     
    
