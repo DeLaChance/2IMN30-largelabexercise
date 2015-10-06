@@ -36,7 +36,7 @@ public class LargeLabExercise {
         if( args[0].equals("slave"))
         {
             System.out.println("starting slave");
-            NetworkThread nt = new NetworkThread("5.199.148.110");
+            NetworkThread nt = new NetworkThread(args[1]);
             Thread t = new Thread(nt);   
             t.start();
             nt.appendMessage("hello world!");
@@ -44,7 +44,7 @@ public class LargeLabExercise {
         else 
         {
             System.out.println("starting master");
-            NetworkThread nt2 = new NetworkThread(0, "52.26.218.113");
+            NetworkThread nt2 = new NetworkThread(0, args[1]);
             Thread t2 = new Thread(nt2); 
             t2.start();
         }
