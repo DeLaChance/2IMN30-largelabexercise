@@ -15,7 +15,7 @@ import gen.AWS;
  */
 public class Slave implements Runnable {
     
-    private final String MASTER_IP = "131.155.202.166"; // tmp, master should be 52.26.218.113
+    private final String MASTER_IP = "5.199.148.110"; // tmp, master should be 52.26.218.113
     private final int PAUSE_TIME = 1000;
     
     private NetworkThread nt = null;

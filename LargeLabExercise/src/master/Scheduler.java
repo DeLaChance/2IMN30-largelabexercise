@@ -73,7 +73,7 @@ public class Scheduler implements Runnable {
                             
                             // tmp test
                             m = MachineContainer.getInstance().getData().get(0);
-                            m.leaseMachine("52.26.218.113");
+                            m.leaseMachine("5.199.148.110");
                             
                             //AWS.getInstance().leaseMachine();
                             //startWaiting();
