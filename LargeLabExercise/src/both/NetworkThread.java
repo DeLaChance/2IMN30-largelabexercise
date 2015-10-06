@@ -126,8 +126,6 @@ public class NetworkThread implements Runnable {
         {
             while(isRunning)
             {
-                Thread.sleep(RATE);
-
                 if( socket.isClosed() )
                 {
                     stop();
@@ -141,6 +139,7 @@ public class NetworkThread implements Runnable {
                         addIncomingMessage(s);
                     }
                 }
+                
                 
                 sendAllMessages();
             } 

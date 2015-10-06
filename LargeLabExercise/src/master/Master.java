@@ -69,6 +69,8 @@ public class Master implements Runnable {
             
             for(String msg : msgs)
             {
+                log("message " + msg);
+                
                 if( msg.startsWith(NetworkThread.MON_MSGID) )
                 {
                     // Update load, currently we do not regard the cpu value
