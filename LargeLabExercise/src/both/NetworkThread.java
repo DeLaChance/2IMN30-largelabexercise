@@ -179,6 +179,7 @@ public class NetworkThread implements Runnable {
     
     public synchronized void appendMessage(String message)
     {
+        log("appending message " + message);
         this.outgoingQueue.add(message);
     }
 
