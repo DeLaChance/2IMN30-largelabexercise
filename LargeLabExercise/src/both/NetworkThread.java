@@ -209,6 +209,11 @@ public class NetworkThread implements Runnable {
      */
     public synchronized String readTopMessage()
     {
+        if( this.nlt == null )
+        {
+            return null;
+        }
+        
         return this.nlt.readTopMessage();
     }
     
