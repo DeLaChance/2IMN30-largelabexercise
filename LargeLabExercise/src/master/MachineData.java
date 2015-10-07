@@ -7,6 +7,8 @@ package master;
 
 import gen.Job;
 import both.NetworkThread;
+import gen.JobQueue;
+import java.util.ArrayList;
 
 /**
  *
@@ -25,12 +27,16 @@ public class MachineData {
     
     // The communication line between the master and its machine (or slave)
     private NetworkThread nt = null;
-    private Thread networkThread = null;
+    private Thread networkThread = null; 
     
-    private int index = 0;
+    private int index = 0; // index used to distinguish network threads
     
-    private boolean isRunning = false;
-    private boolean hasBeenLeased = false;
+    private boolean isRunning = false; // true if the machine can process jobs
+    private boolean hasBeenLeased = false; // true if the machine has been leased
+    
+    private ArrayList<String> assignedJobs = null; // a list of assigned jobs
+    private int counter = 0; // a counter for measuring whether the machine is still
+    // active
     
     public MachineData(int memoryCapacity, int index)
     {
@@ -38,11 +44,31 @@ public class MachineData {
         this.curMemoryCapacity = this.maxMemoryCapacity;
         
         this.index = index;
+        this.assignedJobs = new ArrayList<String>();
     }    
+    
+    public MachineData(int memoryCapacity, int index, String ip_address)
+    {
+        this.maxMemoryCapacity = memoryCapacity;
+        this.curMemoryCapacity = this.maxMemoryCapacity;
+        
+        this.index = index;
+        this.ip_address = ip_address;
+    }        
     
     public void leaseMachine(String ip)
     {
         nt = new NetworkThread(this.index, ip);
+        this.networkThread = new Thread(nt); 
+        
+        this.networkThread.start();
+        this.hasBeenLeased = true;
+        this.curMemoryCapacity = this.maxMemoryCapacity;        
+    }
+    
+    public void leaseMachine()
+    {
+        nt = new NetworkThread(this.index, ip_address);
         this.networkThread = new Thread(nt); 
         
         this.networkThread.start();
@@ -62,17 +88,15 @@ public class MachineData {
     public void activate()
     {
         this.isRunning = true;
-    }
-    
-    public void deactivate()
-    {
-        this.isRunning = false;
+        counter = 0;
     }
     
     public void releaseMachine()
     {
         this.nt.stop();
         this.hasBeenLeased = false;
+        this.isRunning = false;
+        this.resetCounter();
     }
     
     private void initialize()
@@ -137,11 +161,46 @@ public class MachineData {
     
     public void assignJob(Job job)
     {
+        this.assignedJobs.add(job.getKey());
         this.nt.appendMessage(NetworkThread.JOB_MSGID + NetworkThread.MSG_DEL + job.getKey());
+    }
+    
+    public void removeJob(String jobkey)
+    {
+        this.assignedJobs.remove(jobkey);
+    }
+    
+    public ArrayList<String> removeAssignedJobs()
+    {
+        ArrayList<String> jobs = new ArrayList<String>();
+        
+        for(String job : this.assignedJobs)
+        {
+            jobs.add(job);
+        }
+        
+        this.assignedJobs.clear();
+        
+        return jobs;
     }
     
     public NetworkThread getNetworkThread()
     {
         return this.nt;
+    }
+    
+    public int getCounter()
+    {
+        return this.counter;
+    }
+    
+    public void increaseCounter()
+    {
+        this.counter++;
+    }
+    
+    public void resetCounter()
+    {
+        this.counter = 0;
     }
 }

@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import master.MachineData;
 import gen.Job;
 import gen.JobQueue;
+import gen.ThreadLock;
 
 /**
  *
@@ -73,22 +74,24 @@ public class Scheduler implements Runnable {
                             
                             // tmp test
                             m = MachineContainer.getInstance().getData().get(0);
-                            m.leaseMachine("52.26.218.113");
+                            m.leaseMachine();
                             
                             //AWS.getInstance().leaseMachine();
                             //startWaiting();
                         }
                         else
                         {
-                            log(MachineContainer.getInstance().getData().size() + " out of " + this.MAX_MACHINES 
-                                + " machines have been leased");
+                            log(" no machine available");
+                            log(MachineContainer.getInstance().getMachineStatistics());
                             startWaiting();
                         }
                     }
                     else
                     {
                         // Send call to machine
-                        log("assigning job");
+                        log("assigning job " + j.getKey() + ", " + j.getLoad());
+                        this.jq.scheduleJob(j, j.getPriority());
+                        m.assignJob(j);
                     }
                 }
 
@@ -131,10 +134,17 @@ public class Scheduler implements Runnable {
         return false;
     }
     
-    private void startWaiting() throws InterruptedException
+    private void startWaiting() 
     {
         log(" waiting ");
-        Thread.sleep(SAMPLE_RATE*10); // TO DO: implement wait for machine to complete    
+        ThreadLock.getInstance().waitFor();
+        //Thread.sleep(SAMPLE_RATE*10); 
+    }
+    
+    public void stopWaiting()
+    {
+        log(" ended waiting ");
+        ThreadLock.getInstance().wakeUp();        
     }
     
     public Job getJob()
@@ -158,7 +168,6 @@ public class Scheduler implements Runnable {
             
             if( mainJob != null )
             {
-                this.jq.scheduleJob(mainJob, i);
                 return mainJob;
             }
         }

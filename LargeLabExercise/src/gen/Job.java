@@ -17,13 +17,20 @@ public class Job {
     private long fileSize = 0; // the size in bytes
 
     private long load;
+    private int priority;
     
-    public Job(String key, long fileSize)
+    public Job(String key, long fileSize, int priority)
     {
         this.key = key;
         this.fileSize = fileSize;
+        this.priority = priority;
         
         this.estimateLoad();
+    }
+    
+    public int getPriority()
+    {
+        return this.priority;
     }
     
     public void estimateLoad()

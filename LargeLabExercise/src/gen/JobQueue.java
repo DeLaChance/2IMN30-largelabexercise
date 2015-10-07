@@ -87,4 +87,24 @@ public class JobQueue {
         return true;
     }
     
+    /**
+     * When a machine crashes, its pending jobs need to be reassigned.
+     * 
+     * @param jobs 
+     */
+    public synchronized void reassignJobs(ArrayList<String> jobs)
+    {
+        for(String jobkey : jobs)
+        {
+            for(Job job : this.scheduledJobs)
+            {
+                if( job.getKey().equals(jobkey) )
+                {
+                    ArrayList<Job> l1 = this.l.get(job.getPriority());
+                    l1.add(job);
+                }
+            }
+        }
+    }
+    
 }

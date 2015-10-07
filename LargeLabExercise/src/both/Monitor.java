@@ -16,7 +16,7 @@ import gen.ShellCommandHandler;
  */
 public class Monitor implements Runnable {
     
-    private final int MONITOR_RATE = 1000;
+    private final int MONITOR_RATE = 100;
     private final int REPLY = 10;
     
     private static Monitor instance = null;    
@@ -102,7 +102,7 @@ public class Monitor implements Runnable {
                     
                     this.writeLoad(avgCpu, avgMem);
                     
-                    log("Average cpu: " + this.avgCpu + ", average mem: " + avgMem);
+                    //log("Average cpu: " + this.avgCpu + ", average mem: " + avgMem);
                     
                     if( isSlave )
                     {

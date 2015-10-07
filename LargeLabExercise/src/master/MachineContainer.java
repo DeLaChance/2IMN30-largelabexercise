@@ -19,6 +19,9 @@ public class MachineContainer {
     private MachineContainer()
     {
         machinedata = new ArrayList<MachineData>();
+        
+        MachineData md = new MachineData(1000, 0, "localhost");
+        addMachine(md);        
     }
     
     public static MachineContainer getInstance()
@@ -40,5 +43,17 @@ public class MachineContainer {
         this.machinedata.add(md);
     }
     
+    public synchronized String getMachineStatistics()
+    {
+        String s = "";
+        for(MachineData md : this.machinedata)
+        {
+            s += md.getIp() + ": leased=" + md.hasBeenLeased() + ", running=" + 
+                md.isRunning() + ", capacity=" + md.getCurCapacityAsPercentage();
+            s += "\n";
+        }
+        
+        return s;
+    }
     
 }

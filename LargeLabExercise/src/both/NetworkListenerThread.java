@@ -41,6 +41,8 @@ public class NetworkListenerThread implements Runnable{
             isRunning = true;
             incomingQueue = new ArrayList<String>();
             
+            log("starting up");
+            
             while((s = in.readLine()) != null)
             {
                 if( isRunning == false )
@@ -48,14 +50,19 @@ public class NetworkListenerThread implements Runnable{
                     break;
                 }
                 
-                if( !s.equals("") )
+                //log("s: " + s);
+                if( s != null )
                 {
-                    appendToQueue(s);
-                    log("received " + s);
+                    if( !s.equals("") )
+                    {
+                        appendToQueue(s);
+                        log("received " + s);
+                    }
                 }
             }
         } catch (Exception ex) {
            log("exception: " + ex.toString());
+           ex.printStackTrace();
         }
     }
     
@@ -91,5 +98,11 @@ public class NetworkListenerThread implements Runnable{
         
         return null;
     }    
+
+    public void stop() 
+    {
+        log(" stopping ");
+        isRunning = false;
+    }
     
 }

@@ -15,6 +15,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import gen.Job;
 import gen.JobQueue;
+import gen.ThreadLock;
 
 /**
  *
@@ -81,8 +82,9 @@ public class JobPicker implements Runnable {
                     int p = 3;
                     log("Picked job " + s + " with load " + l + " priority " + p);
 
-                    Job job = new Job(s, l);
+                    Job job = new Job(s, l, p);
                     this.jobqueue.addJob(job, p);
+                    ThreadLock.getInstance().wakeUp();
                     
                     // Remove job from available jobs
                     this.availableJobs.remove(j);

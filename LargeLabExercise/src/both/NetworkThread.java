@@ -24,7 +24,7 @@ import java.util.logging.Logger;
 public class NetworkThread implements Runnable {
     
     public static final int PORT_NO = 4040;
-    public final int RATE = 1000;
+    public final int RATE = 100;
     
     public final static String JOB_MSGID = "1";
     public final static String MON_MSGID = "2";
@@ -81,6 +81,11 @@ public class NetworkThread implements Runnable {
     {
         log("stopping now");
         this.isRunning = false;
+        
+        if( this.nlt != null )
+        {
+            this.nlt.stop();
+        }
     }
     
     @Override
@@ -178,7 +183,7 @@ public class NetworkThread implements Runnable {
      */
     public synchronized void appendMessage(String message)
     {
-        log("appending message " + message);
+        //log("appending message " + message);
         this.outgoingQueue.add(message);
     }
 

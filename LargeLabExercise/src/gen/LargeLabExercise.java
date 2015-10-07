@@ -25,12 +25,13 @@ public class LargeLabExercise {
         if( args[0].equals("slave") )
         {
             // Need to start monitor, processor
-            Slave slave = new Slave();
+            Slave slave = new Slave("localhost");
             slave.run();
         }
         else 
         {
             Master master = Master.getInstance();
+            master.run();
         }
 
     }

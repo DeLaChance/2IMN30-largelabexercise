@@ -15,7 +15,7 @@ import gen.AWS;
  */
 public class Slave implements Runnable {
     
-    private final String MASTER_IP = "5.199.148.110"; // tmp, master should be 52.26.218.113
+    private final String MASTER_IP; // tmp, master should be 52.26.218.113
     private final int PAUSE_TIME = 1000;
     
     private NetworkThread nt = null;
@@ -31,13 +31,23 @@ public class Slave implements Runnable {
     public Slave()
     {
         System.out.println("Starting slave");
-        aws = AWS.getInstance();
+        MASTER_IP = "5.199.148.110";
+        
+        initialize();
+    }
+    
+    public Slave(String master_ip)
+    {
+        System.out.println("Starting slave");
+        MASTER_IP = master_ip;
         
         initialize();
     }
 
     public void initialize()
     {
+        aws = AWS.getInstance();
+
         // Start slave network thread and make the connection
         nt = new NetworkThread(MASTER_IP);
         this.networkThread = new Thread(nt);
@@ -80,6 +90,7 @@ public class Slave implements Runnable {
                         //aws.getFileContentsFromBucket(objectKey);
 
                         // Process it 
+                        Thread.sleep(2000);
 
                         // Complete
 

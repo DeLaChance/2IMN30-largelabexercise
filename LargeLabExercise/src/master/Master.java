@@ -8,6 +8,7 @@ package master;
 import both.Monitor;
 import both.NetworkThread;
 import gen.JobQueue;
+import gen.ThreadLock;
 import java.util.ArrayList;
 
 /**
@@ -17,6 +18,8 @@ import java.util.ArrayList;
 public class Master implements Runnable {
     
     private final int MASTER_RATE = 100;
+    private final int STOPPED_THRESHOLD = 10;
+    
     private boolean isRunning = false;
 
     private Monitor monitor = null;
@@ -42,10 +45,6 @@ public class Master implements Runnable {
     
     private void initialize()
     {
-        
-        MachineData md = new MachineData(1000, 0);
-        MachineContainer.getInstance().addMachine(md);     
-
         monitor = new Monitor(); 
         Thread mon = new Thread(monitor);
         Thread sch = new Thread(Scheduler.getInstance());
@@ -69,8 +68,7 @@ public class Master implements Runnable {
             
             for(String msg : msgs)
             {
-                log("message " + msg);
-                
+                //log("message " + msg);
                 if( msg.startsWith(NetworkThread.MON_MSGID) )
                 {
                     // Update load, currently we do not regard the cpu value
@@ -86,6 +84,9 @@ public class Master implements Runnable {
                         
                         md.setCurCapacityAsPercentage(mem);
                         log("load updated " + mem);
+                        
+                        md.resetCounter(); // the machine is still alive so 
+                        // we reset the counter
                     }
                     catch(Exception e)
                     {
@@ -100,14 +101,29 @@ public class Master implements Runnable {
                     String[] parts = msg.split(NetworkThread.MSG_DEL);
                     String a = parts[1];                    
                     log("job completed " + a);
+                    
+                    // Remove the job from the job queue and the machine data's queue
                     jq.completeJob(a);
+                    md.removeJob(a); 
+                    ThreadLock.getInstance().wakeUp(); // Wake up the scheduler
                 }
                 
                 if( msg.startsWith(NetworkThread.STARTUP_MSGID) )
                 {
                     log(" new machine booted up");
                     md.activate();
+                    ThreadLock.getInstance().wakeUp(); // Wake up the scheduler
                 }
+                
+                if( md.getCounter() > STOPPED_THRESHOLD )
+                {
+                    log(" machine is not responding, releasing it ");
+                    md.releaseMachine();
+                    ArrayList<String> uncompletedJobs = md.removeAssignedJobs();
+                    JobQueue.getInstance().reassignJobs(uncompletedJobs);
+                }
+                
+                md.increaseCounter();
             }
         }
     }
