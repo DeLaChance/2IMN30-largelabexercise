@@ -55,7 +55,7 @@ public class Slave implements Runnable {
         isRunning = true;
         // Inform master that slave is running
         nt.appendMessage(NetworkThread.STARTUP_MSGID + NetworkThread.MSG_DEL);
-        
+         
         while( isRunning )
         {
             try 
@@ -91,7 +91,8 @@ public class Slave implements Runnable {
             }
             catch(Exception e)
             {
-                log(" exception " + e.toString());
+                log(" exception " + e.toString() + "\n" + e.getMessage());
+                e.printStackTrace();
                 stop();
             }
         }
