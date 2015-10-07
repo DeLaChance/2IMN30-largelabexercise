@@ -22,31 +22,15 @@ public class LargeLabExercise {
      */
     public static void main(String[] args) 
     {
-//        if( args[0].equals("slave") )
-//        {
-//            // Need to start monitor, processor
-//            Slave slave = new Slave();
-//            slave.run();
-//        }
-//        else 
-//        {
-//            Master master = Master.getInstance();
-//        }
-// Test case for networking        
-        if( args[0].equals("slave"))
+        if( args[0].equals("slave") )
         {
-            System.out.println("starting slave");
-            NetworkThread nt = new NetworkThread(args[1]);
-            Thread t = new Thread(nt);   
-            t.start();
-            nt.appendMessage("hello world!");
+            // Need to start monitor, processor
+            Slave slave = new Slave();
+            slave.run();
         }
         else 
         {
-            System.out.println("starting master");
-            NetworkThread nt2 = new NetworkThread(0, args[1]);
-            Thread t2 = new Thread(nt2); 
-            t2.start();
+            Master master = Master.getInstance();
         }
 
     }
