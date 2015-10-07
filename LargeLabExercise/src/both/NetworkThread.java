@@ -24,7 +24,7 @@ import java.util.logging.Logger;
 public class NetworkThread implements Runnable {
     
     public static final int PORT_NO = 4040;
-    public final int RATE = 10;
+    public final int RATE = 1000;
     
     public final static String JOB_MSGID = "1";
     public final static String MON_MSGID = "2";
@@ -43,7 +43,9 @@ public class NetworkThread implements Runnable {
     private int port = PORT_NO;
     
     private ArrayList<String> outgoingQueue;
-    private ArrayList<String> incomingQueue;
+    
+    private NetworkListenerThread nlt = null;
+    private Thread nltThread = null;
 
     /**
      * Constructor for slave
@@ -57,7 +59,6 @@ public class NetworkThread implements Runnable {
         this.port = PORT_NO;
         this.isMaster = false;
         this.outgoingQueue = new ArrayList<String>();
-        this.incomingQueue = new ArrayList<String>();
     }
     
     /**
@@ -74,7 +75,6 @@ public class NetworkThread implements Runnable {
         this.port = PORT_NO;
         this.ip = ip;
         this.outgoingQueue = new ArrayList<String>();
-        this.incomingQueue = new ArrayList<String>();
     }
     
     public void stop()
@@ -90,6 +90,7 @@ public class NetworkThread implements Runnable {
         {
             try 
             {
+                log("Accepting connections.");
                 ServerSocket welcomeSocket = new ServerSocket(port);
                 socket = welcomeSocket.accept();
                 in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
@@ -123,25 +124,16 @@ public class NetworkThread implements Runnable {
         log("Starting up...");
         isRunning = true;
         
+        this.nlt = new NetworkListenerThread(this.in);
+        this.nltThread = new Thread(this.nlt);
+        this.nltThread.start();
+        
         try
         {
+            String s = null;
             while(isRunning)
             {
-                if( socket.isClosed() )
-                {
-                    stop();
-                }
-
-                String s = in.readLine();
-                if( s != null )
-                {
-                    if( !s.equals("") )
-                    {
-                        addIncomingMessage(s);
-                    }
-                }
-                
-                
+                Thread.sleep(RATE);
                 sendAllMessages();
             } 
         }
@@ -149,7 +141,9 @@ public class NetworkThread implements Runnable {
         {
             stop();                
             Logger.getLogger(NetworkThread.class.getName()).log(Level.SEVERE, null, ex);
-        }        
+        }      
+        
+        log("terminating...");
     }
     
     private boolean tryConnect()
@@ -177,6 +171,11 @@ public class NetworkThread implements Runnable {
         return false;
     }
     
+    /**
+     * Adds a message to a queue. Later this message will be sent.
+     * 
+     * @param message 
+     */
     public synchronized void appendMessage(String message)
     {
         log("appending message " + message);
@@ -202,12 +201,6 @@ public class NetworkThread implements Runnable {
         }
     }
     
-    private synchronized void addIncomingMessage(String s)
-    {
-        log(" incoming message: " + s);
-        this.incomingQueue.add(s);
-    }
-    
     /**
      * Reads top message of incoming queue messages and removes that message
      * from the queue.
@@ -216,12 +209,7 @@ public class NetworkThread implements Runnable {
      */
     public synchronized String readTopMessage()
     {
-        if( this.incomingQueue.size() > 0 )
-        {
-            return this.incomingQueue.remove(0);
-        }
-        
-        return null;
+        return this.nlt.readTopMessage();
     }
     
     /**
@@ -232,15 +220,7 @@ public class NetworkThread implements Runnable {
      */
     public synchronized ArrayList<String> readAllMessages()
     {
-        ArrayList<String> l = new ArrayList<String>();
-        
-        for(String s : this.incomingQueue)
-        {
-            l.add(s);
-        }
-        
-        this.incomingQueue.clear();
-        return l;
+        return this.nlt.readAllMessages();
     }
     
    
