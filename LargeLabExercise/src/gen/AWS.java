@@ -7,9 +7,19 @@ package gen;
 
 import com.amazonaws.AmazonClientException;
 import com.amazonaws.AmazonServiceException;
+import com.amazonaws.auth.AWSCredentials;
 import com.amazonaws.auth.profile.ProfileCredentialsProvider;
 import com.amazonaws.regions.Region;
 import com.amazonaws.regions.Regions;
+import com.amazonaws.services.ec2.AmazonEC2;
+import com.amazonaws.services.ec2.AmazonEC2Client;
+import com.amazonaws.services.ec2.model.DescribeInstancesRequest;
+import com.amazonaws.services.ec2.model.DescribeInstancesResult;
+import com.amazonaws.services.ec2.model.Instance;
+import com.amazonaws.services.ec2.model.StartInstancesRequest;
+import com.amazonaws.services.ec2.model.StartInstancesResult;
+import com.amazonaws.services.ec2.model.StopInstancesRequest;
+import com.amazonaws.services.ec2.model.StopInstancesResult;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3Client;
 import com.amazonaws.services.s3.model.GetObjectRequest;
@@ -36,12 +46,16 @@ public class AWS {
     private final String prefix = "InputImage/";
     private final String outputProcessedFolder = "ProcessedImage/";
     private AmazonS3 s3client;
+    private AmazonEC2 ec2;
     
     private AWS()
     {
-        s3client = new AmazonS3Client(new ProfileCredentialsProvider().getCredentials());
+        AWSCredentials credentials = new ProfileCredentialsProvider().getCredentials();
         Region usWest2 = Region.getRegion(Regions.US_WEST_2);
+        s3client = new AmazonS3Client(credentials);
         s3client.setRegion(usWest2);
+        ec2 = new AmazonEC2Client(credentials);
+        ec2.setRegion(usWest2);
     }
     
     public synchronized static AWS getInstance()
@@ -242,14 +256,63 @@ public class AWS {
     /**
      * Methods for leasing and releasing a machine. Needs investigation.
      */
-    public void leaseMachine()
+    public String leaseMachine(String instanceId)
     {
-    
+        String publicIP = null;
+        try{
+        //Start Your Instance
+        StartInstancesRequest startReq = new StartInstancesRequest();
+        startReq.withInstanceIds(instanceId);
+        StartInstancesResult startResult = ec2.startInstances(startReq);
+        String respInstanceId = startResult.getStartingInstances().get(0).getInstanceId();
+     
+        DescribeInstancesRequest describeReq = new DescribeInstancesRequest().withInstanceIds(respInstanceId);
+        DescribeInstancesResult result= ec2.describeInstances(describeReq);
+        
+        Instance instanceObj = result.getReservations().get(0).getInstances().get(0);
+        
+        publicIP = instanceObj.getPublicIpAddress();
+       // System.out.println("Public IP :" + instanceObj.getPublicIpAddress());     
+       // System.out.println("Public DNS :" + instanceObj.getPublicDnsName());
+         } catch (AmazonServiceException ase) {
+            System.out.println("Caught an AmazonServiceException, which means your request made it "
+                    + "to Amazon EC2, but was rejected with an error response for some reason.");
+            System.out.println("Error Message:    " + ase.getMessage());
+            System.out.println("HTTP Status Code: " + ase.getStatusCode());
+            System.out.println("AWS Error Code:   " + ase.getErrorCode());
+            System.out.println("Error Type:       " + ase.getErrorType());
+            System.out.println("Request ID:       " + ase.getRequestId());
+        } catch (AmazonClientException ace) {
+            System.out.println("Caught an AmazonClientException, which means the client encountered "
+                    + "a serious internal problem while trying to communicate with EC2, "
+                    + "such as not being able to access the network.");
+            System.out.println("Error Message: " + ace.getMessage());
+        }
+        return publicIP;
     }
     
-    public void releaseMachine()
+    public void releaseMachine(String instanceId)
     {
-    
+        // instanceId = "i-e255be26";
+        try{
+        StopInstancesRequest stopReq = new StopInstancesRequest();
+        stopReq.withInstanceIds(instanceId);
+        StopInstancesResult stopResult =ec2.stopInstances(stopReq);
+        stopResult.getStoppingInstances();
+        } catch (AmazonServiceException ase) {
+            System.out.println("Caught an AmazonServiceException, which means your request made it "
+                    + "to Amazon EC2, but was rejected with an error response for some reason.");
+            System.out.println("Error Message:    " + ase.getMessage());
+            System.out.println("HTTP Status Code: " + ase.getStatusCode());
+            System.out.println("AWS Error Code:   " + ase.getErrorCode());
+            System.out.println("Error Type:       " + ase.getErrorType());
+            System.out.println("Request ID:       " + ase.getRequestId());
+        } catch (AmazonClientException ace) {
+            System.out.println("Caught an AmazonClientException, which means the client encountered "
+                    + "a serious internal problem while trying to communicate with EC2, "
+                    + "such as not being able to access the network.");
+            System.out.println("Error Message: " + ace.getMessage());
+        }
     }
     
 }

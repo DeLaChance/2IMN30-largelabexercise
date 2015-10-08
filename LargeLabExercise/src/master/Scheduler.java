@@ -27,6 +27,9 @@ public class Scheduler implements Runnable {
     private JobQueue jq;
     private ArrayList<MachineData> machines;
     
+    //Main instanceID: i-6e0d1bab
+    //available instance-Ids: "i-c0f21804", "i-e255be26"
+    
     private Scheduler() 
     {
         log("starting scheduler");
@@ -78,7 +81,8 @@ public class Scheduler implements Runnable {
                         if( canLeaseMachine() )
                         {
                             log(" leasing machine ");
-                            AWS.getInstance().leaseMachine();
+                            //leaseMachine Requires InstanceId (returns ipAddress)
+                           // AWS.getInstance().leaseMachine();
                             startWaiting();
                         }
                         else
