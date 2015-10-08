@@ -6,7 +6,7 @@
 package master;
 
 import gen.AWS;
-import gen.S3Object;
+import gen.S3ObjectMeta;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -27,7 +27,7 @@ public class JobPicker implements Runnable {
     private static JobPicker instance = null;   
     private boolean isRunning = false;
     
-    private ArrayList<S3Object> availableJobs;
+    private ArrayList<S3ObjectMeta> availableJobs;
     private JobQueue jobqueue;
     
     private JobPicker() 
@@ -75,7 +75,7 @@ public class JobPicker implements Runnable {
                 {
                     // Randomly pick a job
                     int j = rand.nextInt(this.availableJobs.size());
-                    S3Object s3o = this.availableJobs.get(j);
+                    S3ObjectMeta s3o = this.availableJobs.get(j);
                     String s = s3o.getKey();
                     long l = s3o.getSize();
                     int p = 3;

@@ -8,6 +8,11 @@ package slave;
 import both.Monitor;
 import both.NetworkThread;
 import gen.AWS;
+import gen.Image;
+import gen.S3ObjectData;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  *
@@ -23,6 +28,11 @@ public class Slave implements Runnable {
     private Monitor monitor = null;
     private Thread monitorThread = null;
     
+    private DateFormat dateFormat = null;
+    private Date date = null;
+    private String currentDate = null;
+    private byte[] outputImageBytes = null;
+    
     private boolean isRunning = false;
     private boolean isRunningJob = false;
     
@@ -32,6 +42,7 @@ public class Slave implements Runnable {
     {
         System.out.println("Starting slave");
         aws = AWS.getInstance();
+        dateFormat = new SimpleDateFormat("yyyyMMdd");
     }
 
     @Override
@@ -65,10 +76,20 @@ public class Slave implements Runnable {
                     String objectKey = parts[1];
                     
                     log("Running job: " + objectKey);
-                    // Get the actual file contents
-                    //aws.getFileContentsFromBucket(objectKey);
-                    
-                    // Process it 
+                      // Get the actual file contents
+                      S3ObjectData s3od = null;
+                      s3od = aws.getFileContentsFromBucket(objectKey);
+                      
+                      String imageName = getNewImageName(s3od.getInputKey());
+                      s3od.setImageName(imageName);
+                      
+                      // Process it
+                      Image image = new Image(s3od.getInputImageData());
+                      image.processImage();
+                      outputImageBytes = image.write(s3od.getImageName());
+                      s3od.setOutputImageData(outputImageBytes);
+                      s3od.setOutputImageSize(outputImageBytes.length);
+                      aws.writeFileContentsToBucket(s3od); 
                     
                     // Complete
                     
@@ -94,6 +115,12 @@ public class Slave implements Runnable {
     public void log(String message)
     {
         System.out.println("Machine: " + message);
+    }
+
+    private String getNewImageName(String inputKey) {
+        date = new Date();
+        currentDate = dateFormat.format(date);
+        return (currentDate.concat(inputKey.substring(inputKey.lastIndexOf("/")+1)));
     }
     
 }
