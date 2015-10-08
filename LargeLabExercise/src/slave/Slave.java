@@ -90,9 +90,11 @@ public class Slave implements Runnable {
                         //aws.getFileContentsFromBucket(objectKey);
 
                         // Process it 
-                        Thread.sleep(2000);
+                        Thread.sleep(5000);
 
                         // Complete
+                        
+                        log("Completing job: " + objectKey);
 
                         // Notify of completion
                         nt.appendMessage(NetworkThread.JOBCMP_MSGID + NetworkThread.MSG_DEL 

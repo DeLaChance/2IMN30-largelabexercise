@@ -9,6 +9,8 @@ import gen.Job;
 import both.NetworkThread;
 import gen.JobQueue;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -37,6 +39,8 @@ public class MachineData {
     private ArrayList<String> assignedJobs = null; // a list of assigned jobs
     private int counter = 0; // a counter for measuring whether the machine is still
     // active
+    private int idleCounter = 0; // a counter for measuring how long the machine is not 
+    // running any job
     
     public MachineData(int memoryCapacity, int index)
     {
@@ -54,10 +58,12 @@ public class MachineData {
         
         this.index = index;
         this.ip_address = ip_address;
+        this.assignedJobs = new ArrayList<String>();        
     }        
     
     public void leaseMachine(String ip)
     {
+        System.out.println("leasing machine 2");        
         nt = new NetworkThread(this.index, ip);
         this.networkThread = new Thread(nt); 
         
@@ -68,6 +74,7 @@ public class MachineData {
     
     public void leaseMachine()
     {
+        System.out.println("leasing machine");
         nt = new NetworkThread(this.index, ip_address);
         this.networkThread = new Thread(nt); 
         
@@ -97,6 +104,7 @@ public class MachineData {
         this.hasBeenLeased = false;
         this.isRunning = false;
         this.resetCounter();
+        this.resetIdleCounter();
     }
     
     private void initialize()
@@ -145,8 +153,8 @@ public class MachineData {
     
     public boolean canRunJob(Job job)
     {
-        return this.getCurCapacityAsPercentage() > job.getLoad() && 
-            this.isRunning == true;
+        return (this.getCurCapacityAsAbsolute() > job.getLoad() || this.numberOfJobs() == 0)
+            && this.isRunning == true;
     }
 
     /**
@@ -161,6 +169,11 @@ public class MachineData {
     
     public void assignJob(Job job)
     {
+        if( job == null )
+        {
+            return;
+        }
+        
         this.assignedJobs.add(job.getKey());
         this.nt.appendMessage(NetworkThread.JOB_MSGID + NetworkThread.MSG_DEL + job.getKey());
     }
@@ -184,6 +197,11 @@ public class MachineData {
         return jobs;
     }
     
+    public int numberOfJobs()
+    {
+        return this.assignedJobs.size();
+    }
+    
     public NetworkThread getNetworkThread()
     {
         return this.nt;
@@ -203,4 +221,19 @@ public class MachineData {
     {
         this.counter = 0;
     }
+    
+    public int getIdleCounter()
+    {
+        return this.idleCounter;
+    }
+    
+    public void increaseIdleCounter()
+    {
+        this.idleCounter++;
+    }
+    
+    public void resetIdleCounter()
+    {
+        this.idleCounter = 0;
+    }    
 }

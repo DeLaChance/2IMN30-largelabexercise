@@ -17,7 +17,7 @@ import gen.ShellCommandHandler;
 public class Monitor implements Runnable {
     
     private final int MONITOR_RATE = 100;
-    private final int REPLY = 10;
+    private final int REPLY = 5;
     
     private static Monitor instance = null;    
     private boolean isRunning;
@@ -139,6 +139,11 @@ public class Monitor implements Runnable {
         this.nt.appendMessage(NetworkThread.MON_MSGID + NetworkThread.MSG_DEL + s);        
     }
     
+    /**
+     * This returns the percentage of Memory that is still available
+     * 
+     * @return 
+     */
     public int getMemoryPercentage() 
     {
         String cmd = "free -m | grep 'Mem' | awk '{ print 100-($3/$2*100) }'";

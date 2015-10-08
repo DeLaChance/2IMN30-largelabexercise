@@ -154,7 +154,7 @@ public class Scheduler implements Runnable {
         for(int i = JobQueue.MAX_PRIORITY; i > JobQueue.MIN_PRIORITY; i--)
         {
             ArrayList<Job> l = this.jq.takeJobsByPriority(i);
-            long load = 100;
+            long load = Long.MAX_VALUE;
             
             for(Job job : l)
             {

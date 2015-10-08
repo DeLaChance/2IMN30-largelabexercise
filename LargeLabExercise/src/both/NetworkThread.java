@@ -46,6 +46,7 @@ public class NetworkThread implements Runnable {
     
     private NetworkListenerThread nlt = null;
     private Thread nltThread = null;
+    private ServerSocket welcomeSocket = null;
 
     /**
      * Constructor for slave
@@ -79,12 +80,26 @@ public class NetworkThread implements Runnable {
     
     public void stop()
     {
-        log("stopping now");
-        this.isRunning = false;
-        
-        if( this.nlt != null )
-        {
-            this.nlt.stop();
+        try {
+            log("stopping now");
+            this.isRunning = false;
+            
+            if( this.nlt != null )
+            {
+                this.nlt.stop();
+            }
+            
+            if( this.socket != null )
+            {
+                this.socket.close();
+            }
+            
+            if( this.welcomeSocket != null )
+            {
+                this.welcomeSocket.close();
+            }
+        } catch (IOException ex) {
+            Logger.getLogger(NetworkThread.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
     
@@ -96,7 +111,7 @@ public class NetworkThread implements Runnable {
             try 
             {
                 log("Accepting connections.");
-                ServerSocket welcomeSocket = new ServerSocket(port);
+                welcomeSocket = new ServerSocket(port);
                 socket = welcomeSocket.accept();
                 in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                 out = new DataOutputStream(socket.getOutputStream());         
@@ -104,8 +119,9 @@ public class NetworkThread implements Runnable {
             } 
             catch (Exception ex) 
             {
-                stop();
                 Logger.getLogger(NetworkThread.class.getName()).log(Level.SEVERE, null, ex);
+                stop();
+                return;
             }
         }   
         else
@@ -125,6 +141,12 @@ public class NetworkThread implements Runnable {
                 }
             }
         }
+
+        if( in == null )
+        {
+            stop();
+            return;
+        }        
         
         log("Starting up...");
         isRunning = true;
@@ -230,6 +252,11 @@ public class NetworkThread implements Runnable {
      */
     public synchronized ArrayList<String> readAllMessages()
     {
+        if( this.nlt == null )
+        {
+            return new ArrayList<String>();
+        }
+        
         return this.nlt.readAllMessages();
     }
     

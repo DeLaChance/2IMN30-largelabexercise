@@ -33,11 +33,14 @@ public class Job {
         return this.priority;
     }
     
+    /**
+     * The estimation of the load. This is based on heuristics. Memory is the
+     * dominant factor and memory usage is linear with the file size.
+     * 
+     */
     public void estimateLoad()
     {
-        // Based on heuristics. Memory is dominant factor and an 1800-bytes input
-        // file takes about 1% of the memory
-        load = Math.min(fileSize / 1800, 90);
+        load = 500; //Math.max(fileSize / 1000,1);
     }
 
     public long getLoad()

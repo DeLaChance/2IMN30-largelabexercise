@@ -23,7 +23,7 @@ import gen.ThreadLock;
  */
 public class JobPicker implements Runnable {
     
-    private final int SAMPLE_RATE = 1000; // The sample rate in milliseconds
+    private final int SAMPLE_RATE = 100; // The sample rate in milliseconds
     
     private static JobPicker instance = null;   
     private boolean isRunning = false;

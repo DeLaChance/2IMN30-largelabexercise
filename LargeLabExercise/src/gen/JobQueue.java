@@ -64,13 +64,17 @@ public class JobQueue {
     
     public synchronized void completeJob(String key)
     {
+        Job tobeRemoved = null;
+        
         for(Job job : scheduledJobs)
         {
             if( job.getKey().equals(key) )
             {
-                scheduledJobs.remove(job);
+                tobeRemoved = job;
             }
         }
+        
+        scheduledJobs.remove(tobeRemoved);
         
     }
     
