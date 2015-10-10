@@ -41,8 +41,9 @@ public class Slave implements Runnable {
     public Slave()
     {
         System.out.println("Starting slave");
+<<<<<<< HEAD
         MASTER_IP = "5.199.148.110";
-        dateFormat = new SimpleDateFormat("yyyyMMdd");
+        
         initialize();
     }
     
@@ -52,6 +53,10 @@ public class Slave implements Runnable {
         MASTER_IP = master_ip;
         
         initialize();
+=======
+        aws = AWS.getInstance();
+        dateFormat = new SimpleDateFormat("yyyyMMdd");
+>>>>>>> origin/shoaib
     }
 
     public void initialize()
@@ -88,6 +93,7 @@ public class Slave implements Runnable {
                 
                 if( msg != null )
                 {
+<<<<<<< HEAD
                     // Look up the type of the message
                     if( msg.startsWith(NetworkThread.JOB_MSGID) )
                     {
@@ -97,19 +103,10 @@ public class Slave implements Runnable {
 
                         log("Running job: " + objectKey);
                         // Get the actual file contents
-                      S3ObjectData s3od = null;
-                      s3od = aws.getFileContentsFromBucket(objectKey);
-                      
-                      String imageName = getNewImageName(s3od.getInputKey());
-                      s3od.setImageName(imageName);
+                        //aws.getFileContentsFromBucket(objectKey);
 
                         // Process it 
-                      Image image = new Image(s3od.getInputImageData());
-                      image.processImage();
-                      outputImageBytes = image.write(s3od.getImageName());
-                      s3od.setOutputImageData(outputImageBytes);
-                      s3od.setOutputImageSize(outputImageBytes.length);
-                      aws.writeFileContentsToBucket(s3od); 
+                        Thread.sleep(5000);
 
                         // Complete
                         
@@ -119,6 +116,33 @@ public class Slave implements Runnable {
                         nt.appendMessage(NetworkThread.JOBCMP_MSGID + NetworkThread.MSG_DEL 
                             + objectKey);
                     }
+=======
+                    // Start doing job
+                    String[] parts = msg.split(NetworkThread.MSG_DEL);
+                    String objectKey = parts[1];
+                    
+                    log("Running job: " + objectKey);
+                      // Get the actual file contents
+                      S3ObjectData s3od = null;
+                      s3od = aws.getFileContentsFromBucket(objectKey);
+                      
+                      String imageName = getNewImageName(s3od.getInputKey());
+                      s3od.setImageName(imageName);
+                      
+                      // Process it
+                      Image image = new Image(s3od.getInputImageData());
+                      image.processImage();
+                      outputImageBytes = image.write(s3od.getImageName());
+                      s3od.setOutputImageData(outputImageBytes);
+                      s3od.setOutputImageSize(outputImageBytes.length);
+                      aws.writeFileContentsToBucket(s3od); 
+                    
+                    // Complete
+                    
+                    // Notify of completion
+                    nt.appendMessage(NetworkThread.JOBCMP_MSGID + NetworkThread.MSG_DEL 
+                        + objectKey);
+>>>>>>> origin/shoaib
                 }
             }
             catch(Exception e)

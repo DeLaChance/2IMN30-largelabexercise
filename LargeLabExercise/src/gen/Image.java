@@ -18,13 +18,15 @@ public class Image
 {
     private MagickImage instance;
     private ImageInfo info;
-    private File file;
+    private byte[] bytes;
+    //private File file;
     
-    public Image(String fileName) throws MagickException
+    public Image(byte[] bytes) throws MagickException
     {
-        this.info = new ImageInfo(fileName);
-        this.instance = new MagickImage(this.info);
-        this.file = new File(fileName);
+        this.info = new ImageInfo(); //image not taken from absolute path, default instance
+        this.bytes = bytes; // image in byte array
+        this.instance = new MagickImage(this.info, bytes);
+        //this.file = new File(fileName);
     }
     
     public void processImage() throws MagickException
@@ -36,14 +38,10 @@ public class Image
         this.instance = this.instance.charcoalImage(radius, sigma);
     }
     
-    public void write(String fileOut) throws MagickException
+    public byte[] write(String fileOut) throws MagickException
     {
         this.instance.setFileName(fileOut);
-        this.instance.writeImage(this.info);
-    }
-    
-    public long getFileSize()
-    {
-       return this.file.length();
+        return this.instance.imageToBlob(this.info);
+        //this.instance.writeImage(this.info);
     }
 }

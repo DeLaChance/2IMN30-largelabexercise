@@ -9,12 +9,12 @@ package gen;
  *
  * @author lucien
  */
-public class S3Object {
+public class S3ObjectMeta {
     
     private String key;
     private long size;
     
-    public S3Object(String key, long size)
+    public S3ObjectMeta(String key, long size)
     {
         this.key = key;
         this.size = size;
