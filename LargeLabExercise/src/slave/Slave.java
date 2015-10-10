@@ -96,20 +96,21 @@ public class Slave implements Runnable {
                         String objectKey = parts[1];
 
                         log("Running job: " + objectKey);
+                        
                         // Get the actual file contents
-                      S3ObjectData s3od = null;
-                      s3od = aws.getFileContentsFromBucket(objectKey);
-                      
-                      String imageName = getNewImageName(s3od.getInputKey());
-                      s3od.setImageName(imageName);
+                        S3ObjectData s3od = null;
+                        s3od = aws.getFileContentsFromBucket(objectKey);
 
-                        // Process it 
-                      Image image = new Image(s3od.getInputImageData());
-                      image.processImage();
-                      outputImageBytes = image.write(s3od.getImageName());
-                      s3od.setOutputImageData(outputImageBytes);
-                      s3od.setOutputImageSize(outputImageBytes.length);
-                      aws.writeFileContentsToBucket(s3od); 
+                        String imageName = getNewImageName(s3od.getInputKey());
+                        s3od.setImageName(imageName);
+
+                          // Process it 
+                        Image image = new Image(s3od.getInputImageData());
+                        image.processImage();
+                        outputImageBytes = image.write(s3od.getImageName());
+                        s3od.setOutputImageData(outputImageBytes);
+                        s3od.setOutputImageSize(outputImageBytes.length);
+                        aws.writeFileContentsToBucket(s3od); 
 
                         // Complete
                         
