@@ -61,25 +61,24 @@ public class MachineData {
         this.assignedJobs = new ArrayList<String>();        
     }        
     
-    public void leaseMachine(String ip)
-    {
-        System.out.println("leasing machine 2");        
-        nt = new NetworkThread(this.index, ip);
-        this.networkThread = new Thread(nt); 
-        
-        this.networkThread.start();
-        this.hasBeenLeased = true;
-        this.curMemoryCapacity = this.maxMemoryCapacity;        
-    }
-    
     public void leaseMachine()
     {
+        if( this.ip_address == null )
+        {
+            System.out.println("ip_address undefined");
+        }
+        
         System.out.println("leasing machine");
         nt = new NetworkThread(this.index, ip_address);
         this.networkThread = new Thread(nt); 
         
         this.networkThread.start();
         this.hasBeenLeased = true;
+    }
+    
+    public void setIp(String ip)
+    {
+        this.ip_address = ip;
     }
     
     public boolean isRunning()

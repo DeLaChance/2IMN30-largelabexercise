@@ -116,6 +116,8 @@ public class NetworkThread implements Runnable {
                 in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                 out = new DataOutputStream(socket.getOutputStream());         
                 ip = socket.getRemoteSocketAddress().toString();
+                
+                log("Starting connection from " + socket.getRemoteSocketAddress());
             } 
             catch (Exception ex) 
             {
