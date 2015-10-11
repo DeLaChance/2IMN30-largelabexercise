@@ -41,7 +41,7 @@ public class Slave implements Runnable {
     public Slave()
     {
         System.out.println("Starting slave");
-        MASTER_IP = "5.199.148.110";
+        MASTER_IP = "52.26.218.113";
         
         initialize();
     }
