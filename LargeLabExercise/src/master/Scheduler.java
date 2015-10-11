@@ -58,7 +58,8 @@ public class Scheduler implements Runnable {
                 // Try to assign a job to a machine
                 Job j = getJob();
                 
-                if( j == null && this.jq.isEmpty() && JobPicker.getInstance().isRunning() == false )
+                if( j == null && this.jq.isEmpty() && JobPicker.getInstance().isRunning() == false
+                    && allMachinesIdle() == true)
                 {
                     log("jobqueue is empty, no job available and jobpicker no longer running");
                     stop();
@@ -112,6 +113,19 @@ public class Scheduler implements Runnable {
                 stop();
             }
         } 
+    }
+    
+    private boolean allMachinesIdle()
+    {
+        for(MachineData md : MachineContainer.getInstance().getData())
+        {
+            if( md.numberOfJobs() > 0 )
+            {
+                return false;
+            }
+        }
+        
+        return true;
     }
     
     private boolean canLeaseMachine()
