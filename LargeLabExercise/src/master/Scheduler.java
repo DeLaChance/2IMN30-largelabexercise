@@ -17,9 +17,6 @@ import gen.ThreadLock;
  * @author lucien
  */
 public class Scheduler implements Runnable {
-
-    public final int MIN_MACHINES = 0;
-    public final int MAX_MACHINES = 1;
     
     private final int SAMPLE_RATE = 500; // The sample rate in milliseconds
     
@@ -61,6 +58,12 @@ public class Scheduler implements Runnable {
                 // Try to assign a job to a machine
                 Job j = getJob();
                 
+                if( j == null && this.jq.isEmpty() && JobPicker.getInstance().isRunning() == false )
+                {
+                    log("jobqueue is empty, no job available and jobpicker no longer running");
+                    stop();
+                }
+                
                 if( j == null )
                 {
                     log("No job available currently");
@@ -74,14 +77,18 @@ public class Scheduler implements Runnable {
                     {
                         if( canLeaseMachine() )
                         {
-                            log(" leasing machine ");
+                            log(" Needs to lease machine ");
                             
                             // tmp test
-                            m = MachineContainer.getInstance().getData().get(0);
-                            m.leaseMachine();
-                            
-                            //AWS.getInstance().leaseMachine();
-                            //startWaiting();
+                            m = MachineContainer.getInstance().getLeasableMachine();
+                            if( m == null )
+                            {
+                                log("Error: no leasable machine found");
+                            }
+                            else 
+                            {
+                                m.leaseMachine();
+                            }
                         }
                         else
                         {
@@ -206,6 +213,11 @@ public class Scheduler implements Runnable {
         log("stopping scheduler");
         this.isRunning = false;
     }    
+    
+    public synchronized boolean isRunning()
+    {
+        return this.isRunning;
+    }
     
     public void log(String message)
     {

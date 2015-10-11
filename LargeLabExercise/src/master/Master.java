@@ -18,8 +18,9 @@ import java.util.ArrayList;
 public class Master implements Runnable {
     
     private final int MASTER_RATE = 100;
-    private final int STOPPED_THRESHOLD = 25;
-    private final int IDLE_THRESHOLD = 25;
+    private final int STOPPED_THRESHOLD = 20; // STOPPED_THRESHOLD * MASTER_RATE determines
+    // the number of milliseconds before machine is stopped due to not being alive
+    private final int IDLE_THRESHOLD = 50; // Same for being idle
     
     private boolean isRunning = false;
 
@@ -170,6 +171,11 @@ public class Master implements Runnable {
             {
                 Thread.sleep(MASTER_RATE);
                 updateMachineStatus();
+                
+                if( Scheduler.getInstance().isRunning() == false )
+                {
+                    stop();
+                }
             }
             catch(Exception e)
             {
@@ -177,5 +183,12 @@ public class Master implements Runnable {
                 e.printStackTrace();
             }
         }
+    }
+    
+    public void stop()
+    {
+        log("stopping master program");
+        MachineContainer.getInstance().stopAll();
+        isRunning = false;
     }
 }

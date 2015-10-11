@@ -42,7 +42,7 @@ public class Slave implements Runnable {
     {
         System.out.println("Starting slave");
         MASTER_IP = "5.199.148.110";
-        dateFormat = new SimpleDateFormat("yyyyMMdd");
+        
         initialize();
     }
     
@@ -56,6 +56,8 @@ public class Slave implements Runnable {
 
     public void initialize()
     {
+        dateFormat = new SimpleDateFormat("yyyyMMdd");
+        
         aws = AWS.getInstance();
 
         // Start slave network thread and make the connection

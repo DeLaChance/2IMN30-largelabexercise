@@ -7,6 +7,7 @@ package master;
 
 import gen.Job;
 import both.NetworkThread;
+import gen.AWS;
 import gen.JobQueue;
 import java.util.ArrayList;
 import java.util.logging.Level;
@@ -42,31 +43,28 @@ public class MachineData {
     private int idleCounter = 0; // a counter for measuring how long the machine is not 
     // running any job
     
-    public MachineData(int memoryCapacity, int index)
+    private String instanceId = null;
+    
+    public MachineData(int memoryCapacity, int index, String instanceId)
     {
         this.maxMemoryCapacity = memoryCapacity;
         this.curMemoryCapacity = this.maxMemoryCapacity;
         
         this.index = index;
         this.assignedJobs = new ArrayList<String>();
+        this.instanceId = instanceId;
     }    
-    
-    public MachineData(int memoryCapacity, int index, String ip_address)
-    {
-        this.maxMemoryCapacity = memoryCapacity;
-        this.curMemoryCapacity = this.maxMemoryCapacity;
-        
-        this.index = index;
-        this.ip_address = ip_address;
-        this.assignedJobs = new ArrayList<String>();        
-    }        
     
     public void leaseMachine()
     {
-        if( this.ip_address == null )
+        String ip = AWS.getInstance().leaseMachine(this.instanceId);
+        if( isValidIp(ip) == false )
         {
-            System.out.println("ip_address undefined");
+            System.out.println("Can not get ip address " + ip);
+            return;
         }
+        
+        this.setIp(ip);
         
         System.out.println("leasing machine");
         nt = new NetworkThread(this.index, ip_address);
@@ -78,7 +76,40 @@ public class MachineData {
     
     public void setIp(String ip)
     {
+        if( !isValidIp(ip) )
+        {
+            System.out.println("ip is not valid: " + ip);
+        }
+        
         this.ip_address = ip;
+    }
+    
+    public boolean isValidIp(String ip)
+    {
+        try {
+            if ( ip == null || ip.isEmpty() ) {
+                return false;
+            }
+
+            String[] parts = ip.split( "\\." );
+            if ( parts.length != 4 ) {
+                return false;
+            }
+
+            for ( String s : parts ) {
+                int i = Integer.parseInt( s );
+                if ( (i < 0) || (i > 255) ) {
+                    return false;
+                }
+            }
+            if ( ip.endsWith(".") ) {
+                return false;
+            }
+
+            return true;
+        } catch (NumberFormatException nfe) {
+            return false;
+        }    
     }
     
     public boolean isRunning()
@@ -99,11 +130,18 @@ public class MachineData {
     
     public void releaseMachine()
     {
-        this.nt.stop();
+        if( this.nt != null )
+        {
+            this.nt.stop();
+        }
+        
         this.hasBeenLeased = false;
         this.isRunning = false;
         this.resetCounter();
         this.resetIdleCounter();
+        
+        // Actually releases the machine in Amazon
+        AWS.getInstance().releaseMachine(this.instanceId);
     }
     
     private void initialize()

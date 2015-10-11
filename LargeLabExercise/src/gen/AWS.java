@@ -254,7 +254,11 @@ public class AWS {
     }
     
     /**
-     * Methods for leasing and releasing a machine. Needs investigation.
+     * Given an Amazon instance id, this machine leases an on-demand instance.
+     * It returns the IP-address.
+     * 
+     * @param instanceId : Amazon instance id
+     * @return ip address of machine
      */
     public String leaseMachine(String instanceId)
     {
@@ -291,6 +295,12 @@ public class AWS {
         return publicIP;
     }
     
+    /**
+     * Given an Amazon instance id, this machine releases an on-demand instance.
+     * It returns the IP-address.
+     * 
+     * @param instanceId : Amazon instance id
+     */
     public void releaseMachine(String instanceId)
     {
         // instanceId = "i-e255be26";

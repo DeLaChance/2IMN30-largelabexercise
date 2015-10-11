@@ -91,7 +91,7 @@ public class JobPicker implements Runnable {
                 }
                 else
                 {
-                    log("All jobs completed");
+                    log("All jobs are in the queue");
                     stop();
                 }
             } 
@@ -105,6 +105,10 @@ public class JobPicker implements Runnable {
     public void log(String message)
     {
         System.out.println("JobPicker: " + message);
+    }
+
+    public synchronized boolean isRunning() {
+        return this.isRunning;
     }
     
 }

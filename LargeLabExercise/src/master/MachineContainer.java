@@ -20,8 +20,14 @@ public class MachineContainer {
     {
         machinedata = new ArrayList<MachineData>();
         
-        MachineData md = new MachineData(1000, 0, "localhost");
-        addMachine(md);        
+        MachineData md1 = new MachineData(1000, 0, "i-e255be26");
+        addMachine(md1);        
+        
+//        MachineData md2 = new MachineData(1000, 0, "");
+//        addMachine(md2);
+//        
+//        MachineData md3 = new MachineData(1000, 0, "");
+//        addMachine(md3);        
     }
     
     public static MachineContainer getInstance()
@@ -54,6 +60,30 @@ public class MachineContainer {
         }
         
         return s;
+    }
+
+    /**
+     * Releases all amazon slave instances
+     * 
+     */
+    public void stopAll() 
+    {
+        for(MachineData md : this.machinedata)
+        {
+            md.releaseMachine();
+        }
+    }
+
+    public MachineData getLeasableMachine() {
+        for(MachineData md : this.machinedata)
+        {
+            if( md.hasBeenLeased() == false && md.isRunning() == false )
+            {
+                return md;
+            }
+        }        
+        
+        return null;
     }
     
 }

@@ -3,7 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/shoaib/Project/2IMN30-largelabexercise/LargeLabExercise/src/gen/S3ObjectData.java</file>
+            <file>file:/home/lucien/Code/SharedProjects/2IMN30-largelabexercise/LargeLabExercise/src/gen/ThreadLock.java</file>
+            <file>file:/home/lucien/Code/SharedProjects/2IMN30-largelabexercise/LargeLabExercise/src/master/Master.java</file>
+            <file>file:/home/lucien/Code/SharedProjects/2IMN30-largelabexercise/LargeLabExercise/src/master/MachineData.java</file>
+            <file>file:/home/lucien/Code/SharedProjects/2IMN30-largelabexercise/LargeLabExercise/src/slave/Slave.java</file>
+            <file>file:/home/lucien/Code/SharedProjects/2IMN30-largelabexercise/LargeLabExercise/src/both/Monitor.java</file>
+            <file>file:/home/lucien/Code/SharedProjects/2IMN30-largelabexercise/LargeLabExercise/src/gen/Job.java</file>
+            <file>file:/home/lucien/Code/SharedProjects/2IMN30-largelabexercise/LargeLabExercise/src/master/JobPicker.java</file>
+            <file>file:/home/lucien/Code/SharedProjects/2IMN30-largelabexercise/LargeLabExercise/src/gen/LargeLabExercise.java</file>
+            <file>file:/home/lucien/Code/SharedProjects/2IMN30-largelabexercise/LargeLabExercise/src/master/Scheduler.java</file>
+            <file>file:/home/lucien/Code/SharedProjects/2IMN30-largelabexercise/LargeLabExercise/src/gen/JobQueue.java</file>
+            <file>file:/home/lucien/Code/SharedProjects/2IMN30-largelabexercise/LargeLabExercise/src/both/NetworkThread.java</file>
+            <file>file:/home/lucien/Code/SharedProjects/2IMN30-largelabexercise/LargeLabExercise/src/master/MachineContainer.java</file>
+            <file>file:/home/lucien/Code/SharedProjects/2IMN30-largelabexercise/LargeLabExercise/src/both/NetworkListenerThread.java</file>
+            <file>file:/home/lucien/Code/SharedProjects/2IMN30-largelabexercise/LargeLabExercise/src/gen/AWS.java</file>
         </group>
     </open-files>
 </project-private>

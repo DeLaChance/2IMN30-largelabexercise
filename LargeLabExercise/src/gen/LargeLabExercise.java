@@ -32,6 +32,7 @@ public class LargeLabExercise {
         {
             Master master = Master.getInstance();
             master.run();
+            System.exit(0);
         }
 
     }
