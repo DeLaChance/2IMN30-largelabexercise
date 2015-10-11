@@ -20,7 +20,7 @@ public class MachineContainer {
     {
         machinedata = new ArrayList<MachineData>();
         
-        MachineData md1 = new MachineData(1000, 0, "i-e255be26");
+        MachineData md1 = new MachineData(1000, 0, "i-299e6ced");
         addMachine(md1);        
         
 //        MachineData md2 = new MachineData(1000, 0, "");

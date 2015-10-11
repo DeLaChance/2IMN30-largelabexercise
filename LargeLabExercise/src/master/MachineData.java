@@ -58,10 +58,17 @@ public class MachineData {
     public void leaseMachine()
     {
         String ip = AWS.getInstance().leaseMachine(this.instanceId);
-        if( isValidIp(ip) == false )
+        
+        while( isValidIp(ip) == false )
         {
-            System.out.println("Can not get ip address " + ip);
-            return;
+            try 
+            {
+                Thread.sleep(10000);
+                ip = AWS.getInstance().leaseMachine(this.instanceId);
+                System.out.println("ip is: " + ip);
+            } catch (InterruptedException ex) {
+                Logger.getLogger(MachineData.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
         
         this.setIp(ip);

@@ -269,13 +269,18 @@ public class AWS {
         startReq.withInstanceIds(instanceId);
         StartInstancesResult startResult = ec2.startInstances(startReq);
         String respInstanceId = startResult.getStartingInstances().get(0).getInstanceId();
-     
+        
         DescribeInstancesRequest describeReq = new DescribeInstancesRequest().withInstanceIds(respInstanceId);
         DescribeInstancesResult result= ec2.describeInstances(describeReq);
         
         Instance instanceObj = result.getReservations().get(0).getInstances().get(0);
         
         publicIP = instanceObj.getPublicIpAddress();
+        
+        if(publicIP != null )
+        {
+            System.out.println("Booted new machine with ip: " + publicIP + " instanceID: " + instanceId);
+        }
        // System.out.println("Public IP :" + instanceObj.getPublicIpAddress());     
        // System.out.println("Public DNS :" + instanceObj.getPublicDnsName());
          } catch (AmazonServiceException ase) {
@@ -291,6 +296,11 @@ public class AWS {
                     + "a serious internal problem while trying to communicate with EC2, "
                     + "such as not being able to access the network.");
             System.out.println("Error Message: " + ace.getMessage());
+        }
+        catch(Exception ex)
+        {
+            System.out.println("Another exception: " + ex.toString());
+            ex.printStackTrace();
         }
         return publicIP;
     }
