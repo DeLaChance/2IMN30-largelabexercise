@@ -262,49 +262,48 @@ public class AWS {
      */
     public String leaseMachine(String instanceId)
     {
-//        String publicIP = null;
-//        try{
-//        //Start Your Instance
-//        StartInstancesRequest startReq = new StartInstancesRequest();
-//        startReq.withInstanceIds(instanceId);
-//        StartInstancesResult startResult = ec2.startInstances(startReq);
-//        String respInstanceId = startResult.getStartingInstances().get(0).getInstanceId();
-//        
-//        DescribeInstancesRequest describeReq = new DescribeInstancesRequest().withInstanceIds(respInstanceId);
-//        DescribeInstancesResult result= ec2.describeInstances(describeReq);
-//        
-//        Instance instanceObj = result.getReservations().get(0).getInstances().get(0);
-//        
-//        publicIP = instanceObj.getPublicIpAddress();
-//        
-//        if(publicIP != null )
-//        {
-//            System.out.println("Booted new machine with ip: " + publicIP + " instanceID: " + instanceId);
-//        }
-//       // System.out.println("Public IP :" + instanceObj.getPublicIpAddress());     
-//       // System.out.println("Public DNS :" + instanceObj.getPublicDnsName());
-//         } catch (AmazonServiceException ase) {
-//            System.out.println("Caught an AmazonServiceException, which means your request made it "
-//                    + "to Amazon EC2, but was rejected with an error response for some reason.");
-//            System.out.println("Error Message:    " + ase.getMessage());
-//            System.out.println("HTTP Status Code: " + ase.getStatusCode());
-//            System.out.println("AWS Error Code:   " + ase.getErrorCode());
-//            System.out.println("Error Type:       " + ase.getErrorType());
-//            System.out.println("Request ID:       " + ase.getRequestId());
-//        } catch (AmazonClientException ace) {
-//            System.out.println("Caught an AmazonClientException, which means the client encountered "
-//                    + "a serious internal problem while trying to communicate with EC2, "
-//                    + "such as not being able to access the network.");
-//            System.out.println("Error Message: " + ace.getMessage());
-//        }
-//        catch(Exception ex)
-//        {
-//            System.out.println("Another exception: " + ex.toString());
-//            ex.printStackTrace();
-//        }
-//        return publicIP;
+        String publicIP = null;
+        try{
+        //Start Your Instance
+        StartInstancesRequest startReq = new StartInstancesRequest();
+        startReq.withInstanceIds(instanceId);
+        StartInstancesResult startResult = ec2.startInstances(startReq);
+        String respInstanceId = startResult.getStartingInstances().get(0).getInstanceId();
         
-        return "";
+        DescribeInstancesRequest describeReq = new DescribeInstancesRequest().withInstanceIds(respInstanceId);
+        DescribeInstancesResult result= ec2.describeInstances(describeReq);
+        
+        Instance instanceObj = result.getReservations().get(0).getInstances().get(0);
+        
+        publicIP = instanceObj.getPublicIpAddress();
+        
+        if(publicIP != null )
+        {
+            System.out.println("Booted new machine with ip: " + publicIP + " instanceID: " + instanceId);
+        }
+       // System.out.println("Public IP :" + instanceObj.getPublicIpAddress());     
+       // System.out.println("Public DNS :" + instanceObj.getPublicDnsName());
+         } catch (AmazonServiceException ase) {
+            System.out.println("Caught an AmazonServiceException, which means your request made it "
+                    + "to Amazon EC2, but was rejected with an error response for some reason.");
+            System.out.println("Error Message:    " + ase.getMessage());
+            System.out.println("HTTP Status Code: " + ase.getStatusCode());
+            System.out.println("AWS Error Code:   " + ase.getErrorCode());
+            System.out.println("Error Type:       " + ase.getErrorType());
+            System.out.println("Request ID:       " + ase.getRequestId());
+        } catch (AmazonClientException ace) {
+            System.out.println("Caught an AmazonClientException, which means the client encountered "
+                    + "a serious internal problem while trying to communicate with EC2, "
+                    + "such as not being able to access the network.");
+            System.out.println("Error Message: " + ace.getMessage());
+        }
+        catch(Exception ex)
+        {
+            System.out.println("Another exception: " + ex.toString());
+            ex.printStackTrace();
+        }
+        return publicIP;
+
     }
     
     /**
