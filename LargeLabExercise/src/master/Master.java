@@ -8,6 +8,7 @@ package master;
 import both.Monitor;
 import both.NetworkThread;
 import gen.JobQueue;
+import gen.Logging;
 import gen.ThreadLock;
 import java.util.ArrayList;
 
@@ -171,6 +172,8 @@ public class Master implements Runnable {
             {
                 Thread.sleep(MASTER_RATE);
                 updateMachineStatus();
+                
+                Logging.getInstance().addMachineStatusToLog();
                 
                 if( Scheduler.getInstance().isRunning() == false )
                 {

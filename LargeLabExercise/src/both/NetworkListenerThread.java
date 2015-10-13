@@ -61,8 +61,8 @@ public class NetworkListenerThread implements Runnable{
                 }
             }
         } catch (Exception ex) {
-           log("exception: " + ex.toString());
-           ex.printStackTrace();
+//           log("exception: " + ex.toString());
+//           ex.printStackTrace();
         }
     }
     

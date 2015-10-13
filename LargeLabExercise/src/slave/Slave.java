@@ -9,6 +9,7 @@ import both.Monitor;
 import both.NetworkThread;
 import gen.AWS;
 import gen.Image;
+import gen.Logging;
 import gen.S3ObjectData;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -98,6 +99,7 @@ public class Slave implements Runnable {
                         String objectKey = parts[1];
 
                         log("Running job: " + objectKey);
+                        Logging.getInstance().addJobToLog(objectKey, Logging.RUNNING_JOB);
                         
                         // Get the actual file contents
                         S3ObjectData s3od = null;
@@ -117,6 +119,7 @@ public class Slave implements Runnable {
                         // Complete
                         
                         log("Completing job: " + objectKey);
+                        Logging.getInstance().addJobToLog(objectKey, Logging.COMPLETED_JOB);
 
                         // Notify of completion
                         nt.appendMessage(NetworkThread.JOBCMP_MSGID + NetworkThread.MSG_DEL 

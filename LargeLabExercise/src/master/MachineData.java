@@ -280,4 +280,11 @@ public class MachineData {
     {
         this.idleCounter = 0;
     }    
+    
+    public String getSummary()
+    {
+        String s = "";
+        s += this.getCurCapacityAsPercentage() + "," + this.numberOfJobs();
+        return s;
+    }
 }

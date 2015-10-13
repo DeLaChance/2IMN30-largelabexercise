@@ -40,7 +40,7 @@ public class Job {
      */
     public void estimateLoad()
     {
-        load = 500; //Math.max(fileSize / 1000,1);
+        load = Math.max(fileSize / 1000,1);
     }
 
     public long getLoad()

@@ -5,6 +5,7 @@
  */
 package both;
 
+import gen.Logging;
 import java.util.Random;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -103,6 +104,7 @@ public class Monitor implements Runnable {
                     this.writeLoad(avgCpu, avgMem);
                     
                     //log("Average cpu: " + this.avgCpu + ", average mem: " + avgMem);
+                    Logging.getInstance().writeToMonitorLog(avgCpu, avgMem);
                     
                     if( isSlave )
                     {
