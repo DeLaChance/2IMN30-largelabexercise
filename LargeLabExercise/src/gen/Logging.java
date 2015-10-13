@@ -22,7 +22,7 @@ import master.MachineData;
  */
 public class Logging {
     
-    private final String DIR = "/home/lucien/tmp/"; //"/home/ubuntu/";
+    private final String DIR = "/home/ubuntu/";
     public static final int INCOMING_JOB = 0;
     public static final int RUNNING_JOB = 1;
     public static final int COMPLETED_JOB = 2;
