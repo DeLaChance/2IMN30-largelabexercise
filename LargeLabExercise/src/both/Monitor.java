@@ -148,7 +148,7 @@ public class Monitor implements Runnable {
      */
     public int getMemoryPercentage() 
     {
-        String cmd = "free -m | grep 'Mem' | awk '{ print 100-($3/$2*100) }'";
+        String cmd = "free -m | grep 'Mem' | awk '{ print ($3/$2*100) }'";
         
         try 
         {

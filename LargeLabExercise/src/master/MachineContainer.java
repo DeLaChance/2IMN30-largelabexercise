@@ -23,11 +23,8 @@ public class MachineContainer {
         MachineData md1 = new MachineData(1000, 0, "i-299e6ced");
         addMachine(md1);        
         
-//        MachineData md2 = new MachineData(1000, 0, "");
-//        addMachine(md2);
-//        
-//        MachineData md3 = new MachineData(1000, 0, "");
-//        addMachine(md3);        
+        MachineData md2 = new MachineData(1000, 0, "i-849c6e40");
+        addMachine(md2);
     }
     
     public static MachineContainer getInstance()

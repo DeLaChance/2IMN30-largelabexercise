@@ -106,7 +106,7 @@ public class Logging {
                 }
                 else
                 {
-                    String s1 = "";
+                    String s1 = "timestamp,";
                     int noOfMachines = MachineContainer.getInstance().getData().size();
                     
                     for(int i = 0; i < noOfMachines; i++)
@@ -146,7 +146,8 @@ public class Logging {
     
     public void addMachineStatusToLog()
     {
-        String s = "";
+        long timeDelta = System.currentTimeMillis() - this.startTime; 
+        String s = timeDelta + ",";
         for(int i = 0; i < MachineContainer.getInstance().getData().size(); i++)
         {
             MachineData md = MachineContainer.getInstance().getData().get(i);
