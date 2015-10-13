@@ -198,7 +198,8 @@ public class MachineData {
     public boolean canRunJob(Job job)
     {
         return (this.getCurCapacityAsAbsolute() > job.getLoad() || this.numberOfJobs() == 0)
-            && this.isRunning == true;
+            && this.isRunning == true && this.numberOfJobs() < 3 && 
+                this.getCurCapacityAsAbsolute() > 10;
     }
 
     /**
