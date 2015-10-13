@@ -46,7 +46,7 @@ public class NetworkThread implements Runnable {
     
     private NetworkListenerThread nlt = null;
     private Thread nltThread = null;
-    private ServerSocket welcomeSocket = null;
+    private static ServerSocket welcomeSocket = null;
 
     /**
      * Constructor for slave
@@ -111,7 +111,10 @@ public class NetworkThread implements Runnable {
             try 
             {
                 log("Accepting connections.");
-                welcomeSocket = new ServerSocket(port);
+                if( welcomeSocket == null )
+                {
+                    welcomeSocket = new ServerSocket(port); // To prevent erros
+                }
                 socket = welcomeSocket.accept();
                 in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                 out = new DataOutputStream(socket.getOutputStream());         
