@@ -89,7 +89,7 @@ public class Master implements Runnable {
                             int mem = avgM.intValue();
 
                             md.setCurCapacityAsPercentage(mem);
-                            log("load updated " + md.getCurCapacityAsPercentage());
+                           // log("load updated " + md.getCurCapacityAsPercentage());
 
                             md.resetCounter(); // the machine is still alive so 
                             // we reset the counter
