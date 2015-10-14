@@ -56,7 +56,7 @@ public class NetworkListenerThread implements Runnable{
                     if( !s.equals("") )
                     {
                         appendToQueue(s);
-                        log("received " + s);
+                        //log("received " + s);
                     }
                 }
             }

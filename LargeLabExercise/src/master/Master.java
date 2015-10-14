@@ -18,10 +18,10 @@ import java.util.ArrayList;
  */
 public class Master implements Runnable {
     
-    private final int MASTER_RATE = 100;
-    private final int STOPPED_THRESHOLD = 20; // STOPPED_THRESHOLD * MASTER_RATE determines
+    private final int MASTER_RATE = 1000;
+    private final int STOPPED_THRESHOLD = 15; // STOPPED_THRESHOLD * MASTER_RATE determines
     // the number of milliseconds before machine is stopped due to not being alive
-    private final int IDLE_THRESHOLD = 50; // Same for being idle
+    private final int IDLE_THRESHOLD = 15; // Same for being idle
     
     private boolean isRunning = false;
 
