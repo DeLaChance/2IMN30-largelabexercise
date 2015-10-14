@@ -8,6 +8,8 @@ import master.JobPicker;
 import both.Monitor;
 import both.NetworkThread;
 import java.io.File;
+import java.util.Timer;
+import java.util.TimerTask;
 import master.Master;
 import master.Scheduler;
 import slave.Slave;
@@ -59,13 +61,14 @@ public class LargeLabExercise {
                 try {
                     // Loop over the files
                     String fileName = f.getName();
+                    long startTime = System.currentTimeMillis();
                     System.out.println("Processing: " + f.getName());
-                    
-                    logging.addJobToLog(fileName, Logging.RUNNING_JOB);
                     Image image = new Image(f);
                     image.processImage();
                     image.write(args[1] + "out_" + fileName);
-                    logging.addJobToLog(fileName, Logging.COMPLETED_JOB);
+                    
+                    long endTime = System.currentTimeMillis();
+                    logging.addJobToLog(fileName, endTime-startTime);
                 } catch (MagickException ex) {
                     Logger.getLogger(JobEstimator.class.getName()).log(Level.SEVERE, null, ex);
                 }

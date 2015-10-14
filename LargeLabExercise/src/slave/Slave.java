@@ -99,7 +99,7 @@ public class Slave implements Runnable {
                         String objectKey = parts[1];
 
                         log("Running job: " + objectKey);
-                        Logging.getInstance().addJobToLog(objectKey, Logging.RUNNING_JOB);
+                        long startTime = System.currentTimeMillis();
                         
                         // Get the actual file contents
                         S3ObjectData s3od = null;
@@ -117,9 +117,10 @@ public class Slave implements Runnable {
                         aws.writeFileContentsToBucket(s3od); 
 
                         // Complete
-                        
+                        long stopTime = System.currentTimeMillis();
                         log("Completing job: " + objectKey);
-                        Logging.getInstance().addJobToLog(objectKey, Logging.COMPLETED_JOB);
+                        
+                        Logging.getInstance().addJobToLog(objectKey, stopTime-startTime);
 
                         // Notify of completion
                         nt.appendMessage(NetworkThread.JOBCMP_MSGID + NetworkThread.MSG_DEL 

@@ -147,10 +147,9 @@ public class Logging {
         }    
     }
     
-    public void addJobToLog(String jobkey, int jobStatus)
+    public void addJobToLog(String jobkey, long timeDelta)
     {
-        long timeDelta = System.currentTimeMillis() - this.startTime;        
-        String s = timeDelta + "," + jobkey + "," + jobStatus;
+        String s = timeDelta + "," + jobkey;
         
         this.writeToNormalLog(s, true);
     }
