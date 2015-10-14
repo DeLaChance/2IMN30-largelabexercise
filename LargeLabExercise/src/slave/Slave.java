@@ -23,7 +23,7 @@ public class Slave implements Runnable {
     
     private final String MASTER_IP; // tmp, master should be 52.26.218.113
     private final int PAUSE_TIME = 1000;
-    private final int MAX_EXT_TIME = 30;
+    private final int MAX_EXT_TIME = 5;
     
     private NetworkThread nt = null;
     private Thread networkThread = null;
@@ -107,11 +107,11 @@ public class Slave implements Runnable {
                             String imageName = this.getNewImageName(objectKey);
 
                             // The actual execution is done in a separate thread to let it timeout
-                            // in case it does not terminate within 15 minutes
+                            // in case it does not terminate within 5 minutes
                             ext = new ExecutionThread(objectKey, imageName, nt);
                             try
                             {
-                                TimeLimitedCodeBlock.runWithTimeout(ext, this.MAX_EXT_TIME, TimeUnit.MILLISECONDS);
+                                TimeLimitedCodeBlock.runWithTimeout(ext, this.MAX_EXT_TIME, TimeUnit.MINUTES);
                             }
                             catch (TimeoutException e) {
                                 log("Timeout afer " + this.MAX_EXT_TIME + " seconds");

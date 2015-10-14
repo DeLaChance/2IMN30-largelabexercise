@@ -34,14 +34,13 @@ public class Job {
     }
     
     /**
-     * The estimation of the load. This is based on heuristics. Memory is the
-     * dominant factor and memory usage is linear with the file size (which is
-     * in bytes)
+     * The estimation of the load of a job. The load is the estimated completion
+     * time in ms. We noted that a file of 7810 bytes took 250 ms to complete.
      * 
      */
     public void estimateLoad()
     {
-        load = Math.max(fileSize / 1000000,1);
+        load = Math.max(fileSize / 7810,1)*250;
     }
 
     public long getLoad()

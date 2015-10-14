@@ -37,13 +37,14 @@ public class MachineData {
     private boolean isRunning = false; // true if the machine can process jobs
     private boolean hasBeenLeased = false; // true if the machine has been leased
     
-    private ArrayList<String> assignedJobs = null; // a list of assigned jobs
+    private ArrayList<Job> assignedJobs = null; // a list of assigned jobs
     private int counter = 0; // a counter for measuring whether the machine is still
     // active
     private int idleCounter = 0; // a counter for measuring how long the machine is not 
     // running any job
     
     private String instanceId = null;
+    private final int MAX_LOAD = 10000;
     
     public MachineData(int memoryCapacity, int index, String instanceId)
     {
@@ -51,7 +52,7 @@ public class MachineData {
         this.curMemoryCapacity = this.maxMemoryCapacity;
         
         this.index = index;
-        this.assignedJobs = new ArrayList<String>();
+        this.assignedJobs = new ArrayList<Job>();
         this.instanceId = instanceId;
     }    
     
@@ -197,9 +198,7 @@ public class MachineData {
     
     public boolean canRunJob(Job job)
     {
-        return (this.getCurCapacityAsAbsolute() > job.getLoad() || this.numberOfJobs() == 0)
-            && this.isRunning == true && this.numberOfJobs() < 3 && 
-                this.getCurCapacityAsAbsolute() > 10;
+        return this.isRunning && (this.numberOfJobs() == 0 || (this.getTotalMachineLoad()+job.getLoad())<MAX_LOAD);
     }
 
     /**
@@ -219,7 +218,7 @@ public class MachineData {
             return;
         }
         
-        this.assignedJobs.add(job.getKey());
+        this.assignedJobs.add(job);
         this.nt.appendMessage(NetworkThread.JOB_MSGID + NetworkThread.MSG_DEL + job.getKey());
     }
     
@@ -232,9 +231,9 @@ public class MachineData {
     {
         ArrayList<String> jobs = new ArrayList<String>();
         
-        for(String job : this.assignedJobs)
+        for(Job job : this.assignedJobs)
         {
-            jobs.add(job);
+            jobs.add(job.getKey());
         }
         
         this.assignedJobs.clear();
@@ -287,5 +286,16 @@ public class MachineData {
         String s = "";
         s += this.getCurCapacityAsPercentage() + "," + this.numberOfJobs();
         return s;
+    }
+    
+    public synchronized int getTotalMachineLoad()
+    {
+        int sum = 0;
+        for(Job j : this.assignedJobs)
+        {
+            sum += j.getLoad();
+        }
+        
+        return sum;
     }
 }
