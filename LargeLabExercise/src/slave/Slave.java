@@ -8,12 +8,12 @@ package slave;
 import both.Monitor;
 import both.NetworkThread;
 import gen.AWS;
-import gen.Image;
-import gen.Logging;
-import gen.S3ObjectData;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
+import static java.util.concurrent.TimeUnit.SECONDS;
+import java.util.concurrent.TimeoutException;
 
 /**
  *
@@ -23,6 +23,7 @@ public class Slave implements Runnable {
     
     private final String MASTER_IP; // tmp, master should be 52.26.218.113
     private final int PAUSE_TIME = 1000;
+    private final int MAX_EXT_TIME = 30;
     
     private NetworkThread nt = null;
     private Thread networkThread = null;
@@ -36,6 +37,8 @@ public class Slave implements Runnable {
     
     private boolean isRunning = false;
     private boolean isRunningJob = false;
+    
+    private ExecutionThread ext = null;
     
     private AWS aws = null;
     
@@ -70,6 +73,8 @@ public class Slave implements Runnable {
         this.monitor = new Monitor(nt);
         this.monitorThread = new Thread(this.monitor);
         this.monitorThread.start();    
+        
+        this.ext = null;
     }
     
     @Override
@@ -85,48 +90,38 @@ public class Slave implements Runnable {
             {
                 Thread.sleep(PAUSE_TIME);
     
-                // Get the top message of the incoming network queue
-                // null if no message is there
-                String msg = nt.readTopMessage();
-                
-                if( msg != null )
+                if( this.ext == null )
                 {
-                    // Look up the type of the message
-                    if( msg.startsWith(NetworkThread.JOB_MSGID) )
+                    // Get the top message of the incoming network queue
+                    // null if no message is there
+                    String msg = nt.readTopMessage();
+
+                    if( msg != null )
                     {
-                        // Start doing job
-                        String[] parts = msg.split(NetworkThread.MSG_DEL);
-                        String objectKey = parts[1];
+                        // Look up the type of the message
+                        if( msg.startsWith(NetworkThread.JOB_MSGID) )
+                        {
+                            // Start doing job
+                            String[] parts = msg.split(NetworkThread.MSG_DEL);
+                            String objectKey = parts[1];
+                            String imageName = this.getNewImageName(objectKey);
 
-                        log("Running job: " + objectKey);
-                        long startTime = System.currentTimeMillis();
-                        
-                        // Get the actual file contents
-                        S3ObjectData s3od = null;
-                        s3od = aws.getFileContentsFromBucket(objectKey);
-
-                        String imageName = getNewImageName(s3od.getInputKey());
-                        s3od.setImageName(imageName);
-
-                          // Process it 
-                        Image image = new Image(s3od.getInputImageData());
-                        image.processImage();
-                        outputImageBytes = image.write(s3od.getImageName());
-                        s3od.setOutputImageData(outputImageBytes);
-                        s3od.setOutputImageSize(outputImageBytes.length);
-                        aws.writeFileContentsToBucket(s3od); 
-
-                        // Complete
-                        long stopTime = System.currentTimeMillis();
-                        log("Completing job: " + objectKey);
-                        
-                        Logging.getInstance().addJobToLog(objectKey, stopTime-startTime);
-
-                        // Notify of completion
-                        nt.appendMessage(NetworkThread.JOBCMP_MSGID + NetworkThread.MSG_DEL 
-                            + objectKey);
+                            // The actual execution is done in a separate thread to let it timeout
+                            // in case it does not terminate within 15 minutes
+                            ext = new ExecutionThread(objectKey, imageName, nt);
+                            try
+                            {
+                                TimeLimitedCodeBlock.runWithTimeout(ext, this.MAX_EXT_TIME, TimeUnit.MILLISECONDS);
+                            }
+                            catch (TimeoutException e) {
+                                log("Timeout afer " + this.MAX_EXT_TIME + " seconds");
+                                ext.complete();
+                                ext = null;
+                            }
+                        }
                     }
                 }
+
             }
             catch(Exception e)
             {
