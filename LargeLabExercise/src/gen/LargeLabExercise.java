@@ -10,9 +10,11 @@ import both.NetworkThread;
 import java.io.File;
 import java.util.Timer;
 import java.util.TimerTask;
+import java.util.concurrent.TimeUnit;
 import master.Master;
 import master.Scheduler;
 import slave.Slave;
+import slave.TimeLimitedCodeBlock;
 
 /**
  *
@@ -25,11 +27,13 @@ public class LargeLabExercise {
      */
     public static void main(String[] args) 
     {
+        
         if( args[0].equals("slave") )
         {
             // Need to start monitor, processor
             Slave slave = new Slave();
             slave.run();
+            System.exit(0);
         }
         else 
         {

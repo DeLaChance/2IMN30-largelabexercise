@@ -121,6 +121,13 @@ public class Slave implements Runnable {
                         }
                     }
                 }
+                else
+                {
+                    if( !ext.isRunning() )
+                    {
+                        ext = null;
+                    }
+                }
 
             }
             catch(Exception e)
