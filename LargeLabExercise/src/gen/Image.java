@@ -19,7 +19,7 @@ public class Image
     private MagickImage instance;
     private ImageInfo info;
     private byte[] bytes;
-    //private File file;
+    private File file;
     
     public Image(byte[] bytes) throws MagickException
     {
@@ -27,6 +27,13 @@ public class Image
         this.bytes = bytes; // image in byte array
         this.instance = new MagickImage(this.info, bytes);
         //this.file = new File(fileName);
+    }
+    
+    public Image(File file) throws MagickException
+    {
+        this.file = file;
+        this.info = new ImageInfo(file.getName());
+        this.instance = new MagickImage(info);
     }
     
     public void processImage() throws MagickException

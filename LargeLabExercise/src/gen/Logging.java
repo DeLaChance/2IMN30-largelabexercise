@@ -22,7 +22,7 @@ import master.MachineData;
  */
 public class Logging {
     
-    private final String DIR = "/home/ubuntu/";
+    private String DIR = "/home/ubuntu/logs/";
     public static final int INCOMING_JOB = 0;
     public static final int RUNNING_JOB = 1;
     public static final int COMPLETED_JOB = 2;
@@ -37,6 +37,12 @@ public class Logging {
     
     private Logging()
     {
+        File theDir = new File(DIR);
+        if( theDir.exists() == false )
+        {
+            theDir.mkdir();
+        }
+        
         System.out.println("Logging files are in: " + DIR);
         this.startTime = System.currentTimeMillis();
         
@@ -44,6 +50,11 @@ public class Logging {
         Date date = new Date();  
         this.dateString = dateFormat.format(date);
         
+    }
+    
+    public void setInputDir(String dir)
+    {
+        this.DIR = dir;
     }
     
     public synchronized static Logging getInstance()
