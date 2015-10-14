@@ -94,14 +94,14 @@ public class Scheduler implements Runnable {
                         else
                         {
                             log(" no machine available");
-                            log(MachineContainer.getInstance().getMachineStatistics());
+                            //log(MachineContainer.getInstance().getMachineStatistics());
                             startWaiting();
                         }
                     }
                     else
                     {
                         // Send call to machine
-                        log("assigning job " + j.getKey() + ", " + j.getLoad());
+                        log("assigning job " + j.getKey() + ", " + j.getLoad() +  " to " + m.getIp());
                         this.jq.scheduleJob(j, j.getPriority());
                         m.assignJob(j);
                     }

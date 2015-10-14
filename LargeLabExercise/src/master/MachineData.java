@@ -224,7 +224,17 @@ public class MachineData {
     
     public void removeJob(String jobkey)
     {
-        this.assignedJobs.remove(jobkey);
+        Job job = null;
+        
+        for(Job j : this.assignedJobs)
+        {
+            if(j.getKey().equals(jobkey))
+            {
+                job = j;
+            }
+        }
+        
+        this.assignedJobs.remove(job);
     }
     
     public ArrayList<String> removeAssignedJobs()
@@ -284,7 +294,8 @@ public class MachineData {
     public String getSummary()
     {
         String s = "";
-        s += this.getCurCapacityAsPercentage() + "," + this.numberOfJobs();
+        s += this.getCurCapacityAsPercentage() + "," + this.numberOfJobs() + 
+            "," + this.getTotalMachineLoad();
         return s;
     }
     
