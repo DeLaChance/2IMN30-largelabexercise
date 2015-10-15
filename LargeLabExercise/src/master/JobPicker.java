@@ -66,11 +66,24 @@ public class JobPicker implements Runnable {
     public void run() {
         Random rand = new Random();
         
+        int i = 0; //ElasticityTestCode
         while( this.isRunning == true )
         {
             try 
             {
-                Thread.sleep(SAMPLE_RATE);
+                //ElasticityTestCode-Start
+                i++;
+                if(i == 10){ //1 second or more (10 images) 
+                    Thread.sleep(50000);
+                }
+                else
+                {
+                    Thread.sleep(SAMPLE_RATE);
+                }
+                //ElasticityTestCode-End
+                
+                
+                //Thread.sleep(SAMPLE_RATE); //uncomment after removing ElasticityTestCode
                 
                 if( this.availableJobs.size() > 0 )
                 {
