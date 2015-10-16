@@ -122,7 +122,7 @@ public class Logging {
                     
                     for(int i = 0; i < noOfMachines; i++)
                     {
-                        s1 += "mem" + i + "," + "#" + i + "," + "load" + i;
+                        s1 += "mem" + i + "," + "set" + i + "," + "load" + i + ",";
                     }
                     
                     if( s1.length() > 0)
