@@ -136,18 +136,28 @@ public class Master implements Runnable {
                         ThreadLock.getInstance().wakeUp(); // Wake up the scheduler
                     }
 
-                    if( md.numberOfJobs() == 0 && md.getCurCapacityAsPercentage() > 75)
+                    if( md.numberOfJobs() == 0 )
                     {
                         if( md.getIdleCounter() > IDLE_THRESHOLD )
                         {
-                            log(" machine is not doing anything, releasing it ");
+                            log("machine " + md.getIp() + " is not doing anything, releasing it ");
                             md.releaseMachine();
                             ThreadLock.getInstance().wakeUp(); // Wake up the scheduler
                         }
                         else
                         {
+                            if( md.getIdleCounter() == 0 )
+                            {
+                                log("machine " + md.getIp() + " is not doing anything. If this remains \n" +
+                                    "for 15 sec the machine will be shut down.");
+                            }
+                            
                             md.increaseIdleCounter();
                         }
+                    }
+                    else
+                    {
+                        md.resetIdleCounter();
                     }
 
                     md.increaseCounter();

@@ -295,7 +295,7 @@ public class MachineData {
     {
         String s = "";
         s += this.getCurCapacityAsPercentage() + "," + this.getAssignedJobsAsString() + 
-            "," + this.getTotalMachineLoad();
+            "," + this.getTotalMachineLoad() + "," + this.isRunning;
         return s;
     }
     
@@ -316,11 +316,13 @@ public class MachineData {
         for(Job job : this.assignedJobs)
         {
             s += job.getKey();
-            s += ", ";
+            s += " ";
         }
         
         if( s.length() > 0)
             s = s.substring(0, s.length()-2);
+        
+        s = "[" + s + "]";
         
         return s;
     }
