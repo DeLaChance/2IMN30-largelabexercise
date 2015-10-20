@@ -19,9 +19,10 @@ import java.util.ArrayList;
 public class Master implements Runnable {
     
     private final int MASTER_RATE = 1000;
-    private final int STOPPED_THRESHOLD = 15; // STOPPED_THRESHOLD * MASTER_RATE determines
+    // 60 is tmp for the load balancing
+    private final int STOPPED_THRESHOLD = 60; // STOPPED_THRESHOLD * MASTER_RATE determines
     // the number of milliseconds before machine is stopped due to not being alive
-    private final int IDLE_THRESHOLD = 15; // Same for being idle
+    private final int IDLE_THRESHOLD = 60; // Same for being idle
     
     private boolean isRunning = false;
 
@@ -149,7 +150,7 @@ public class Master implements Runnable {
                             if( md.getIdleCounter() == 0 )
                             {
                                 log("machine " + md.getInstanceId() + " is not doing anything. If this remains \n" +
-                                    "for 15 sec the machine will be shut down.");
+                                    "for 60 (tmp) sec the machine will be shut down.");
                             }
                             
                             md.increaseIdleCounter();

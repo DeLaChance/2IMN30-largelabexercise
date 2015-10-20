@@ -44,7 +44,7 @@ public class MachineData {
     // running any job
     
     private String instanceId = null;
-    private final int MAX_LOAD = 10000;
+    private final int MAX_LOAD = 5000; // tmp load balancing
     
     public MachineData(int memoryCapacity, int index, String instanceId)
     {
