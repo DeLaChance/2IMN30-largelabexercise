@@ -23,7 +23,7 @@ import gen.ThreadLock;
  */
 public class JobPicker implements Runnable {
     
-    private final int SAMPLE_RATE = 100; // The sample rate in milliseconds
+    private final int SAMPLE_RATE = 500; // The sample rate in milliseconds
     
     private static JobPicker instance = null;   
     private boolean isRunning = false;
@@ -71,20 +71,20 @@ public class JobPicker implements Runnable {
         {
             try 
             {
-                //ElasticityTestCode-Start
-                i++;
-                if(i == 50){ //1 second or more (10 images) 
-                    log("Burst is over");
-                    Thread.sleep(180000);
-                    i = 0;
-                }
-                else
-                {
-                    Thread.sleep(10);
-                }
-                //ElasticityTestCode-End
+//                //ElasticityTestCode-Start
+//                i++;
+//                if(i == 50){ //1 second or more (10 images) 
+//                    log("Burst is over");
+//                    Thread.sleep(180000);
+//                    i = 0;
+//                }
+//                else
+//                {
+//                    Thread.sleep(10);
+//                }
+//                //ElasticityTestCode-End
 
-                //Thread.sleep(SAMPLE_RATE); //uncomment after removing ElasticityTestCode
+                Thread.sleep(SAMPLE_RATE);
                 
                 if( this.availableJobs.size() > 0 )
                 {
