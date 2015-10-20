@@ -86,7 +86,7 @@ public class MachineContainer {
         {
             if( md.hasBeenLeased() == false && md.isRunning() == false )
             {
-                if( lastLeased.equals(md.getInstanceId()) )
+                if( !lastLeased.equals(md.getInstanceId()) )
                 {
                     lastLeased = md.getInstanceId();
                     return md;
@@ -99,7 +99,7 @@ public class MachineContainer {
             }
         }
         
-        if( l == 1 )
+        if( l >= 1 )
         {
             return md1;
         }
