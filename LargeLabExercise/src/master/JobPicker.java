@@ -75,7 +75,7 @@ public class JobPicker implements Runnable {
                 i++;
                 if(i == 10){ //1 second or more (10 images) 
                     log("Burst is over");
-                    Thread.sleep(60000);
+                    Thread.sleep(75000);
                     i = 0;
                 }
                 else

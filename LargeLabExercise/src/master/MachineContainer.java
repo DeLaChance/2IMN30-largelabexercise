@@ -15,6 +15,7 @@ public class MachineContainer {
     
     private static MachineContainer instance = null;
     private ArrayList<MachineData> machinedata;
+    private String lastLeased = null;
     
     private MachineContainer()
     {
@@ -78,13 +79,30 @@ public class MachineContainer {
     }
 
     public MachineData getLeasableMachine() {
+        int l = 0;
+        MachineData md1 = null;
+        
         for(MachineData md : this.machinedata)
         {
             if( md.hasBeenLeased() == false && md.isRunning() == false )
             {
-                return md;
+                if( lastLeased.equals(md.getInstanceId()) )
+                {
+                    lastLeased = md.getInstanceId();
+                    return md;
+                }
+                else
+                {
+                    md1 = md;
+                    l += 1;
+                }
             }
-        }        
+        }
+        
+        if( l == 1 )
+        {
+            return md1;
+        }
         
         return null;
     }

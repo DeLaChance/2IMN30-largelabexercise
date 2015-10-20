@@ -101,7 +101,7 @@ public class Scheduler implements Runnable {
                     else
                     {
                         // Send call to machine
-                        log("assigning job " + j.getKey() + ", " + j.getLoad() +  " to " + m.getIp());
+                        log("assigning job " + j.getKey() + ", " + j.getLoad() +  " to " + m.getInstanceId());
                         this.jq.scheduleJob(j, j.getPriority());
                         m.assignJob(j);
                     }
@@ -207,14 +207,14 @@ public class Scheduler implements Runnable {
             return null;
         }
         
-        int maxCapacity = 0;
+        int minCapacity = Integer.MAX_VALUE;
         MachineData m1 = null;
         
         for(MachineData m : MachineContainer.getInstance().getData())
         {
-            if( m.canRunJob(job) && m.getCurCapacityAsPercentage() > maxCapacity)
+            if( m.canRunJob(job) && m.getTotalMachineLoad() < minCapacity)
             {
-                maxCapacity = m.getCurCapacityAsPercentage();
+                minCapacity = m.getCurCapacityAsPercentage();
                 m1 = m;
             }
         }

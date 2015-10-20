@@ -299,6 +299,11 @@ public class MachineData {
         return s;
     }
     
+    public String getInstanceId()
+    {
+        return this.instanceId;
+    }
+    
     public synchronized int getTotalMachineLoad()
     {
         int sum = 0;

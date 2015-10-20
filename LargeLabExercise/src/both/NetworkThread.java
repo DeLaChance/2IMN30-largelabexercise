@@ -93,11 +93,7 @@ public class NetworkThread implements Runnable {
             {
                 this.socket.close();
             }
-            
-            if( this.welcomeSocket != null )
-            {
-                this.welcomeSocket.close();
-            }
+
         } catch (IOException ex) {
             Logger.getLogger(NetworkThread.class.getName()).log(Level.SEVERE, null, ex);
         }

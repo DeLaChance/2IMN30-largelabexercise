@@ -140,7 +140,7 @@ public class Master implements Runnable {
                     {
                         if( md.getIdleCounter() > IDLE_THRESHOLD )
                         {
-                            log("machine " + md.getIp() + " is not doing anything, releasing it ");
+                            log("machine " + md.getInstanceId() + " is not doing anything, releasing it ");
                             md.releaseMachine();
                             ThreadLock.getInstance().wakeUp(); // Wake up the scheduler
                         }
@@ -148,7 +148,7 @@ public class Master implements Runnable {
                         {
                             if( md.getIdleCounter() == 0 )
                             {
-                                log("machine " + md.getIp() + " is not doing anything. If this remains \n" +
+                                log("machine " + md.getInstanceId() + " is not doing anything. If this remains \n" +
                                     "for 15 sec the machine will be shut down.");
                             }
                             
