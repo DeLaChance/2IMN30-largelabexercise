@@ -15,7 +15,7 @@ public class MachineContainer {
     
     private static MachineContainer instance = null;
     private ArrayList<MachineData> machinedata;
-    private String lastLeased = null;
+    private String lastLeased = "";
     
     private MachineContainer()
     {
