@@ -172,7 +172,7 @@ public class Logging {
         this.writeToNormalLog(s, false);
     }
     
-    public void addToMasterEventStatus(String machineId, int eventId)
+    public void addToMasterEventStatus(String machineId, String jobKey, int eventId)
     {
         if( masterEventWriter == null )
         {
@@ -180,11 +180,11 @@ public class Logging {
                 // Open file
                 File file = new File(DIR + this.dateString + "MasterEventWriter.csv"); // Create it if not present
                 this.masterEventWriter = new FileWriter(file, true);
-                masterEventWriter.append("timeSinceStart (ms), machine instance Id, eventId");
+                masterEventWriter.append("timeSinceStart (ms), machine instance Id, job, eventId");
             }
             catch(Exception ex)
             {
-            
+                System.out.println(ex.toString());
             }
         }
 
