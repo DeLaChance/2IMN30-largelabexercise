@@ -73,14 +73,14 @@ public class JobPicker implements Runnable {
             {
                 //ElasticityTestCode-Start
                 i++;
-                if(i == 10){ //1 second or more (10 images) 
+                if(i == 50){ //1 second or more (10 images) 
                     log("Burst is over");
-                    Thread.sleep(90000);
+                    Thread.sleep(180000);
                     i = 0;
                 }
                 else
                 {
-                    Thread.sleep(20);
+                    Thread.sleep(10);
                 }
                 //ElasticityTestCode-End
 

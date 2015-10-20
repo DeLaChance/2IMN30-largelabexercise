@@ -34,6 +34,7 @@ public class Logging {
    
     private FileWriter monitorWriter = null;
     private FileWriter normalWriter;
+    private FileWriter masterEventWriter = null;
     
     private Logging()
     {
@@ -122,7 +123,7 @@ public class Logging {
                     
                     for(int i = 0; i < noOfMachines; i++)
                     {
-                        s1 += "mem" + i + "," + "set" + i + "," + "load" + i + "," + "running" + ",";
+                        s1 += "mem" + i + "," + "set" + i + "," + "load" + i + "," + "running" + i + ",";
                     }
                     
                     if( s1.length() > 0)
@@ -169,6 +170,27 @@ public class Logging {
             s = s.substring(0, s.length()-1);
         
         this.writeToNormalLog(s, false);
+    }
+    
+    public void addToMasterEventStatus(String machineId, int eventId)
+    {
+        if( masterEventWriter == null )
+        {
+            try {
+                // Open file
+                File file = new File(DIR + this.dateString + "MasterEventWriter.csv"); // Create it if not present
+                this.masterEventWriter = new FileWriter(file, true);
+                masterEventWriter.append("timeSinceStart (ms), machine instance Id, eventId");
+            }
+            catch(Exception ex)
+            {
+            
+            }
+        }
+
+        long timeDelta = System.currentTimeMillis() - this.startTime;         
+        
+
     }
     
 }
