@@ -16,10 +16,15 @@ import com.amazonaws.services.ec2.AmazonEC2Client;
 import com.amazonaws.services.ec2.model.DescribeInstancesRequest;
 import com.amazonaws.services.ec2.model.DescribeInstancesResult;
 import com.amazonaws.services.ec2.model.Instance;
+import com.amazonaws.services.ec2.model.Reservation;
+import com.amazonaws.services.ec2.model.RunInstancesRequest;
+import com.amazonaws.services.ec2.model.RunInstancesResult;
 import com.amazonaws.services.ec2.model.StartInstancesRequest;
 import com.amazonaws.services.ec2.model.StartInstancesResult;
 import com.amazonaws.services.ec2.model.StopInstancesRequest;
 import com.amazonaws.services.ec2.model.StopInstancesResult;
+import com.amazonaws.services.ec2.model.TerminateInstancesRequest;
+import com.amazonaws.services.ec2.model.TerminateInstancesResult;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3Client;
 import com.amazonaws.services.s3.model.GetObjectRequest;
@@ -251,6 +256,74 @@ public class AWS {
             s3od = null;
             meta = null;
         }
+    }
+    
+    /**
+     * Creates a t2.micro instance in AWS and returns its instance id
+     * 
+     * @return instance id
+     */
+    public String createMachine()
+    {
+        try
+        {
+            RunInstancesRequest runInstancesRequest = new RunInstancesRequest()
+            .withInstanceType("t2.micro")
+            .withImageId("ami-2cf81b1f")
+            .withMinCount(1)
+            .withMaxCount(1)
+            .withKeyName("LinuxKeyPair");
+            
+            RunInstancesResult runInstances = ec2.runInstances(runInstancesRequest);   
+            Reservation r = runInstances.getReservation();
+
+            if( r != null )
+            {
+                if( r.getInstances().size() > 0 )
+                {
+                    return r.getInstances().get(0).getInstanceId();
+                }
+            }
+            
+            
+        }
+        catch (AmazonServiceException ase) {
+            System.out.println("Caught an AmazonServiceException, which means your request made it "
+                    + "to Amazon EC2, but was rejected with an error response for some reason.");
+            System.out.println("Error Message:    " + ase.getMessage());
+            System.out.println("HTTP Status Code: " + ase.getStatusCode());
+            System.out.println("AWS Error Code:   " + ase.getErrorCode());
+            System.out.println("Error Type:       " + ase.getErrorType());
+            System.out.println("Request ID:       " + ase.getRequestId());
+        } catch (AmazonClientException ace) {
+            System.out.println("Caught an AmazonClientException, which means the client encountered "
+                    + "a serious internal problem while trying to communicate with EC2, "
+                    + "such as not being able to access the network.");
+            System.out.println("Error Message: " + ace.getMessage());
+        }
+        catch(Exception ex)
+        {
+            System.out.println("Another exception: " + ex.toString());
+            ex.printStackTrace();
+        }
+        
+        return null;
+    }
+    
+    /**
+     * Destroys a machine with a certain instance id
+     * 
+     * @param instanceId 
+     */
+    public void destroyMachine(String instanceId)
+    {
+        TerminateInstancesRequest terminateInstancesRequest = new TerminateInstancesRequest();
+        ArrayList<String> instanceIds = new ArrayList<String>();
+        instanceIds.add(instanceId);
+        
+        terminateInstancesRequest.setInstanceIds(instanceIds);
+        TerminateInstancesResult terminateInstancesResult = ec2.terminateInstances(terminateInstancesRequest);
+
     }
     
     /**

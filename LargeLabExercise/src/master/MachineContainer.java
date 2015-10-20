@@ -17,21 +17,16 @@ public class MachineContainer {
     private ArrayList<MachineData> machinedata;
     private String lastLeased = "";
     
+    public static final int MAX_NO_OF_SLAVES = 4;
+    
     private MachineContainer()
     {
         machinedata = new ArrayList<MachineData>();
         
-        MachineData md1 = new MachineData(1000, 0, "i-299e6ced");
-        addMachine(md1);        
-        
-        MachineData md2 = new MachineData(1000, 0, "i-849c6e40");
-        addMachine(md2);
-        
-        MachineData md3 = new MachineData(1000, 0, "i-151fddd1");
-        addMachine(md3);
-        
-        MachineData md4 = new MachineData(1000, 0, "i-73b577b7");
-        addMachine(md4);
+        for(int i = 0; i < MAX_NO_OF_SLAVES; i++)
+        {
+            MachineData md = new MachineData(1000, i);
+        }
     }
     
     public static MachineContainer getInstance()

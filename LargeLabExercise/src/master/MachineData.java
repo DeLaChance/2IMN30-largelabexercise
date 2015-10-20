@@ -46,18 +46,18 @@ public class MachineData {
     private String instanceId = null;
     private final int MAX_LOAD = 5000; // tmp load balancing
     
-    public MachineData(int memoryCapacity, int index, String instanceId)
+    public MachineData(int memoryCapacity, int index)
     {
         this.maxMemoryCapacity = memoryCapacity;
         this.curMemoryCapacity = this.maxMemoryCapacity;
         
         this.index = index;
         this.assignedJobs = new ArrayList<Job>();
-        this.instanceId = instanceId;
     }    
     
     public void leaseMachine()
     {
+        this.instanceId = AWS.getInstance().createMachine();
         String ip = AWS.getInstance().leaseMachine(this.instanceId);
         
         while( isValidIp(ip) == false )
@@ -149,7 +149,7 @@ public class MachineData {
         this.resetIdleCounter();
         
         // Actually releases the machine in Amazon
-        AWS.getInstance().releaseMachine(this.instanceId);
+        AWS.getInstance().destroyMachine(this.instanceId);
     }
     
     private void initialize()
