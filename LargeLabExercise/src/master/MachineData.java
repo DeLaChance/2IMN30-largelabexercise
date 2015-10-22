@@ -143,7 +143,6 @@ public class MachineData {
     {
         if( this.instanceId == null )
         {
-            System.out.println("ERROR: instanceId is null");
             return;
         }
         
