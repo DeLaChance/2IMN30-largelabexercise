@@ -128,7 +128,7 @@ public class NetworkThread implements Runnable {
         else
         {
             int attempts = 1;
-            while( tryConnect() == false && attempts < 10 )
+            while( tryConnect() == false && attempts < 100 )
             {
                 try
                 {
