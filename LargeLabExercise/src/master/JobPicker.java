@@ -94,7 +94,7 @@ public class JobPicker implements Runnable {
                     String s = s3o.getKey();
                     long l = s3o.getSize();
                     int p = 3;
-                    log("Picked job " + s + " with load " + l + " priority " + p);
+                    //log("Picked job " + s + " with load " + l + " priority " + p);
 
                     Job job = new Job(s, l, p);
                     this.jobqueue.addJob(job, p);

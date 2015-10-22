@@ -54,6 +54,8 @@ public class MachineData {
         
         this.index = index;
         this.assignedJobs = new ArrayList<Job>();
+        
+        this.initialize();
     }    
     
     public void leaseMachine()
