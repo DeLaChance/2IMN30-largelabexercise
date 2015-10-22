@@ -95,8 +95,8 @@ public class Scheduler implements Runnable {
                         }
                         else
                         {
-                            log(" no machine available");
-                            log(MachineContainer.getInstance().getMachineStatistics());
+                            log(" no machine available to lease...");
+                            //log(MachineContainer.getInstance().getMachineStatistics());
                             startWaiting();
                         }
                     }

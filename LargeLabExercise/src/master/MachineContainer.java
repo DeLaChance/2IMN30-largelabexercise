@@ -26,6 +26,7 @@ public class MachineContainer {
         for(int i = 0; i < MAX_NO_OF_SLAVES; i++)
         {
             MachineData md = new MachineData(1000, i);
+            this.machinedata.add(md);
         }
     }
     
