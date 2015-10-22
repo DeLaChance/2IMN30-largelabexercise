@@ -281,7 +281,9 @@ public class AWS {
             {
                 if( r.getInstances().size() > 0 )
                 {
-                    return r.getInstances().get(0).getInstanceId();
+                    String s = r.getInstances().get(0).getInstanceId();
+                    System.out.println("Created new machine with instance id: " + s);
+                    return s;
                 }
             }
             

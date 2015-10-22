@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import master.MachineData;
 import gen.Job;
 import gen.JobQueue;
+import gen.Logging;
 import gen.ThreadLock;
 
 /**
@@ -88,6 +89,7 @@ public class Scheduler implements Runnable {
                             }
                             else 
                             {
+                                Logging.getInstance().addEvent(0, "leasing new machine");
                                 m.leaseMachine();
                             }
                         }
@@ -102,6 +104,7 @@ public class Scheduler implements Runnable {
                     {
                         // Send call to machine
                         log("assigning job " + j.getKey() + ", " + j.getLoad() +  " to " + m.getInstanceId());
+                        Logging.getInstance().addEvent(3, j.getKey() + " " + j.getLoad() + " " + m.getInstanceId());
                         this.jq.scheduleJob(j, j.getPriority());
                         m.assignJob(j);
                     }

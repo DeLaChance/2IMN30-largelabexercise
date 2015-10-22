@@ -45,6 +45,7 @@ public class MachineData {
     
     private String instanceId = null;
     private final int MAX_LOAD = 5000; // tmp load balancing
+    private int cpuUsage;
     
     public MachineData(int memoryCapacity, int index)
     {
@@ -138,6 +139,24 @@ public class MachineData {
     
     public void releaseMachine()
     {
+        if( this.instanceId == null )
+        {
+            System.out.println("ERROR: instanceId is null");
+            return;
+        }
+        
+        // Actually releases the machine in Amazon
+        AWS.getInstance().destroyMachine(this.instanceId);
+        
+        this.initialize();
+    }
+    
+    private void initialize()
+    {
+        this.curMemoryCapacity = maxMemoryCapacity; 
+        this.cpuUsage = 100;
+        this.instanceId = null;
+        
         if( this.nt != null )
         {
             this.nt.stop();
@@ -146,15 +165,7 @@ public class MachineData {
         this.hasBeenLeased = false;
         this.isRunning = false;
         this.resetCounter();
-        this.resetIdleCounter();
-        
-        // Actually releases the machine in Amazon
-        AWS.getInstance().destroyMachine(this.instanceId);
-    }
-    
-    private void initialize()
-    {
-        this.curMemoryCapacity = maxMemoryCapacity; 
+        this.resetIdleCounter();        
     }
     
     public int getCurCapacityAsAbsolute()
@@ -194,6 +205,11 @@ public class MachineData {
         Double f = e * d;
         
         this.curMemoryCapacity = f.intValue();
+    }
+    
+    public void setCPUUsage(int cpuUsage)
+    {
+        this.cpuUsage = cpuUsage;
     }
     
     public boolean canRunJob(Job job)
@@ -294,8 +310,9 @@ public class MachineData {
     public String getSummary()
     {
         String s = "";
-        s += this.getCurCapacityAsPercentage() + "," + this.getAssignedJobsAsString() + 
-            "," + this.getTotalMachineLoad() + "," + this.isRunning;
+        s += this.getCurCapacityAsPercentage() + "," + this.numberOfJobs() + "," + 
+            this.getAssignedJobsAsString() + "," + this.getTotalMachineLoad() + 
+            "," + this.isRunning + "," + this.getCPUUsage();
         return s;
     }
     
@@ -330,5 +347,9 @@ public class MachineData {
         s = "[" + s + "]";
         
         return s;
+    }
+
+    private int getCPUUsage() {
+        return this.cpuUsage;
     }
 }

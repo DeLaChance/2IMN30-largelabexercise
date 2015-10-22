@@ -111,4 +111,15 @@ public class JobQueue {
         }
     }
     
+    public synchronized int numberOfJobs()
+    {
+        int total = 0;
+        
+        for(int i = MIN_PRIORITY; i <= MAX_PRIORITY; i++)
+        {
+            total += this.l.get(i).size();
+        }        
+        
+        return total;
+    }    
 }

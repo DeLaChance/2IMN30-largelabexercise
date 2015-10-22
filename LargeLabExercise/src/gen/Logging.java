@@ -38,19 +38,20 @@ public class Logging {
     
     private Logging()
     {
+        DateFormat dateFormat = new SimpleDateFormat("HH_mm_ss_yyyy_MM_dd_");
+        Date date = new Date();  
+        this.dateString = dateFormat.format(date);        
+        
+        DIR += "/" + this.dateString + "/";
         File theDir = new File(DIR);
         if( theDir.exists() == false )
         {
             theDir.mkdir();
+            System.out.println("Creating dir: " + DIR);
         }
         
         System.out.println("Logging files are in: " + DIR);
         this.startTime = System.currentTimeMillis();
-        
-        DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss-yyyy-MM-dd_");
-        Date date = new Date();  
-        this.dateString = dateFormat.format(date);
-        
     }
     
     public void setInputDir(String dir)
@@ -84,7 +85,7 @@ public class Logging {
         {
             try {
                 // Open file
-                File file = new File(DIR + this.dateString + "monitorLog.csv"); // Create it if not present
+                File file = new File(DIR + "monitorLog.csv"); // Create it if not present
                 this.monitorWriter = new FileWriter(file, true);
                 this.monitorWriter.append("timestampSinceStart (ms),cpu (%), mem (%) \n");
                 this.monitorWriter.flush();
@@ -109,7 +110,7 @@ public class Logging {
         {
             try {
                 // Open file
-                File file = new File(DIR + this.dateString + "normalLog.csv"); // Create it if not present
+                File file = new File(DIR + "normalLog.csv"); // Create it if not present
                 this.normalWriter = new FileWriter(file, true);
                 
                 if( isSlave )
@@ -118,12 +119,14 @@ public class Logging {
                 }
                 else
                 {
-                    String s1 = "timestamp,";
+                    String s1 = "timestamp,totalNumberOfJobs,";
                     int noOfMachines = MachineContainer.getInstance().getData().size();
                     
                     for(int i = 0; i < noOfMachines; i++)
                     {
-                        s1 += "mem" + i + "," + "set" + i + "," + "load" + i + "," + "running" + i + ",";
+                        s1 += "memCapacity" + i + ",numberOfJobs" + i + ",setOfJobs" 
+                            + i + ",expectedLoad" + i + ",IsRunning" + i + ",cpuUsage"
+                            + i + ",";
                     }
                     
                     if( s1.length() > 0)
@@ -159,6 +162,7 @@ public class Logging {
     {
         long timeDelta = System.currentTimeMillis() - this.startTime; 
         String s = timeDelta + ",";
+        s += JobQueue.getInstance().numberOfJobs() + ",";
         for(int i = 0; i < MachineContainer.getInstance().getData().size(); i++)
         {
             MachineData md = MachineContainer.getInstance().getData().get(i);
@@ -172,25 +176,46 @@ public class Logging {
         this.writeToNormalLog(s, false);
     }
     
-    public void addToMasterEventStatus(String machineId, String jobKey, int eventId)
+    /**
+     * Adds event to events.csv file.
+     * 
+     * 0 for leasing new machine
+     * 1 for receiving boot message machine
+     * 2 for releasing machine
+     * 3 for assigning job to machine
+     * 4 for receiving completion of job
+     * 
+     * @param eventId 
+     */
+    public void addEvent(int eventId, String msg)
     {
-        if( masterEventWriter == null )
-        {
-            try {
-                // Open file
-                File file = new File(DIR + this.dateString + "MasterEventWriter.csv"); // Create it if not present
-                this.masterEventWriter = new FileWriter(file, true);
-                masterEventWriter.append("timeSinceStart (ms), machine instance Id, job, eventId");
+
+            try 
+            {
+                if( masterEventWriter == null )
+                {                
+                    // Open file
+                    File file = new File(DIR + "events.csv"); // Create it if not present
+                    this.masterEventWriter = new FileWriter(file, true);
+                    masterEventWriter.append("timeSinceStart (ms), eventId, msg" + "\n");
+                }
+                else
+                {
+                    long timeDelta = System.currentTimeMillis() - this.startTime;         
+                    String s = timeDelta + "," + eventId + "," + msg;
+                    masterEventWriter.append(s + "\n");
+                }
+                
+                masterEventWriter.flush();                
+                
             }
             catch(Exception ex)
             {
                 System.out.println(ex.toString());
             }
-        }
-
-        long timeDelta = System.currentTimeMillis() - this.startTime;         
         
 
+        
     }
     
 }

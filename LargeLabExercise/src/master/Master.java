@@ -21,7 +21,7 @@ public class Master implements Runnable {
     private final int MASTER_RATE = 1000;
     private final int STOPPED_THRESHOLD = 15; // STOPPED_THRESHOLD * MASTER_RATE determines
     // the number of milliseconds before machine is stopped due to not being alive
-    private final int IDLE_THRESHOLD = 20; // Same for being idle
+    private final int IDLE_THRESHOLD = 30; // Same for being idle
     
     private boolean isRunning = false;
 
@@ -87,8 +87,10 @@ public class Master implements Runnable {
                             Double avgC = Double.parseDouble(a);
                             Double avgM = Double.parseDouble(b);
                             int mem = avgM.intValue();
+                            int cpu = avgC.intValue();
 
                             md.setCurCapacityAsPercentage(mem);
+                            md.setCPUUsage(cpu);
                            // log("load updated " + md.getCurCapacityAsPercentage());
 
                             md.resetCounter(); // the machine is still alive so 
@@ -107,7 +109,8 @@ public class Master implements Runnable {
                         String[] parts = msg.split(NetworkThread.MSG_DEL);
                         String a = parts[1];                    
                         log("job completed " + a);
-
+                        Logging.getInstance().addEvent(4, a + " " + md.getInstanceId());
+                        
                         // Remove the job from the job queue and the machine data's queue
                         jq.completeJob(a);
                         md.removeJob(a);
@@ -118,6 +121,7 @@ public class Master implements Runnable {
                     if( msg.startsWith(NetworkThread.STARTUP_MSGID) )
                     {
                         log(" new machine booted up");
+                        Logging.getInstance().addEvent(1, md.getIp() + " " + md.getInstanceId());
                         md.activate();
                         ThreadLock.getInstance().wakeUp(); // Wake up the scheduler
                     }
@@ -129,6 +133,7 @@ public class Master implements Runnable {
                     if( md.getCounter() > STOPPED_THRESHOLD )
                     {
                         log(" machine " + md.getInstanceId() + " is not responding. Releasing it.");
+                        Logging.getInstance().addEvent(2, "not responding " + md.getInstanceId());
                         md.releaseMachine();
                         ArrayList<String> uncompletedJobs = md.removeAssignedJobs();
                         JobQueue.getInstance().reassignJobs(uncompletedJobs);
@@ -141,6 +146,7 @@ public class Master implements Runnable {
                         if( md.getIdleCounter() > IDLE_THRESHOLD )
                         {
                             log("machine " + md.getInstanceId() + " is idle. Releasing it ");
+                            Logging.getInstance().addEvent(2, "idle " + md.getInstanceId());
                             md.releaseMachine();
                             ArrayList<String> uncompletedJobs = md.removeAssignedJobs();
                             JobQueue.getInstance().reassignJobs(uncompletedJobs);
@@ -149,10 +155,10 @@ public class Master implements Runnable {
                         }
                         else
                         {
-                            if( md.getIdleCounter() == 0 )
+                            if( md.getIdleCounter() == 2 )
                             {
                                 log("machine " + md.getInstanceId() + " is idle. If this remains \n" +
-                                    "for 20 sec the machine will be shut down.");
+                                    "for 28 sec the machine will be shut down.");
                             }
                             
                             md.increaseIdleCounter();
