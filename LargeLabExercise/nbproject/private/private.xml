@@ -3,7 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/shoaib/Project/2IMN30-largelabexercise/LargeLabExercise/src/master/JobPicker.java</file>
+            <file>file:/home/shoaib/Project/2IMN30-largelabexercise/LargeLabExercise/src/gen/AWS.java</file>
+            <file>file:/home/shoaib/Project/2IMN30-largelabexercise/LargeLabExercise/src/gen/JobEstimator.java</file>
+            <file>file:/home/shoaib/Project/2IMN30-largelabexercise/LargeLabExercise/src/master/Master.java</file>
+            <file>file:/home/shoaib/Project/2IMN30-largelabexercise/LargeLabExercise/src/gen/MachineCreator.java</file>
+            <file>file:/home/shoaib/Project/2IMN30-largelabexercise/LargeLabExercise/src/gen/ShellCommandHandler.java</file>
+            <file>file:/home/shoaib/Project/2IMN30-largelabexercise/LargeLabExercise/src/master/MachineData.java</file>
+            <file>file:/home/shoaib/Project/2IMN30-largelabexercise/LargeLabExercise/src/both/Monitor.java</file>
+            <file>file:/home/shoaib/Project/2IMN30-largelabexercise/LargeLabExercise/src/master/Scheduler.java</file>
         </group>
     </open-files>
 </project-private>
