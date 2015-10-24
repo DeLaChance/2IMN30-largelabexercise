@@ -71,20 +71,20 @@ public class JobPicker implements Runnable {
         {
             try 
             {
-                //ElasticityTestCode-Start
-                i++;
-                if(i == 50){ //1 second or more (10 images) 
-                    log("Burst is over");
-                    Thread.sleep(480000);
-                    i = 0;
-                }
-                else
-                {
-                    Thread.sleep(10);
-                }
-                //ElasticityTestCode-End
+//                //ElasticityTestCode-Start
+//                i++;
+//                if(i == 50){ //1 second or more (10 images) 
+//                    log("Burst is over");
+//                    Thread.sleep(480000);
+//                    i = 0;
+//                }
+//                else
+//                {
+//                    Thread.sleep(10);
+//                }
+//                //ElasticityTestCode-End
 
-  //              Thread.sleep(SAMPLE_RATE);
+                Thread.sleep(SAMPLE_RATE);
                 
                 if( this.availableJobs.size() > 0 )
                 {
