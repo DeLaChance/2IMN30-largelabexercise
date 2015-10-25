@@ -1,0 +1,1041 @@
+timestamp,totalNumberOfJobs,memCapacity0,numberOfJobs0,setOfJobs0,expectedLoad0,IsRunning0,cpuUsage0,memCapacity1,numberOfJobs1,setOfJobs1,expectedLoad1,IsRunning1,cpuUsage1,memCapacity2,numberOfJobs2,setOfJobs2,expectedLoad2,IsRunning2,cpuUsage2,memCapacity3,numberOfJobs3,setOfJobs3,expectedLoad3,IsRunning3,cpuUsage3
+1498,20,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+2498,30,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+3498,39,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+4498,49,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+5499,59,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+6499,69,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+7499,79,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+8499,89,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+9500,99,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+10500,109,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+11500,119,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+12500,129,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+13502,139,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+14502,149,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+15502,159,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+16503,169,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+17503,179,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+18504,189,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+19504,199,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+20505,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+21505,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+22505,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+23506,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+24507,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+25507,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+26507,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+27507,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+28509,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+29509,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+30510,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+31510,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+32510,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+33512,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+34512,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+35512,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+36512,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+37513,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+38514,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+39514,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+40514,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+41514,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+42515,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+43516,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+44516,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+45517,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+46517,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+47517,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+48519,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+49519,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+50519,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+51519,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+52520,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+53521,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+54521,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+55522,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+56522,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+57522,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+58525,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+59526,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+60526,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+61526,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+62526,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+63528,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+64528,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+65528,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+66529,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+67529,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+68530,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+69531,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+70531,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+71531,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+72531,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+73533,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+74533,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+75534,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+76534,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+77534,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+78535,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+79536,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+80536,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+81536,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+82537,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+83538,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+84538,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+85538,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+86539,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+87539,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+88540,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+89541,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+90541,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+91541,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+92541,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+93543,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+94543,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+95543,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+96543,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+97544,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+98545,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+99545,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+100546,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+101546,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+102546,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+103548,200,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+104548,200,100,0,[],0,TRUE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+105549,199,100,1,[InputImage/7835_49(copy).pn],250,TRUE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+106549,197,25,3,[InputImage/7835_49(copy).png InputImage/5128_67.png InputImage/7088_54(copy).pn],750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+107549,195,25,5,[InputImage/7835_49(copy).png InputImage/5128_67.png InputImage/7088_54(copy).png InputImage/5406_65.png InputImage/7469_52.pn],1250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+108551,193,26,7,[InputImage/7835_49(copy).png InputImage/5128_67.png InputImage/7088_54(copy).png InputImage/5406_65.png InputImage/7469_52.png InputImage/6884_55.png InputImage/5786_62.pn],1750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+109551,191,26,9,[InputImage/7835_49(copy).png InputImage/5128_67.png InputImage/7088_54(copy).png InputImage/5406_65.png InputImage/7469_52.png InputImage/6884_55.png InputImage/5786_62.png InputImage/6884_55(copy).png InputImage/5128_67(copy).pn],2250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+110551,189,26,10,[InputImage/5128_67.png InputImage/7088_54(copy).png InputImage/5406_65.png InputImage/7469_52.png InputImage/6884_55.png InputImage/5786_62.png InputImage/6884_55(copy).png InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.pn],2500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+111552,187,28,12,[InputImage/5128_67.png InputImage/7088_54(copy).png InputImage/5406_65.png InputImage/7469_52.png InputImage/6884_55.png InputImage/5786_62.png InputImage/6884_55(copy).png InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).pn],3000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+112553,185,28,13,[InputImage/7088_54(copy).png InputImage/5406_65.png InputImage/7469_52.png InputImage/6884_55.png InputImage/5786_62.png InputImage/6884_55(copy).png InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.pn],3250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+113554,183,28,15,[InputImage/7088_54(copy).png InputImage/5406_65.png InputImage/7469_52.png InputImage/6884_55.png InputImage/5786_62.png InputImage/6884_55(copy).png InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.pn],3750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+114554,181,28,16,[InputImage/5406_65.png InputImage/7469_52.png InputImage/6884_55.png InputImage/5786_62.png InputImage/6884_55(copy).png InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.pn],4000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+115554,179,30,18,[InputImage/5406_65.png InputImage/7469_52.png InputImage/6884_55.png InputImage/5786_62.png InputImage/6884_55(copy).png InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).pn],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+116556,178,30,19,[InputImage/5406_65.png InputImage/7469_52.png InputImage/6884_55.png InputImage/5786_62.png InputImage/6884_55(copy).png InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+117558,178,30,18,[InputImage/7469_52.png InputImage/6884_55.png InputImage/5786_62.png InputImage/6884_55(copy).png InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+118558,178,30,18,[InputImage/7469_52.png InputImage/6884_55.png InputImage/5786_62.png InputImage/6884_55(copy).png InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+119558,178,30,17,[InputImage/6884_55.png InputImage/5786_62.png InputImage/6884_55(copy).png InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],4250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+120559,178,31,17,[InputImage/6884_55.png InputImage/5786_62.png InputImage/6884_55(copy).png InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],4250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+121559,178,31,16,[InputImage/5786_62.png InputImage/6884_55(copy).png InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],4000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+122560,178,31,16,[InputImage/5786_62.png InputImage/6884_55(copy).png InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],4000,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+123561,178,31,16,[InputImage/5786_62.png InputImage/6884_55(copy).png InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],4000,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+124562,178,31,15,[InputImage/6884_55(copy).png InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],3750,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+125562,178,31,15,[InputImage/6884_55(copy).png InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],3750,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+126563,178,31,14,[InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],3500,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+127563,178,31,14,[InputImage/5128_67(copy).png InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],3500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+128564,178,31,13,[InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],3250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+129565,178,31,13,[InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],3250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+130565,178,31,13,[InputImage/5984_59(copy).png InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],3250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+131566,178,31,12,[InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],3000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+132566,178,32,12,[InputImage/3073_80.png InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],3000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+133568,178,32,11,[InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],2750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+134568,178,33,11,[InputImage/2730_82.png InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],2750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+135568,178,33,10,[InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],2500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+136569,178,33,10,[InputImage/5889_60(copy).png InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],2500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+137571,178,34,9,[InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],2250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+138571,178,34,9,[InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],2250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+139571,178,32,9,[InputImage/2710_83.png InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],2250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+140572,178,32,8,[InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],2000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+141572,178,31,8,[InputImage/3342_78.png InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],2000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+142574,178,31,7,[InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],1750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+143574,178,31,7,[InputImage/5516_63.png InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],1750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+144574,178,31,6,[InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],1500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+145575,178,31,6,[InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],1500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+146575,178,31,6,[InputImage/8538_48.png InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],1500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+147576,178,31,5,[InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],1250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+148577,178,31,5,[InputImage/5853_61(copy).png InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],1250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+149577,178,31,4,[InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],1000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+150578,178,31,4,[InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],1000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+151578,178,32,4,[InputImage/4424_73.png InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],1000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+152580,178,32,3,[InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+153580,178,33,3,[InputImage/7111_53(copy).png InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+154580,178,33,2,[InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+155580,178,34,2,[InputImage/7810_50(copy).png InputImage/6329_57(copy).pn],500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+156581,178,34,1,[InputImage/6329_57(copy).pn],250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+157581,178,34,1,[InputImage/6329_57(copy).pn],250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+158583,178,34,0,[],0,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+159583,177,34,1,[InputImage/7614_51.pn],250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+160583,175,33,3,[InputImage/7614_51.png InputImage/10538_46(copy).png InputImage/6329_57.pn],750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+161584,173,33,4,[InputImage/10538_46(copy).png InputImage/6329_57.png InputImage/3967_77.png InputImage/9967_47.pn],1000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+162585,171,31,6,[InputImage/10538_46(copy).png InputImage/6329_57.png InputImage/3967_77.png InputImage/9967_47.png InputImage/4318_74.png InputImage/15150_45(copy).jp],1500,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+163587,169,31,7,[InputImage/6329_57.png InputImage/3967_77.png InputImage/9967_47.png InputImage/4318_74.png InputImage/15150_45(copy).jpg InputImage/5984_59.png InputImage/5328_66.pn],1750,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+164587,167,31,9,[InputImage/6329_57.png InputImage/3967_77.png InputImage/9967_47.png InputImage/4318_74.png InputImage/15150_45(copy).jpg InputImage/5984_59.png InputImage/5328_66.png InputImage/7111_53.png InputImage/5786_62(copy).pn],2250,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+165588,165,31,10,[InputImage/3967_77.png InputImage/9967_47.png InputImage/4318_74.png InputImage/15150_45(copy).jpg InputImage/5984_59.png InputImage/5328_66.png InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.pn],2500,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+166588,163,31,12,[InputImage/3967_77.png InputImage/9967_47.png InputImage/4318_74.png InputImage/15150_45(copy).jpg InputImage/5984_59.png InputImage/5328_66.png InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).pn],3000,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+167588,161,31,14,[InputImage/3967_77.png InputImage/9967_47.png InputImage/4318_74.png InputImage/15150_45(copy).jpg InputImage/5984_59.png InputImage/5328_66.png InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.pn],3500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+168590,159,31,15,[InputImage/9967_47.png InputImage/4318_74.png InputImage/15150_45(copy).jpg InputImage/5984_59.png InputImage/5328_66.png InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.pn],3750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+169590,157,31,17,[InputImage/9967_47.png InputImage/4318_74.png InputImage/15150_45(copy).jpg InputImage/5984_59.png InputImage/5328_66.png InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).pn],4250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+170591,155,31,18,[InputImage/4318_74.png InputImage/15150_45(copy).jpg InputImage/5984_59.png InputImage/5328_66.png InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.pn],4500,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+171591,154,31,19,[InputImage/4318_74.png InputImage/15150_45(copy).jpg InputImage/5984_59.png InputImage/5328_66.png InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.pn],4750,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+172593,154,32,18,[InputImage/15150_45(copy).jpg InputImage/5984_59.png InputImage/5328_66.png InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.pn],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+173593,153,32,19,[InputImage/15150_45(copy).jpg InputImage/5984_59.png InputImage/5328_66.png InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).pn],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+174594,153,33,19,[InputImage/15150_45(copy).jpg InputImage/5984_59.png InputImage/5328_66.png InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).pn],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+175594,153,33,18,[InputImage/5984_59.png InputImage/5328_66.png InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).pn],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+176595,152,33,19,[InputImage/5984_59.png InputImage/5328_66.png InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jp],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+177596,152,33,18,[InputImage/5328_66.png InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jp],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+178597,151,33,19,[InputImage/5328_66.png InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.pn],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+179597,151,34,18,[InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.pn],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+180599,150,34,19,[InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.pn],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+181599,150,34,19,[InputImage/7111_53.png InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.pn],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+182601,150,34,18,[InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.pn],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+183601,149,34,19,[InputImage/5786_62(copy).png InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.pn],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+184602,149,34,18,[InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.pn],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+185602,148,34,19,[InputImage/7810_50.png InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).pn],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+186602,148,34,18,[InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).pn],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+187603,147,34,19,[InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).pn],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+188604,147,34,19,[InputImage/5082_68.png InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).pn],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+189605,147,34,18,[InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).pn],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+190605,146,34,19,[InputImage/5853_61.png InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.pn],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+191606,146,34,18,[InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.pn],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+192606,145,34,19,[InputImage/5328_66(copy).png InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.pn],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+193608,145,34,18,[InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.pn],4500,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+194608,144,34,19,[InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.pn],4750,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+195608,144,34,19,[InputImage/10538_46.png InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.pn],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+196609,144,34,18,[InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.pn],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+197610,143,34,19,[InputImage/3977_76.png InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.pn],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+198613,143,34,18,[InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.pn],4500,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+199613,142,34,19,[InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.pn],4750,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+200613,142,34,19,[InputImage/4027_75.png InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.pn],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+201614,142,34,18,[InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.pn],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+202614,141,35,19,[InputImage/5889_60.png InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).pn],4750,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+203616,141,35,18,[InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).pn],4500,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+204616,140,35,19,[InputImage/5406_65(copy).png InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.pn],4750,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+205617,140,35,18,[InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.pn],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+206617,139,35,19,[InputImage/5516_63(copy).png InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).pn],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+207619,139,35,18,[InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).pn],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+208619,138,35,19,[InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],4750,TRUE,0,100,0,[],0,TRUE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+209620,136,35,19,[InputImage/9967_47(copy).png InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],4750,TRUE,0,100,2,[InputImage/2853_81.png InputImage/5511_64(copy).pn],500,TRUE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+210620,134,35,18,[InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],4500,TRUE,0,100,4,[InputImage/2853_81.png InputImage/5511_64(copy).png InputImage/19563_lovely(copy).jpg InputImage/19563_lovely.jp],1500,TRUE,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+211621,132,35,18,[InputImage/4731_70.png InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],4500,TRUE,0,25,6,[InputImage/2853_81.png InputImage/5511_64(copy).png InputImage/19563_lovely(copy).jpg InputImage/19563_lovely.jpg InputImage/27850_44.jpg InputImage/27850_44(copy).jp],3000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+212622,131,35,17,[InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],4250,TRUE,25,25,6,[InputImage/5511_64(copy).png InputImage/19563_lovely(copy).jpg InputImage/19563_lovely.jpg InputImage/27850_44.jpg InputImage/27850_44(copy).jpg InputImage/51081_41.jp],4250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+213623,131,35,17,[InputImage/4481_72.png InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],4250,TRUE,25,25,6,[InputImage/5511_64(copy).png InputImage/19563_lovely(copy).jpg InputImage/19563_lovely.jpg InputImage/27850_44.jpg InputImage/27850_44(copy).jpg InputImage/51081_41.jp],4250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+214623,131,35,16,[InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],4000,TRUE,0,28,5,[InputImage/19563_lovely(copy).jpg InputImage/19563_lovely.jpg InputImage/27850_44.jpg InputImage/27850_44(copy).jpg InputImage/51081_41.jp],4000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+215624,131,35,16,[InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],4000,TRUE,0,28,5,[InputImage/19563_lovely(copy).jpg InputImage/19563_lovely.jpg InputImage/27850_44.jpg InputImage/27850_44(copy).jpg InputImage/51081_41.jp],4000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+216624,131,35,16,[InputImage/8538_48(copy).png InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],4000,TRUE,0,28,5,[InputImage/19563_lovely(copy).jpg InputImage/19563_lovely.jpg InputImage/27850_44.jpg InputImage/27850_44(copy).jpg InputImage/51081_41.jp],4000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+217626,131,35,15,[InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],3750,TRUE,0,28,4,[InputImage/19563_lovely.jpg InputImage/27850_44.jpg InputImage/27850_44(copy).jpg InputImage/51081_41.jp],3500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+218626,131,35,15,[InputImage/15150_45.jpg InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],3750,TRUE,0,28,4,[InputImage/19563_lovely.jpg InputImage/27850_44.jpg InputImage/27850_44(copy).jpg InputImage/51081_41.jp],3500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+219627,131,35,14,[InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],3500,TRUE,0,28,3,[InputImage/27850_44.jpg InputImage/27850_44(copy).jpg InputImage/51081_41.jp],3000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+220627,131,35,14,[InputImage/3328_79.png InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],3500,TRUE,0,28,3,[InputImage/27850_44.jpg InputImage/27850_44(copy).jpg InputImage/51081_41.jp],3000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+221628,131,34,13,[InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],3250,TRUE,25,28,2,[InputImage/27850_44(copy).jpg InputImage/51081_41.jp],2250,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+222628,131,34,13,[InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],3250,TRUE,25,28,2,[InputImage/27850_44(copy).jpg InputImage/51081_41.jp],2250,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+223630,131,34,13,[InputImage/7088_54.png InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],3250,TRUE,25,28,2,[InputImage/27850_44(copy).jpg InputImage/51081_41.jp],2250,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+224630,131,34,12,[InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],3000,TRUE,25,28,1,[InputImage/51081_41.jp],1500,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+225631,131,34,12,[InputImage/6029_58.png InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],3000,TRUE,25,28,1,[InputImage/51081_41.jp],1500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+226632,131,34,11,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],2750,TRUE,0,28,0,[],0,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+227633,131,34,11,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],2750,TRUE,0,28,0,[],0,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+228634,131,34,11,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],2750,TRUE,0,28,0,[],0,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+229634,131,34,11,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],2750,TRUE,0,28,0,[],0,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+230635,131,34,11,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],2750,TRUE,0,28,0,[],0,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+231635,131,34,11,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],2750,TRUE,0,28,0,[],0,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+232635,131,34,11,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],2750,TRUE,0,28,0,[],0,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+233637,131,34,11,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],2750,TRUE,0,28,0,[],0,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+234637,130,34,11,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],2750,TRUE,0,28,1,[InputImage/48283_43(copy).jp],1500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+235637,128,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,1,[InputImage/50638_42(copy).jp],1500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+236638,126,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,3,[InputImage/50638_42(copy).jpg InputImage/50638_42.jpg InputImage/47658_646148(copy).jp],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+237638,126,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,3,[InputImage/50638_42(copy).jpg InputImage/50638_42.jpg InputImage/47658_646148(copy).jp],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+238640,126,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,2,[InputImage/50638_42.jpg InputImage/47658_646148(copy).jp],3000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+239640,125,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,3,[InputImage/50638_42.jpg InputImage/47658_646148(copy).jpg InputImage/47658_646148.jp],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+240640,125,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,2,[InputImage/47658_646148(copy).jpg InputImage/47658_646148.jp],3000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+241641,124,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,3,[InputImage/47658_646148(copy).jpg InputImage/47658_646148.jpg InputImage/48283_43.jp],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+242642,124,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,2,[InputImage/47658_646148.jpg InputImage/48283_43.jp],3000,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+243643,123,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,3,[InputImage/47658_646148.jpg InputImage/48283_43.jpg InputImage/61005_wall.jp],4750,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+244643,123,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,3,[InputImage/47658_646148.jpg InputImage/48283_43.jpg InputImage/61005_wall.jp],4750,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+245644,123,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,2,[InputImage/48283_43.jpg InputImage/61005_wall.jp],3250,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+246644,123,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,2,[InputImage/48283_43.jpg InputImage/61005_wall.jp],3250,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+247645,123,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,1,[InputImage/61005_wall.jp],1750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+248646,122,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,2,[InputImage/61005_wall.jpg InputImage/63529_40.jp],3750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+249646,122,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,1,[InputImage/63529_40.jp],2000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+250647,121,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,2,[InputImage/63529_40.jpg InputImage/65201_39(copy).jp],4000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+251647,121,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,2,[InputImage/63529_40.jpg InputImage/65201_39(copy).jp],4000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+252649,121,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,1,[InputImage/65201_39(copy).jp],2000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+253649,120,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,2,[InputImage/65201_39(copy).jpg InputImage/65201_39.jp],4000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+254649,120,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,1,[InputImage/65201_39.jp],2000,TRUE,50,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+255650,119,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,28,2,[InputImage/65201_39.jpg InputImage/63529_40(copy).jp],4000,TRUE,50,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+256650,119,34,12,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],4250,TRUE,0,30,2,[InputImage/65201_39.jpg InputImage/63529_40(copy).jp],4000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+257846,131,100,0,[],0,FALSE,100,30,1,[InputImage/63529_40(copy).jp],2000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+258847,130,100,0,[],0,FALSE,100,30,2,[InputImage/63529_40(copy).jpg InputImage/7614_51(copy).pn],2250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+259847,128,100,0,[],0,FALSE,100,30,3,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.pn],750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+260848,126,100,0,[],0,FALSE,100,31,5,[InputImage/7614_51(copy).png InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.pn],1250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+261848,124,100,0,[],0,FALSE,100,31,6,[InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.pn],1500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+262848,122,100,0,[],0,FALSE,100,31,8,[InputImage/7469_52(copy).png InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.pn],2000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+263850,120,100,0,[],0,FALSE,100,31,9,[InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.pn],2250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+264850,119,100,0,[],0,FALSE,100,31,10,[InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],3750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+265850,119,100,0,[],0,FALSE,100,31,10,[InputImage/7835_49.png InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],3750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+266851,119,100,0,[],0,FALSE,100,31,9,[InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],3500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+267852,119,100,0,[],0,FALSE,100,31,9,[InputImage/2433_84.png InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],3500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+268854,119,100,0,[],0,FALSE,100,31,8,[InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],3250,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+269854,119,100,0,[],0,FALSE,100,31,8,[InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],3250,TRUE,25,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+270855,119,100,0,[],0,FALSE,100,31,8,[InputImage/4671_71.png InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],3250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+271855,119,100,0,[],0,FALSE,100,31,7,[InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],3000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+272856,119,100,0,[],0,FALSE,100,32,7,[InputImage/5511_64.png InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],3000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+273857,119,100,0,[],0,FALSE,100,32,6,[InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],2750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+274858,119,100,0,[],0,FALSE,100,32,6,[InputImage/6811_56.png InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],2750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+275858,119,100,0,[],0,FALSE,100,33,5,[InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],2500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+276858,119,100,0,[],0,FALSE,100,33,5,[InputImage/6811_56(copy).png InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],2500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+277860,119,100,0,[],0,FALSE,100,33,4,[InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jp],2250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+278861,118,100,0,[],0,FALSE,100,33,5,[InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jpg InputImage/78197_38.jp],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+279861,118,100,0,[],0,FALSE,100,27,5,[InputImage/4828_69.png InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jpg InputImage/78197_38.jp],4750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+280862,118,100,0,[],0,FALSE,100,27,4,[InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jpg InputImage/78197_38.jp],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+281862,118,100,0,[],0,FALSE,100,27,4,[InputImage/6029_58(copy).png InputImage/1881_85.png InputImage/51770_Photograph.jpg InputImage/78197_38.jp],4500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+282863,118,100,0,[],0,FALSE,100,28,3,[InputImage/1881_85.png InputImage/51770_Photograph.jpg InputImage/78197_38.jp],4250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+283864,118,100,0,[],0,FALSE,100,28,3,[InputImage/1881_85.png InputImage/51770_Photograph.jpg InputImage/78197_38.jp],4250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+284864,118,100,0,[],0,FALSE,100,28,2,[InputImage/51770_Photograph.jpg InputImage/78197_38.jp],4000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+285864,118,100,0,[],0,FALSE,100,28,2,[InputImage/51770_Photograph.jpg InputImage/78197_38.jp],4000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+286865,118,100,0,[],0,FALSE,100,30,2,[InputImage/51770_Photograph.jpg InputImage/78197_38.jp],4000,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+287866,118,100,0,[],0,FALSE,100,30,1,[InputImage/78197_38.jp],2500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+288866,118,100,0,[],0,FALSE,100,30,1,[InputImage/78197_38.jp],2500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+289867,118,100,0,[],0,FALSE,100,30,1,[InputImage/78197_38.jp],2500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+290867,118,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+291867,117,100,0,[],0,FALSE,100,33,1,[InputImage/78197_38(copy).jp],2500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+292868,117,100,0,[],0,FALSE,100,33,1,[InputImage/78197_38(copy).jp],2500,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+293869,117,100,0,[],0,FALSE,100,33,0,[],0,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+294869,116,100,0,[],0,FALSE,100,33,1,[InputImage/88213_apple(copy).jp],2750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+295870,116,100,0,[],0,FALSE,100,33,1,[InputImage/88213_apple(copy).jp],2750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+296870,116,100,0,[],0,FALSE,100,33,1,[InputImage/88213_apple(copy).jp],2750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+297870,116,100,0,[],0,FALSE,100,33,1,[InputImage/88213_apple(copy).jp],2750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+298872,116,100,0,[],0,FALSE,100,35,0,[],0,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+299872,115,100,0,[],0,FALSE,100,35,1,[InputImage/88213_apple.jp],2750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+300872,115,100,0,[],0,FALSE,100,36,1,[InputImage/88213_apple.jp],2750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+301873,115,100,0,[],0,FALSE,100,36,1,[InputImage/88213_apple.jp],2750,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+302874,115,100,0,[],0,FALSE,100,36,0,[],0,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+303875,114,100,0,[],0,FALSE,100,39,1,[InputImage/102548_sunsetspace(copy).jp],3250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+304875,114,100,0,[],0,FALSE,100,39,1,[InputImage/102548_sunsetspace(copy).jp],3250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+305875,114,100,0,[],0,FALSE,100,39,1,[InputImage/102548_sunsetspace(copy).jp],3250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+306876,114,100,0,[],0,FALSE,100,39,0,[],0,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+307876,113,100,0,[],0,FALSE,100,39,1,[InputImage/103483_header3.jp],3250,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+308878,113,100,0,[],0,FALSE,100,39,0,[],0,TRUE,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100
+309878,112,100,0,[],0,FALSE,100,39,1,[InputImage/103483_heade(copy).jp],3250,TRUE,0,100,0,[],0,TRUE,100,100,0,[],0,FALSE,100
+310878,111,100,0,[],0,FALSE,100,39,1,[InputImage/103483_heade(copy).jp],3250,TRUE,25,100,1,[InputImage/102548_sunsetspace.jp],3250,TRUE,100,100,0,[],0,FALSE,100
+311879,111,100,0,[],0,FALSE,100,39,0,[],0,TRUE,25,25,1,[InputImage/102548_sunsetspace.jp],3250,TRUE,0,100,0,[],0,FALSE,100
+312879,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,25,1,[InputImage/102548_sunsetspace.jp],3250,TRUE,0,100,0,[],0,FALSE,100
+313881,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,25,1,[InputImage/102548_sunsetspace.jp],3250,TRUE,0,100,0,[],0,FALSE,100
+314881,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,28,1,[InputImage/102548_sunsetspace.jp],3250,TRUE,0,100,0,[],0,FALSE,100
+315882,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,28,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+316882,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,32,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+317882,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,32,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+318884,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+319884,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+320884,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+321885,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+322885,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,25,27,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+323886,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,25,27,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+324886,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+325887,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+326887,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+327887,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+328889,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+329889,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+330889,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+331890,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+332890,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+333891,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,25,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+334891,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,25,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+335892,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,25,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+336892,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,25,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+337892,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,25,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+338894,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+339894,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+340894,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+341895,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+342895,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+343896,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,25,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+344897,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,25,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+345897,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+346897,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,0,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+347897,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,25,27,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+348899,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,25,27,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+349899,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,25,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+350899,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,25,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+351900,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,25,27,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+352900,111,100,0,[],0,FALSE,100,30,0,[],0,TRUE,25,27,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+353901,110,100,0,[],0,FALSE,100,30,0,[],0,TRUE,25,27,1,[InputImage/121651_eye.jp],3750,TRUE,25,100,0,[],0,FALSE,100
+354902,109,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,27,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+355902,108,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,27,1,[InputImage/121651_eye(copy).jp],3750,TRUE,0,100,0,[],0,FALSE,100
+356903,108,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,28,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+357903,107,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,28,1,[InputImage/120825_press(copy).jp],3750,TRUE,25,100,0,[],0,FALSE,100
+358904,107,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,28,1,[InputImage/120825_press(copy).jp],3750,TRUE,0,100,0,[],0,FALSE,100
+359904,107,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,28,1,[InputImage/120825_press(copy).jp],3750,TRUE,0,100,0,[],0,FALSE,100
+360905,107,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,28,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+361905,106,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,31,1,[InputImage/129696_dial.jp],4000,TRUE,25,100,0,[],0,FALSE,100
+362905,106,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,31,1,[InputImage/129696_dial.jp],4000,TRUE,25,100,0,[],0,FALSE,100
+363907,106,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,32,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+364907,105,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,32,1,[InputImage/127493_37.jp],4000,TRUE,0,100,0,[],0,FALSE,100
+365908,105,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,34,1,[InputImage/127493_37.jp],4000,TRUE,0,100,0,[],0,FALSE,100
+366908,105,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,34,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+367908,104,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,34,1,[InputImage/127493_37(copy).jp],4000,TRUE,0,100,0,[],0,FALSE,100
+368910,104,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,34,1,[InputImage/127493_37(copy).jp],4000,TRUE,25,100,0,[],0,FALSE,100
+369910,104,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,34,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+370910,103,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,28,1,[InputImage/129696_dial(copy).jp],4000,TRUE,25,100,0,[],0,FALSE,100
+371911,103,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,28,1,[InputImage/129696_dial(copy).jp],4000,TRUE,25,100,0,[],0,FALSE,100
+372912,103,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,34,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+373912,102,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,34,1,[InputImage/140399_ballss.jp],4250,TRUE,0,100,0,[],0,FALSE,100
+374913,102,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,34,1,[InputImage/140399_ballss.jp],4250,TRUE,0,100,0,[],0,FALSE,100
+375913,102,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,37,1,[InputImage/140399_ballss.jp],4250,TRUE,25,100,0,[],0,FALSE,100
+376913,102,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,37,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+377914,101,100,0,[],0,FALSE,100,30,1,[InputImage/120825_press6.jp],3750,TRUE,25,28,1,[InputImage/140399_balls(copy).jp],4250,TRUE,25,100,0,[],0,FALSE,100
+379087,102,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,28,1,[InputImage/140399_balls(copy).jp],4250,TRUE,25,100,0,[],0,FALSE,100
+380087,102,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,33,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+381088,101,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,33,1,[InputImage/120825_press6.jp],3750,TRUE,0,100,0,[],0,FALSE,100
+382088,101,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,33,1,[InputImage/120825_press6.jp],3750,TRUE,0,100,0,[],0,FALSE,100
+383088,101,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,34,1,[InputImage/120825_press6.jp],3750,TRUE,50,100,0,[],0,FALSE,100
+384090,101,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,34,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+385090,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,36,1,[InputImage/166717_abstract.jp],5250,TRUE,0,100,0,[],0,FALSE,100
+386090,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,36,1,[InputImage/166717_abstract.jp],5250,TRUE,0,100,0,[],0,FALSE,100
+387091,100,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,37,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+388091,99,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,37,1,[InputImage/166717_abstrac(copy).jp],5250,TRUE,25,100,0,[],0,FALSE,100
+389093,99,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,37,1,[InputImage/166717_abstrac(copy).jp],5250,TRUE,25,100,0,[],0,FALSE,100
+390093,99,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,37,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+391093,98,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,37,1,[InputImage/179850_Hulk.jp],5750,TRUE,25,100,0,[],0,FALSE,100
+392094,98,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,37,1,[InputImage/179850_Hulk.jp],5750,TRUE,0,100,0,[],0,FALSE,100
+393095,98,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,37,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+394095,97,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,37,1,[InputImage/179850_Hulk(copy).jp],5750,TRUE,25,100,0,[],0,FALSE,100
+395096,97,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,37,1,[InputImage/179850_Hulk(copy).jp],5750,TRUE,25,100,0,[],0,FALSE,100
+396096,97,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,37,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+397097,96,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,36,1,[InputImage/217089_maze(copy).jp],6750,TRUE,0,100,0,[],0,FALSE,100
+398097,96,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,36,1,[InputImage/217089_maze(copy).jp],6750,TRUE,0,100,0,[],0,FALSE,100
+399098,96,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,36,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+400099,95,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,36,1,[InputImage/217089_maze.jp],6750,TRUE,0,100,0,[],0,FALSE,100
+401099,95,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,36,1,[InputImage/217089_maze.jp],6750,TRUE,0,100,0,[],0,FALSE,100
+402099,95,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,36,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+403100,94,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,36,1,[InputImage/212410_tige(copy).jp],6750,TRUE,0,100,0,[],0,FALSE,100
+404101,94,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,36,1,[InputImage/212410_tige(copy).jp],6750,TRUE,0,100,0,[],0,FALSE,100
+405101,94,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,36,1,[InputImage/212410_tige(copy).jp],6750,TRUE,0,100,0,[],0,FALSE,100
+406102,94,100,0,[],0,TRUE,100,100,0,[],0,FALSE,100,38,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+407102,93,100,0,[],0,TRUE,100,100,0,[],0,FALSE,100,38,1,[InputImage/212410_tiger.jp],6750,TRUE,0,100,0,[],0,FALSE,100
+408103,92,25,1,[InputImage/237418 _bul(copy).jpe],7500,TRUE,0,100,0,[],0,FALSE,100,38,1,[InputImage/212410_tiger.jp],6750,TRUE,0,100,0,[],0,FALSE,100
+409104,92,25,1,[InputImage/237418 _bul(copy).jpe],7500,TRUE,0,100,0,[],0,FALSE,100,40,1,[InputImage/212410_tiger.jp],6750,TRUE,0,100,0,[],0,FALSE,100
+410104,92,26,1,[InputImage/237418 _bul(copy).jpe],7500,TRUE,0,100,0,[],0,FALSE,100,40,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+411105,92,26,1,[InputImage/237418 _bul(copy).jpe],7500,TRUE,0,100,0,[],0,FALSE,100,42,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+412105,92,26,1,[InputImage/237418 _bul(copy).jpe],7500,TRUE,0,100,0,[],0,FALSE,100,42,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+413105,92,30,1,[InputImage/237418 _bul(copy).jpe],7500,TRUE,0,100,0,[],0,FALSE,100,42,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+414107,92,30,0,[],0,TRUE,0,100,0,[],0,FALSE,100,42,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+415107,92,31,0,[],0,TRUE,0,100,0,[],0,FALSE,100,42,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+416108,92,31,0,[],0,TRUE,0,100,0,[],0,FALSE,100,42,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+417108,92,30,0,[],0,TRUE,25,100,0,[],0,FALSE,100,42,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+418108,92,30,0,[],0,TRUE,25,100,0,[],0,FALSE,100,42,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+419110,92,30,0,[],0,TRUE,25,100,0,[],0,FALSE,100,42,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+420111,91,30,0,[],0,TRUE,25,100,0,[],0,FALSE,100,42,1,[InputImage/237418 _bulb.jpe],7500,TRUE,0,100,0,[],0,FALSE,100
+421111,90,30,1,[InputImage/254459_36.jp],8000,TRUE,25,100,0,[],0,FALSE,100,42,1,[InputImage/237418 _bulb.jpe],7500,TRUE,0,100,0,[],0,FALSE,100
+422111,90,33,1,[InputImage/254459_36.jp],8000,TRUE,0,100,0,[],0,FALSE,100,42,1,[InputImage/237418 _bulb.jpe],7500,TRUE,0,100,0,[],0,FALSE,100
+423113,90,33,0,[],0,TRUE,0,100,0,[],0,FALSE,100,42,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+424113,89,36,0,[],0,TRUE,25,100,0,[],0,FALSE,100,42,1,[InputImage/254459_36(copy).jp],8000,TRUE,0,100,0,[],0,FALSE,100
+425113,88,36,1,[InputImage/275099_ball(copy).jp],8750,TRUE,25,100,0,[],0,FALSE,100,36,1,[InputImage/254459_36(copy).jp],8000,TRUE,25,100,0,[],0,FALSE,100
+426114,88,36,1,[InputImage/275099_ball(copy).jp],8750,TRUE,25,100,0,[],0,FALSE,100,36,1,[InputImage/254459_36(copy).jp],8000,TRUE,25,100,0,[],0,FALSE,100
+427114,88,39,1,[InputImage/275099_ball(copy).jp],8750,TRUE,0,100,0,[],0,FALSE,100,36,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+428116,87,39,0,[],0,TRUE,0,100,0,[],0,FALSE,100,36,1,[InputImage/275099_ball.jp],8750,TRUE,0,100,0,[],0,FALSE,100
+429116,86,41,1,[InputImage/314944_cig(copy).jpe],10000,TRUE,0,100,0,[],0,FALSE,100,36,1,[InputImage/275099_ball.jp],8750,TRUE,0,100,0,[],0,FALSE,100
+430116,86,41,1,[InputImage/314944_cig(copy).jpe],10000,TRUE,0,100,0,[],0,FALSE,100,36,1,[InputImage/275099_ball.jp],8750,TRUE,0,100,0,[],0,FALSE,100
+431116,86,41,1,[InputImage/314944_cig(copy).jpe],10000,TRUE,0,100,0,[],0,FALSE,100,36,1,[InputImage/275099_ball.jp],8750,TRUE,0,100,0,[],0,FALSE,100
+432117,86,41,0,[],0,TRUE,0,100,0,[],0,FALSE,100,38,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+433117,85,41,0,[],0,TRUE,0,100,0,[],0,FALSE,100,38,1,[InputImage/314944_cig.jpe],10000,TRUE,0,100,0,[],0,FALSE,100
+434119,84,41,1,[InputImage/357625_dfg(copy).jp],11250,TRUE,0,100,0,[],0,FALSE,100,38,1,[InputImage/314944_cig.jpe],10000,TRUE,0,100,0,[],0,FALSE,100
+435119,84,41,1,[InputImage/357625_dfg(copy).jp],11250,TRUE,0,100,0,[],0,FALSE,100,37,1,[InputImage/314944_cig.jpe],10000,TRUE,0,100,0,[],0,FALSE,100
+436119,84,42,1,[InputImage/357625_dfg(copy).jp],11250,TRUE,0,100,0,[],0,FALSE,100,37,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+437120,83,42,0,[],0,TRUE,0,100,0,[],0,FALSE,100,38,1,[InputImage/357625_dfg.jp],11250,TRUE,0,100,0,[],0,FALSE,100
+438120,82,42,1,[InputImage/373041_Blast.jp],11750,TRUE,0,100,0,[],0,FALSE,100,38,1,[InputImage/357625_dfg.jp],11250,TRUE,0,100,0,[],0,FALSE,100
+439122,82,42,1,[InputImage/373041_Blast.jp],11750,TRUE,0,100,0,[],0,FALSE,100,40,1,[InputImage/357625_dfg.jp],11250,TRUE,75,100,0,[],0,FALSE,100
+440122,82,42,0,[],0,TRUE,0,100,0,[],0,FALSE,100,40,1,[InputImage/357625_dfg.jp],11250,TRUE,75,100,0,[],0,FALSE,100
+441123,81,42,1,[InputImage/373041_Blas(copy).jp],11750,TRUE,0,100,0,[],0,FALSE,100,40,0,[],0,TRUE,75,100,0,[],0,FALSE,100
+442123,80,42,1,[InputImage/373041_Blas(copy).jp],11750,TRUE,0,100,0,[],0,FALSE,100,42,1,[InputImage/390255_island.jp],12250,TRUE,0,100,0,[],0,FALSE,100
+443125,80,42,0,[],0,TRUE,0,100,0,[],0,FALSE,100,42,1,[InputImage/390255_island.jp],12250,TRUE,0,100,0,[],0,FALSE,100
+444125,79,42,1,[InputImage/390255_island(copy).jp],12250,TRUE,0,100,0,[],0,FALSE,100,44,1,[InputImage/390255_island.jp],12250,TRUE,0,100,0,[],0,FALSE,100
+445125,79,42,1,[InputImage/390255_island(copy).jp],12250,TRUE,0,100,0,[],0,FALSE,100,44,1,[InputImage/390255_island.jp],12250,TRUE,0,100,0,[],0,FALSE,100
+446125,79,43,1,[InputImage/390255_island(copy).jp],12250,TRUE,0,100,0,[],0,FALSE,100,49,1,[InputImage/390255_island.jp],12250,TRUE,0,100,0,[],0,FALSE,100
+447126,79,43,1,[InputImage/390255_island(copy).jp],12250,TRUE,0,100,0,[],0,FALSE,100,49,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+448126,78,50,1,[InputImage/390255_island(copy).jp],12250,TRUE,50,100,0,[],0,FALSE,100,49,1,[InputImage/424526_scenerynatur(copy).jp],13500,TRUE,0,100,0,[],0,FALSE,100
+449128,78,50,1,[InputImage/390255_island(copy).jp],12250,TRUE,50,100,0,[],0,FALSE,100,49,1,[InputImage/424526_scenerynatur(copy).jp],13500,TRUE,0,100,0,[],0,FALSE,100
+450128,78,50,0,[],0,TRUE,0,100,0,[],0,FALSE,100,49,1,[InputImage/424526_scenerynatur(copy).jp],13500,TRUE,0,100,0,[],0,FALSE,100
+451129,77,50,1,[InputImage/424526_scenerynature(copy).jp],13500,TRUE,0,100,0,[],0,FALSE,100,49,1,[InputImage/424526_scenerynatur(copy).jp],13500,TRUE,0,100,0,[],0,FALSE,100
+452129,77,50,1,[InputImage/424526_scenerynature(copy).jp],13500,TRUE,0,100,0,[],0,FALSE,100,49,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+453129,76,49,1,[InputImage/424526_scenerynature(copy).jp],13500,TRUE,0,100,0,[],0,FALSE,100,49,1,[InputImage/424526_scenerynature.jp],13500,TRUE,0,100,0,[],0,FALSE,100
+454131,76,49,0,[],0,TRUE,0,100,0,[],0,FALSE,100,49,1,[InputImage/424526_scenerynature.jp],13500,TRUE,0,100,0,[],0,FALSE,100
+455131,75,49,1,[InputImage/424526_scenerynature(copy)(copy).jp],13500,TRUE,0,100,0,[],0,FALSE,100,49,1,[InputImage/424526_scenerynature.jp],13500,TRUE,0,100,0,[],0,FALSE,100
+456132,75,49,1,[InputImage/424526_scenerynature(copy)(copy).jp],13500,TRUE,0,100,0,[],0,FALSE,100,53,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+457132,74,49,1,[InputImage/424526_scenerynature(copy)(copy).jp],13500,TRUE,25,100,0,[],0,FALSE,100,53,1,[InputImage/444559_hightiger.jp],14000,TRUE,50,100,0,[],0,FALSE,100
+458133,74,49,1,[InputImage/424526_scenerynature(copy)(copy).jp],13500,TRUE,25,100,0,[],0,FALSE,100,54,1,[InputImage/444559_hightiger.jp],14000,TRUE,0,100,0,[],0,FALSE,100
+459134,74,49,0,[],0,TRUE,25,100,0,[],0,FALSE,100,54,1,[InputImage/444559_hightiger.jp],14000,TRUE,0,100,0,[],0,FALSE,100
+460135,73,49,1,[InputImage/444559_hightiger(copy).jp],14000,TRUE,0,100,0,[],0,FALSE,100,54,1,[InputImage/444559_hightiger.jp],14000,TRUE,0,100,0,[],0,FALSE,100
+461135,73,49,1,[InputImage/444559_hightiger(copy).jp],14000,TRUE,0,100,0,[],0,FALSE,100,55,1,[InputImage/444559_hightiger.jp],14000,TRUE,0,100,0,[],0,FALSE,100
+462135,73,49,1,[InputImage/444559_hightiger(copy).jp],14000,TRUE,0,100,0,[],0,FALSE,100,55,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+463136,72,49,1,[InputImage/444559_hightiger(copy).jp],14000,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/444559_hightige(copy).jp],14000,TRUE,25,100,0,[],0,FALSE,100
+464137,72,49,1,[InputImage/444559_hightiger(copy).jp],14000,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/444559_hightige(copy).jp],14000,TRUE,25,100,0,[],0,FALSE,100
+465137,72,52,0,[],0,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/444559_hightige(copy).jp],14000,TRUE,0,100,0,[],0,FALSE,100
+466138,71,52,1,[InputImage/444559_hightiger(copy)(copy).jp],14000,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/444559_hightige(copy).jp],14000,TRUE,0,100,0,[],0,FALSE,100
+467138,71,52,1,[InputImage/444559_hightiger(copy)(copy).jp],14000,TRUE,25,100,0,[],0,FALSE,100,56,1,[InputImage/444559_hightige(copy).jp],14000,TRUE,0,100,0,[],0,FALSE,100
+468138,71,52,1,[InputImage/444559_hightiger(copy)(copy).jp],14000,TRUE,25,100,0,[],0,FALSE,100,56,1,[InputImage/444559_hightige(copy).jp],14000,TRUE,0,100,0,[],0,FALSE,100
+469140,71,50,1,[InputImage/444559_hightiger(copy)(copy).jp],14000,TRUE,0,100,0,[],0,FALSE,100,56,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+470140,70,50,1,[InputImage/444559_hightiger(copy)(copy).jp],14000,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/452613_Italy(copy)(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100
+471141,70,50,0,[],0,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/452613_Italy(copy)(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100
+472141,69,52,1,[InputImage/449918_scen(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/452613_Italy(copy)(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100
+473142,69,52,1,[InputImage/449918_scen(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100,56,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+474143,68,50,1,[InputImage/449918_scen(copy).jp],14250,TRUE,50,100,0,[],0,FALSE,100,56,1,[InputImage/449918_scene(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100
+475143,68,50,0,[],0,TRUE,50,100,0,[],0,FALSE,100,56,1,[InputImage/449918_scene(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100
+476143,67,49,1,[InputImage/452613_Ital(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/449918_scene(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100
+477144,67,49,1,[InputImage/452613_Ital(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100,56,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+478144,66,49,1,[InputImage/452613_Ital(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/449918_scene.jp],14250,TRUE,0,100,0,[],0,FALSE,100
+479146,66,49,1,[InputImage/452613_Ital(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/449918_scene.jp],14250,TRUE,0,100,0,[],0,FALSE,100
+480146,66,49,0,[],0,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/449918_scene.jp],14250,TRUE,0,100,0,[],0,FALSE,100
+481147,65,50,1,[InputImage/452613_Italy.jp],14250,TRUE,0,100,0,[],0,FALSE,100,56,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+482147,64,50,1,[InputImage/452613_Italy.jp],14250,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/452613_Italy(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100
+483147,64,50,1,[InputImage/452613_Italy.jp],14250,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/452613_Italy(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100
+484149,64,50,0,[],0,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/452613_Italy(copy).jp],14250,TRUE,25,100,0,[],0,FALSE,100
+485149,63,50,1,[InputImage/449918_scene(copy)(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/452613_Italy(copy).jp],14250,TRUE,25,100,0,[],0,FALSE,100
+486150,63,50,1,[InputImage/449918_scene(copy)(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100,56,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+487150,62,50,1,[InputImage/449918_scene(copy)(copy).jp],14250,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/454950_wallpaper(copy)(copy).jp],14500,TRUE,0,100,0,[],0,FALSE,100
+488153,62,50,0,[],0,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/454950_wallpaper(copy)(copy).jp],14500,TRUE,0,100,0,[],0,FALSE,100
+489154,61,50,1,[InputImage/454950_wallpaper(copy).jp],14500,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/454950_wallpaper(copy)(copy).jp],14500,TRUE,50,100,0,[],0,FALSE,100
+490154,61,50,1,[InputImage/454950_wallpaper(copy).jp],14500,TRUE,0,100,0,[],0,FALSE,100,56,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+491155,60,50,1,[InputImage/454950_wallpaper(copy).jp],14500,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/454950_wallpape(copy).jp],14500,TRUE,0,100,0,[],0,FALSE,100
+492155,60,50,1,[InputImage/454950_wallpaper(copy).jp],14500,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/454950_wallpape(copy).jp],14500,TRUE,0,100,0,[],0,FALSE,100
+493156,60,52,0,[],0,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/454950_wallpape(copy).jp],14500,TRUE,0,100,0,[],0,FALSE,100
+494157,59,52,1,[InputImage/454950_wallpaper.jp],14500,TRUE,0,100,0,[],0,FALSE,100,56,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+495157,58,52,1,[InputImage/454950_wallpaper.jp],14500,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/793910_guandutaiwan.jp],25250,TRUE,0,100,0,[],0,FALSE,100
+496157,58,52,1,[InputImage/454950_wallpaper.jp],14500,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/793910_guandutaiwan.jp],25250,TRUE,0,100,0,[],0,FALSE,100
+497158,58,52,0,[],0,TRUE,0,100,0,[],0,FALSE,100,56,1,[InputImage/793910_guandutaiwan.jp],25250,TRUE,0,100,0,[],0,FALSE,100
+498159,57,52,1,[InputImage/793910_guandutaiwa(copy).jp],25250,TRUE,0,100,0,[],0,FALSE,100,54,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+499160,56,52,1,[InputImage/793910_guandutaiwa(copy).jp],25250,TRUE,0,100,0,[],0,FALSE,100,54,1,[InputImage/793910_guandutaiwan(copy)(copy).jp],25250,TRUE,0,100,0,[],0,FALSE,100
+500160,56,52,1,[InputImage/793910_guandutaiwa(copy).jp],25250,TRUE,0,100,0,[],0,FALSE,100,54,1,[InputImage/793910_guandutaiwan(copy)(copy).jp],25250,TRUE,0,100,0,[],0,FALSE,100
+501161,56,52,0,[],0,TRUE,0,100,0,[],0,FALSE,100,52,1,[InputImage/793910_guandutaiwan(copy)(copy).jp],25250,TRUE,0,100,0,[],0,FALSE,100
+502161,55,52,1,[InputImage/793910_guandutaiwan(copy).jp],25250,TRUE,25,100,0,[],0,FALSE,100,52,1,[InputImage/793910_guandutaiwan(copy)(copy).jp],25250,TRUE,0,100,0,[],0,FALSE,100
+503163,55,52,1,[InputImage/793910_guandutaiwan(copy).jp],25250,TRUE,25,100,0,[],0,FALSE,100,52,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+504163,54,52,1,[InputImage/793910_guandutaiwan(copy).jp],25250,TRUE,25,100,0,[],0,FALSE,100,52,1,[InputImage/911458_cube(copy).jp],29000,TRUE,0,100,0,[],0,FALSE,100
+505163,54,52,1,[InputImage/793910_guandutaiwan(copy).jp],25250,TRUE,0,100,0,[],0,FALSE,100,52,1,[InputImage/911458_cube(copy).jp],29000,TRUE,0,100,0,[],0,FALSE,100
+506164,54,52,0,[],0,TRUE,0,100,0,[],0,FALSE,100,52,1,[InputImage/911458_cube(copy).jp],29000,TRUE,0,100,0,[],0,FALSE,100
+507164,53,52,1,[InputImage/911458_cube.jp],29000,TRUE,25,100,0,[],0,FALSE,100,52,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+508164,52,52,1,[InputImage/911458_cube.jp],29000,TRUE,25,100,0,[],0,FALSE,100,52,1,[InputImage/911458_cube(copy)(copy).jp],29000,TRUE,0,100,0,[],0,FALSE,100
+509166,52,52,1,[InputImage/911458_cube.jp],29000,TRUE,0,100,0,[],0,FALSE,100,52,1,[InputImage/911458_cube(copy)(copy).jp],29000,TRUE,0,100,0,[],0,FALSE,100
+510166,52,52,0,[],0,TRUE,0,100,0,[],0,FALSE,100,53,1,[InputImage/911458_cube(copy)(copy).jp],29000,TRUE,0,100,0,[],0,FALSE,100
+511167,51,52,1,[InputImage/911458_cub(copy).jp],29000,TRUE,0,100,0,[],0,TRUE,100,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+512167,49,52,1,[InputImage/911458_cub(copy).jp],29000,TRUE,0,100,1,[InputImage/953816_dream_night(copy)(copy).jp],30500,TRUE,100,53,1,[InputImage/953816_dream_night.jp],30500,TRUE,0,100,0,[],0,FALSE,100
+513168,49,52,1,[InputImage/911458_cub(copy).jp],29000,TRUE,0,100,1,[InputImage/953816_dream_night(copy)(copy).jp],30500,TRUE,100,53,1,[InputImage/953816_dream_night.jp],30500,TRUE,0,100,0,[],0,FALSE,100
+514169,49,54,1,[InputImage/911458_cub(copy).jp],29000,TRUE,0,25,1,[InputImage/953816_dream_night(copy)(copy).jp],30500,TRUE,0,53,1,[InputImage/953816_dream_night.jp],30500,TRUE,0,100,0,[],0,FALSE,100
+515169,49,54,0,[],0,TRUE,0,25,1,[InputImage/953816_dream_night(copy)(copy).jp],30500,TRUE,0,53,1,[InputImage/953816_dream_night.jp],30500,TRUE,0,100,0,[],0,FALSE,100
+516170,49,54,0,[],0,TRUE,0,31,1,[InputImage/953816_dream_night(copy)(copy).jp],30500,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+517171,49,54,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+518171,49,54,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+519173,49,54,0,[],0,TRUE,25,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+520173,49,54,0,[],0,TRUE,25,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+521173,49,54,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+522173,49,54,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+523174,49,54,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+524175,49,54,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+525176,49,54,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+526176,49,54,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+527176,49,54,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+528177,49,54,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+529178,49,54,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+530178,49,54,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+531179,49,54,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+532179,49,54,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+533179,49,53,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+534181,49,53,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+535181,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,25,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+536181,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,25,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+537181,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,25,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+538182,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,25,53,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+539183,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,25,53,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+540183,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,25,53,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+541184,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,25,53,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+542184,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+543184,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+544185,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+545186,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+546186,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+547186,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+548187,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+549188,49,52,0,[],0,TRUE,25,31,0,[],0,TRUE,0,53,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+550188,49,52,0,[],0,TRUE,25,31,0,[],0,TRUE,0,53,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+551189,49,52,0,[],0,TRUE,25,31,0,[],0,TRUE,0,53,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+552189,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,25,53,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+553189,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,25,53,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+554191,49,52,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+555191,48,52,0,[],0,TRUE,0,31,0,[],0,TRUE,0,53,1,[InputImage/953816_dream_nigh(copy).jp],30500,TRUE,25,100,0,[],0,FALSE,100
+556191,46,52,1,[InputImage/985674_35(copy).jp],31500,TRUE,25,31,1,[InputImage/953816_dream_night(copy).jp],30500,TRUE,0,53,1,[InputImage/953816_dream_nigh(copy).jp],30500,TRUE,25,100,0,[],0,FALSE,100
+557191,46,52,1,[InputImage/985674_35(copy).jp],31500,TRUE,25,31,1,[InputImage/953816_dream_night(copy).jp],30500,TRUE,0,52,1,[InputImage/953816_dream_nigh(copy).jp],30500,TRUE,0,100,0,[],0,FALSE,100
+558192,46,52,1,[InputImage/985674_35(copy).jp],31500,TRUE,25,31,1,[InputImage/953816_dream_night(copy).jp],30500,TRUE,0,52,1,[InputImage/953816_dream_nigh(copy).jp],30500,TRUE,0,100,0,[],0,FALSE,100
+559194,46,84,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,34,1,[InputImage/953816_dream_night(copy).jp],30500,TRUE,0,52,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+560195,45,84,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,34,0,[],0,TRUE,0,51,1,[InputImage/985674_35.jp],31500,TRUE,25,100,0,[],0,FALSE,100
+561195,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,34,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,25,51,1,[InputImage/985674_35.jp],31500,TRUE,25,100,0,[],0,FALSE,100
+562195,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,34,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,25,63,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+563195,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,67,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,63,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+564197,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,67,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,79,1,[InputImage/985674_35.jp],31500,TRUE,50,100,0,[],0,FALSE,100
+565197,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,67,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,79,1,[InputImage/985674_35.jp],31500,TRUE,50,100,0,[],0,FALSE,100
+566197,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,75,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,79,1,[InputImage/985674_35.jp],31500,TRUE,50,100,0,[],0,FALSE,100
+567198,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,75,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+568198,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,83,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+569199,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,83,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+570200,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,83,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+571200,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+572200,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+573201,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+574202,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+575202,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+576203,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+577203,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+578203,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+579205,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+580205,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+581205,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+582205,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,84,1,[InputImage/985674_35(copy)(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+583207,44,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,84,0,[],0,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+584207,43,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,84,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+585208,43,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,39,1,[InputImage/985674_3(copy).jp],31500,TRUE,25,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+586208,43,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,39,1,[InputImage/985674_3(copy).jp],31500,TRUE,25,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+587208,43,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,71,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+588208,43,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,71,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+589210,43,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,71,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,84,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+590210,43,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,79,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,84,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+591210,43,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,79,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,84,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+592210,43,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,76,1,[InputImage/985674_35.jp],31500,TRUE,25,100,0,[],0,FALSE,100
+593211,43,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,76,1,[InputImage/985674_35.jp],31500,TRUE,25,100,0,[],0,FALSE,100
+594212,43,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,84,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+595213,43,89,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,84,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+596213,43,89,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+597213,43,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+598213,43,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+599215,43,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+600215,43,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,93,1,[InputImage/985674_35.jp],31500,TRUE,0,100,0,[],0,FALSE,100
+601216,43,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,91,1,[InputImage/985674_35.jp],31500,TRUE,50,100,0,[],0,TRUE,100
+602216,42,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,91,1,[InputImage/985674_35.jp],31500,TRUE,50,100,1,[InputImage/1022462_stuff(copy)(copy).jp],32500,TRUE,100
+603216,42,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,91,1,[InputImage/985674_35.jp],31500,TRUE,50,25,1,[InputImage/1022462_stuff(copy)(copy).jp],32500,TRUE,0
+604218,42,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,25,1,[InputImage/1022462_stuff(copy)(copy).jp],32500,TRUE,0
+605218,42,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,26,1,[InputImage/1022462_stuff(copy)(copy).jp],32500,TRUE,0
+606218,42,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,26,1,[InputImage/1022462_stuff(copy)(copy).jp],32500,TRUE,0
+607219,42,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,26,1,[InputImage/1022462_stuff(copy)(copy).jp],32500,TRUE,0
+608219,42,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,87,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,30,1,[InputImage/1022462_stuff(copy)(copy).jp],32500,TRUE,0
+609221,42,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,83,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,30,0,[],0,TRUE,0
+610221,41,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,83,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,30,1,[InputImage/1022462_stuff.jp],32500,TRUE,25
+611221,41,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,80,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,30,1,[InputImage/1022462_stuff.jp],32500,TRUE,25
+612221,41,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,80,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,34,1,[InputImage/1022462_stuff.jp],32500,TRUE,0
+613223,41,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,34,0,[],0,TRUE,0
+614223,40,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,34,1,[InputImage/1022462_stuf(copy).jp],32500,TRUE,0
+615223,40,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,36,1,[InputImage/1022462_stuf(copy).jp],32500,TRUE,25
+616224,40,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_3(copy).jp],31500,TRUE,50,90,1,[InputImage/985674_35.jp],31500,TRUE,0,36,1,[InputImage/1022462_stuf(copy).jp],32500,TRUE,25
+617224,40,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_3(copy).jp],31500,TRUE,50,90,1,[InputImage/985674_35.jp],31500,TRUE,0,35,1,[InputImage/1022462_stuf(copy).jp],32500,TRUE,0
+618226,40,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,91,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,35,0,[],0,TRUE,0
+619226,39,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,91,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,35,1,[InputImage/1022462_stuff(copy).jp],32500,TRUE,0
+620226,39,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,84,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,36,1,[InputImage/1022462_stuff(copy).jp],32500,TRUE,0
+621227,39,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,84,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,36,1,[InputImage/1022462_stuff(copy).jp],32500,TRUE,0
+622227,39,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,84,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,90,1,[InputImage/985674_35.jp],31500,TRUE,0,36,0,[],0,TRUE,0
+623227,38,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,80,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_35.jp],31500,TRUE,0,36,1,[InputImage/1044231_34(copy).jp],33250,TRUE,0
+624229,38,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,80,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,92,1,[InputImage/985674_35.jp],31500,TRUE,0,37,1,[InputImage/1044231_34(copy).jp],33250,TRUE,0
+625230,38,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,56,1,[InputImage/985674_3(copy).jp],31500,TRUE,0,94,1,[InputImage/985674_35.jp],31500,TRUE,50,37,1,[InputImage/1044231_34(copy).jp],33250,TRUE,0
+626230,38,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,56,0,[],0,TRUE,0,94,1,[InputImage/985674_35.jp],31500,TRUE,50,37,1,[InputImage/1044231_34(copy).jp],33250,TRUE,0
+627231,37,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,56,1,[InputImage/1040753_car1(copy).jp],33250,TRUE,0,94,1,[InputImage/985674_35.jp],31500,TRUE,25,46,1,[InputImage/1044231_34(copy).jp],33250,TRUE,0
+628231,37,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,32,1,[InputImage/1040753_car1(copy).jp],33250,TRUE,0,94,1,[InputImage/985674_35.jp],31500,TRUE,25,46,1,[InputImage/1044231_34(copy).jp],33250,TRUE,0
+629233,37,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,32,1,[InputImage/1040753_car1(copy).jp],33250,TRUE,0,94,1,[InputImage/985674_35.jp],31500,TRUE,25,53,1,[InputImage/1044231_34(copy).jp],33250,TRUE,0
+630233,37,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,50,38,0,[],0,TRUE,0,94,1,[InputImage/985674_35.jp],31500,TRUE,25,53,1,[InputImage/1044231_34(copy).jp],33250,TRUE,0
+631233,36,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,50,38,1,[InputImage/1040753_car11(copy)(copy).jp],33250,TRUE,0,94,1,[InputImage/985674_35.jp],31500,TRUE,25,56,1,[InputImage/1044231_34(copy).jp],33250,TRUE,0
+632234,36,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,50,37,1,[InputImage/1040753_car11(copy)(copy).jp],33250,TRUE,0,94,1,[InputImage/985674_35.jp],31500,TRUE,25,56,1,[InputImage/1044231_34(copy).jp],33250,TRUE,0
+633234,36,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,50,37,1,[InputImage/1040753_car11(copy)(copy).jp],33250,TRUE,0,94,1,[InputImage/985674_35.jp],31500,TRUE,0,56,1,[InputImage/1044231_34(copy).jp],33250,TRUE,0
+634236,36,93,1,[InputImage/985674_35(copy).jp],31500,TRUE,50,37,0,[],0,TRUE,0,94,1,[InputImage/985674_35.jp],31500,TRUE,0,46,0,[],0,TRUE,0
+635236,35,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,75,38,0,[],0,TRUE,0,94,1,[InputImage/985674_35.jp],31500,TRUE,0,46,1,[InputImage/1040753_car11(copy).jp],33250,TRUE,0
+636236,34,92,1,[InputImage/985674_35(copy).jp],31500,TRUE,75,38,1,[InputImage/1044231_34(copy)(copy).jp],33250,TRUE,0,92,1,[InputImage/985674_35.jp],31500,TRUE,0,37,1,[InputImage/1040753_car11(copy).jp],33250,TRUE,25
+637237,34,91,1,[InputImage/985674_35(copy).jp],31500,TRUE,25,41,1,[InputImage/1044231_34(copy)(copy).jp],33250,TRUE,0,92,1,[InputImage/985674_35.jp],31500,TRUE,0,37,1,[InputImage/1040753_car11(copy).jp],33250,TRUE,25
+638238,34,91,1,[InputImage/985674_35(copy).jp],31500,TRUE,25,41,1,[InputImage/1044231_34(copy)(copy).jp],33250,TRUE,0,92,1,[InputImage/985674_35.jp],31500,TRUE,0,39,0,[],0,TRUE,0
+639238,33,91,1,[InputImage/985674_35(copy).jp],31500,TRUE,25,52,1,[InputImage/1044231_34(copy)(copy).jp],33250,TRUE,0,92,1,[InputImage/985674_35.jp],31500,TRUE,0,39,1,[InputImage/1045284_dna.jp],33250,TRUE,0
+640239,33,79,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,52,1,[InputImage/1044231_34(copy)(copy).jp],33250,TRUE,0,92,1,[InputImage/985674_35.jp],31500,TRUE,0,39,1,[InputImage/1045284_dna.jp],33250,TRUE,0
+641239,33,79,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,52,1,[InputImage/1044231_34(copy)(copy).jp],33250,TRUE,0,92,1,[InputImage/985674_35.jp],31500,TRUE,0,37,1,[InputImage/1045284_dna.jp],33250,TRUE,0
+642239,33,79,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,57,1,[InputImage/1044231_34(copy)(copy).jp],33250,TRUE,0,77,1,[InputImage/985674_35.jp],31500,TRUE,0,37,1,[InputImage/1045284_dna.jp],33250,TRUE,0
+643240,33,73,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,57,1,[InputImage/1044231_34(copy)(copy).jp],33250,TRUE,0,77,1,[InputImage/985674_35.jp],31500,TRUE,0,45,1,[InputImage/1045284_dna.jp],33250,TRUE,50
+644241,33,73,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,57,1,[InputImage/1044231_34(copy)(copy).jp],33250,TRUE,50,78,1,[InputImage/985674_35.jp],31500,TRUE,0,45,1,[InputImage/1045284_dna.jp],33250,TRUE,50
+645242,33,65,1,[InputImage/985674_35(copy).jp],31500,TRUE,0,57,1,[InputImage/1044231_34(copy)(copy).jp],33250,TRUE,50,78,1,[InputImage/985674_35.jp],31500,TRUE,0,45,0,[],0,TRUE,50
+646242,32,65,0,[],0,TRUE,0,57,0,[],0,TRUE,50,70,1,[InputImage/985674_35.jp],31500,TRUE,50,43,1,[InputImage/1044231_3(copy).jp],33250,TRUE,0
+647242,30,65,1,[InputImage/1045284_dn(copy).jp],33250,TRUE,0,53,1,[InputImage/1044231_34.jp],33250,TRUE,0,70,1,[InputImage/985674_35.jp],31500,TRUE,50,43,1,[InputImage/1044231_3(copy).jp],33250,TRUE,0
+648243,30,49,1,[InputImage/1045284_dn(copy).jp],33250,TRUE,25,53,1,[InputImage/1044231_34.jp],33250,TRUE,0,70,1,[InputImage/985674_35.jp],31500,TRUE,50,45,1,[InputImage/1044231_3(copy).jp],33250,TRUE,0
+649244,30,49,1,[InputImage/1045284_dn(copy).jp],33250,TRUE,25,40,1,[InputImage/1044231_34.jp],33250,TRUE,0,62,1,[InputImage/985674_35.jp],31500,TRUE,0,45,1,[InputImage/1044231_3(copy).jp],33250,TRUE,0
+650245,30,51,1,[InputImage/1045284_dn(copy).jp],33250,TRUE,0,40,1,[InputImage/1044231_34.jp],33250,TRUE,0,62,1,[InputImage/985674_35.jp],31500,TRUE,0,56,1,[InputImage/1044231_3(copy).jp],33250,TRUE,0
+651245,30,51,1,[InputImage/1045284_dn(copy).jp],33250,TRUE,0,54,1,[InputImage/1044231_34.jp],33250,TRUE,0,62,1,[InputImage/985674_35.jp],31500,TRUE,0,56,1,[InputImage/1044231_3(copy).jp],33250,TRUE,0
+652245,30,56,1,[InputImage/1045284_dn(copy).jp],33250,TRUE,0,54,1,[InputImage/1044231_34.jp],33250,TRUE,0,62,0,[],0,TRUE,0,56,1,[InputImage/1044231_3(copy).jp],33250,TRUE,0
+653247,29,56,0,[],0,TRUE,0,54,1,[InputImage/1044231_34.jp],33250,TRUE,0,62,1,[InputImage/1040753_car11.jp],33250,TRUE,0,62,1,[InputImage/1044231_3(copy).jp],33250,TRUE,0
+654247,28,56,1,[InputImage/1045284_dna(copy)(copy).jp],33250,TRUE,0,60,1,[InputImage/1044231_34.jp],33250,TRUE,0,46,1,[InputImage/1040753_car11.jp],33250,TRUE,0,62,1,[InputImage/1044231_3(copy).jp],33250,TRUE,0
+655247,28,56,1,[InputImage/1045284_dna(copy)(copy).jp],33250,TRUE,25,60,1,[InputImage/1044231_34.jp],33250,TRUE,0,46,1,[InputImage/1040753_car11.jp],33250,TRUE,0,62,1,[InputImage/1044231_3(copy).jp],33250,TRUE,0
+656248,28,56,1,[InputImage/1045284_dna(copy)(copy).jp],33250,TRUE,25,60,1,[InputImage/1044231_34.jp],33250,TRUE,0,30,0,[],0,TRUE,0,62,0,[],0,TRUE,0
+657249,27,54,1,[InputImage/1045284_dna(copy)(copy).jp],33250,TRUE,0,60,0,[],0,TRUE,0,30,0,[],0,TRUE,0,42,1,[InputImage/1045284_dna(copy).jp],33250,TRUE,0
+658249,25,54,1,[InputImage/1045284_dna(copy)(copy).jp],33250,TRUE,0,41,1,[InputImage/1063487_cit(copy).jp],34000,TRUE,0,30,1,[InputImage/1063487_city.jp],34000,TRUE,0,42,1,[InputImage/1045284_dna(copy).jp],33250,TRUE,0
+659251,25,56,1,[InputImage/1045284_dna(copy)(copy).jp],33250,TRUE,0,41,1,[InputImage/1063487_cit(copy).jp],34000,TRUE,0,36,1,[InputImage/1063487_city.jp],34000,TRUE,50,42,1,[InputImage/1045284_dna(copy).jp],33250,TRUE,0
+660252,25,56,0,[],0,TRUE,0,41,1,[InputImage/1063487_cit(copy).jp],34000,TRUE,0,36,1,[InputImage/1063487_city.jp],34000,TRUE,50,47,1,[InputImage/1045284_dna(copy).jp],33250,TRUE,0
+661252,24,56,1,[InputImage/1063487_city(copy)(copy).jp],34000,TRUE,0,56,1,[InputImage/1063487_cit(copy).jp],34000,TRUE,50,49,1,[InputImage/1063487_city.jp],34000,TRUE,0,47,1,[InputImage/1045284_dna(copy).jp],33250,TRUE,0
+662253,24,60,1,[InputImage/1063487_city(copy)(copy).jp],34000,TRUE,0,56,1,[InputImage/1063487_cit(copy).jp],34000,TRUE,50,49,1,[InputImage/1063487_city.jp],34000,TRUE,0,52,1,[InputImage/1045284_dna(copy).jp],33250,TRUE,0
+663254,24,60,1,[InputImage/1063487_city(copy)(copy).jp],34000,TRUE,0,63,1,[InputImage/1063487_cit(copy).jp],34000,TRUE,0,49,1,[InputImage/1063487_city.jp],34000,TRUE,0,52,0,[],0,TRUE,0
+664255,23,49,1,[InputImage/1063487_city(copy)(copy).jp],34000,TRUE,0,63,1,[InputImage/1063487_cit(copy).jp],34000,TRUE,0,56,1,[InputImage/1063487_city.jp],34000,TRUE,50,45,1,[InputImage/1063487_city(copy).jp],34000,TRUE,0
+665255,23,49,1,[InputImage/1063487_city(copy)(copy).jp],34000,TRUE,0,63,1,[InputImage/1063487_cit(copy).jp],34000,TRUE,0,56,1,[InputImage/1063487_city.jp],34000,TRUE,50,45,1,[InputImage/1063487_city(copy).jp],34000,TRUE,0
+666255,23,49,1,[InputImage/1063487_city(copy)(copy).jp],34000,TRUE,0,67,1,[InputImage/1063487_cit(copy).jp],34000,TRUE,0,56,1,[InputImage/1063487_city.jp],34000,TRUE,0,45,1,[InputImage/1063487_city(copy).jp],34000,TRUE,0
+667256,23,59,1,[InputImage/1063487_city(copy)(copy).jp],34000,TRUE,0,67,1,[InputImage/1063487_cit(copy).jp],34000,TRUE,0,56,0,[],0,TRUE,0,52,1,[InputImage/1063487_city(copy).jp],34000,TRUE,0
+668256,22,59,1,[InputImage/1063487_city(copy)(copy).jp],34000,TRUE,0,63,1,[InputImage/1063487_cit(copy).jp],34000,TRUE,0,36,1,[InputImage/1085954_embed.jp],34750,TRUE,25,52,1,[InputImage/1063487_city(copy).jp],34000,TRUE,0
+669258,22,59,1,[InputImage/1063487_city(copy)(copy).jp],34000,TRUE,0,63,0,[],0,TRUE,0,36,1,[InputImage/1085954_embed.jp],34750,TRUE,25,57,1,[InputImage/1063487_city(copy).jp],34000,TRUE,0
+670258,21,59,1,[InputImage/1063487_city(copy)(copy).jp],34000,TRUE,0,41,1,[InputImage/1085954_embe(copy).jp],34750,TRUE,50,36,1,[InputImage/1085954_embed.jp],34750,TRUE,25,57,1,[InputImage/1063487_city(copy).jp],34000,TRUE,0
+671259,21,50,0,[],0,TRUE,0,41,1,[InputImage/1085954_embe(copy).jp],34750,TRUE,50,30,0,[],0,TRUE,0,57,1,[InputImage/1063487_city(copy).jp],34000,TRUE,0
+672259,20,50,0,[],0,TRUE,0,41,1,[InputImage/1085954_embe(copy).jp],34750,TRUE,50,30,1,[InputImage/1085954_embed(copy)(copy).jp],34750,TRUE,0,61,1,[InputImage/1063487_city(copy).jp],34000,TRUE,0
+673261,19,50,1,[InputImage/1085954_embed(copy).jp],34750,TRUE,0,40,0,[],0,TRUE,0,30,1,[InputImage/1085954_embed(copy)(copy).jp],34750,TRUE,50,61,1,[InputImage/1063487_city(copy).jp],34000,TRUE,0
+674261,18,47,1,[InputImage/1085954_embed(copy).jp],34750,TRUE,25,40,1,[InputImage/1127748_33.jp],36000,TRUE,0,30,1,[InputImage/1085954_embed(copy)(copy).jp],34750,TRUE,50,51,0,[],0,TRUE,25
+675261,17,47,1,[InputImage/1085954_embed(copy).jp],34750,TRUE,25,40,1,[InputImage/1127748_33.jp],36000,TRUE,0,30,1,[InputImage/1085954_embed(copy)(copy).jp],34750,TRUE,0,51,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25
+676262,17,47,0,[],0,TRUE,0,40,1,[InputImage/1127748_33.jp],36000,TRUE,0,30,0,[],0,TRUE,0,57,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+677262,16,47,0,[],0,TRUE,0,70,1,[InputImage/1127748_33.jp],36000,TRUE,0,30,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,57,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+678263,15,64,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,70,1,[InputImage/1127748_33.jp],36000,TRUE,0,32,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,57,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+679264,15,64,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,70,1,[InputImage/1127748_33.jp],36000,TRUE,0,32,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,75,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+680264,15,64,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,64,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,75,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+681265,15,81,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,64,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+682265,15,81,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,64,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+683265,15,81,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,72,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+684267,15,81,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,72,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+685267,15,81,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,81,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+686267,15,81,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,81,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,94,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+687268,15,81,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,78,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,94,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+688268,15,81,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,78,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,94,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+689269,15,81,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,78,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,94,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+690270,15,81,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,81,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,94,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+691270,15,81,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,81,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+692270,15,81,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,81,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+693271,15,81,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,81,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+694272,15,81,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,81,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+695272,15,81,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,81,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+696272,15,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,81,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+697273,15,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,81,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+698273,15,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,81,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+699276,15,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,81,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+700276,15,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,81,1,[InputImage/1127748_3(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+701277,15,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,81,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+702277,14,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,48,1,[InputImage/1240807_high-definition(copy)(copy).jp],39500,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+703277,14,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,87,1,[InputImage/1127748_33.jp],36000,TRUE,0,48,1,[InputImage/1240807_high-definition(copy)(copy).jp],39500,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+704279,14,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,81,1,[InputImage/1127748_33.jp],36000,TRUE,25,48,1,[InputImage/1240807_high-definition(copy)(copy).jp],39500,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+705279,14,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,81,1,[InputImage/1127748_33.jp],36000,TRUE,25,48,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+706279,13,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,81,1,[InputImage/1127748_33.jp],36000,TRUE,25,48,1,[InputImage/1240807_high-definition.jp],39500,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+707280,13,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,76,1,[InputImage/1127748_33.jp],36000,TRUE,0,48,1,[InputImage/1240807_high-definition.jp],39500,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+708280,13,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,76,1,[InputImage/1127748_33.jp],36000,TRUE,0,48,1,[InputImage/1240807_high-definition.jp],39500,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+709281,13,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33.jp],36000,TRUE,25,48,1,[InputImage/1240807_high-definition.jp],39500,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+710282,13,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33.jp],36000,TRUE,25,48,0,[],0,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+711282,12,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33.jp],36000,TRUE,0,48,1,[InputImage/1240807_high-definition(copy).jp],39500,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+712282,12,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33.jp],36000,TRUE,0,48,1,[InputImage/1240807_high-definition(copy).jp],39500,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+713283,12,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,93,1,[InputImage/1127748_33.jp],36000,TRUE,0,48,1,[InputImage/1240807_high-definition(copy).jp],39500,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+714284,12,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,48,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+715285,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,48,1,[InputImage/1240807_high-definitio(copy).jp],39500,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+716285,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,91,1,[InputImage/1127748_33.jp],36000,TRUE,0,48,1,[InputImage/1240807_high-definitio(copy).jp],39500,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+717285,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,91,1,[InputImage/1127748_33.jp],36000,TRUE,0,48,1,[InputImage/1240807_high-definitio(copy).jp],39500,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+718286,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,48,1,[InputImage/1240807_high-definitio(copy).jp],39500,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+719287,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,48,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+720288,10,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,48,1,[InputImage/1383107_dragon(copy).jp],44250,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+721288,10,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,48,1,[InputImage/1383107_dragon(copy).jp],44250,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+722288,10,91,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,48,1,[InputImage/1383107_dragon(copy).jp],44250,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+723288,10,91,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,59,1,[InputImage/1383107_dragon(copy).jp],44250,TRUE,50,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+724290,10,91,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,59,1,[InputImage/1383107_dragon(copy).jp],44250,TRUE,50,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+725290,10,91,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,67,1,[InputImage/1383107_dragon(copy).jp],44250,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+726290,10,91,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,67,1,[InputImage/1383107_dragon(copy).jp],44250,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0
+727554,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,67,1,[InputImage/1383107_dragon(copy).jp],44250,TRUE,0,100,0,[],0,FALSE,100
+728554,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,63,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+729554,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,63,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+730555,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+731555,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+732556,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,53,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+733556,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,53,0,[],0,TRUE,25,100,0,[],0,FALSE,100
+734556,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+735557,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+736557,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+737557,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+738557,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,53,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+739559,11,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,53,0,[],0,TRUE,50,100,0,[],0,FALSE,100
+740559,10,93,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,92,1,[InputImage/1127748_33.jp],36000,TRUE,25,53,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+741560,10,93,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,92,1,[InputImage/1127748_33.jp],36000,TRUE,25,67,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+742560,10,93,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,92,1,[InputImage/1127748_33.jp],36000,TRUE,25,67,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+743560,10,93,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,92,1,[InputImage/1127748_33.jp],36000,TRUE,25,67,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+744563,10,93,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,92,1,[InputImage/1127748_33.jp],36000,TRUE,25,82,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+745563,10,91,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33.jp],36000,TRUE,25,82,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+746564,10,91,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33.jp],36000,TRUE,25,82,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+747564,10,91,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,82,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+748564,10,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,82,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+749566,10,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,88,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+750566,10,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,88,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+751566,10,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,25,92,1,[InputImage/1127748_33.jp],36000,TRUE,0,88,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+752567,10,86,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33.jp],36000,TRUE,25,88,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+753567,10,86,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33.jp],36000,TRUE,25,88,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+754568,10,86,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,93,1,[InputImage/1127748_33.jp],36000,TRUE,25,88,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+755568,10,86,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,80,1,[InputImage/1127748_33.jp],36000,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+756569,10,86,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,80,1,[InputImage/1127748_33.jp],36000,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+757569,10,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,86,1,[InputImage/1127748_33.jp],36000,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+758569,10,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,86,1,[InputImage/1127748_33.jp],36000,TRUE,25,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+759571,10,91,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,86,1,[InputImage/1127748_33.jp],36000,TRUE,25,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+760571,10,91,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,78,1,[InputImage/1127748_33.jp],36000,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+761571,10,91,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,78,1,[InputImage/1127748_33.jp],36000,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+762572,10,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,70,1,[InputImage/1127748_33.jp],36000,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+763573,10,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,70,0,[],0,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+764574,9,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,70,1,[InputImage/1383107_drago(copy).jp],44250,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+765574,9,92,1,[InputImage/1127748_33(copy)(copy).jp],36000,TRUE,0,36,1,[InputImage/1383107_drago(copy).jp],44250,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+766574,9,70,0,[],0,TRUE,0,36,1,[InputImage/1383107_drago(copy).jp],44250,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+767575,8,70,1,[InputImage/1383107_dragon(copy)(copy).jp],44250,TRUE,0,48,1,[InputImage/1383107_drago(copy).jp],44250,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+768575,8,70,1,[InputImage/1383107_dragon(copy)(copy).jp],44250,TRUE,0,48,1,[InputImage/1383107_drago(copy).jp],44250,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+769576,8,55,1,[InputImage/1383107_dragon(copy)(copy).jp],44250,TRUE,0,56,1,[InputImage/1383107_drago(copy).jp],44250,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+770577,8,55,1,[InputImage/1383107_dragon(copy)(copy).jp],44250,TRUE,0,56,1,[InputImage/1383107_drago(copy).jp],44250,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+771577,8,56,1,[InputImage/1383107_dragon(copy)(copy).jp],44250,TRUE,0,56,1,[InputImage/1383107_drago(copy).jp],44250,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+772578,8,56,1,[InputImage/1383107_dragon(copy)(copy).jp],44250,TRUE,0,56,0,[],0,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+773578,7,56,1,[InputImage/1383107_dragon(copy)(copy).jp],44250,TRUE,0,56,1,[InputImage/1383107_dragon.jp],44250,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+774579,7,59,1,[InputImage/1383107_dragon(copy)(copy).jp],44250,TRUE,0,42,1,[InputImage/1383107_dragon.jp],44250,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+775580,7,59,0,[],0,TRUE,0,42,1,[InputImage/1383107_dragon.jp],44250,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+776580,6,45,1,[InputImage/1755436_tropical_beach(copy)(copy).jp],56000,TRUE,0,54,1,[InputImage/1383107_dragon.jp],44250,TRUE,50,81,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+777580,6,45,1,[InputImage/1755436_tropical_beach(copy)(copy).jp],56000,TRUE,0,54,1,[InputImage/1383107_dragon.jp],44250,TRUE,50,81,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+778580,6,37,1,[InputImage/1755436_tropical_beach(copy)(copy).jp],56000,TRUE,0,54,1,[InputImage/1383107_dragon.jp],44250,TRUE,50,81,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+779582,6,37,1,[InputImage/1755436_tropical_beach(copy)(copy).jp],56000,TRUE,0,62,1,[InputImage/1383107_dragon.jp],44250,TRUE,0,84,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+780582,6,37,0,[],0,TRUE,0,62,1,[InputImage/1383107_dragon.jp],44250,TRUE,0,84,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+781583,5,37,1,[InputImage/1755436_tropical_beach.jp],56000,TRUE,0,59,1,[InputImage/1383107_dragon.jp],44250,TRUE,0,90,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+782583,5,37,1,[InputImage/1755436_tropical_beach.jp],56000,TRUE,0,59,0,[],0,TRUE,0,90,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+783584,4,37,1,[InputImage/1755436_tropical_beach.jp],56000,TRUE,0,43,1,[InputImage/1755436_tropical_beach(copy).jp],56000,TRUE,25,90,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+784585,4,37,1,[InputImage/1755436_tropical_beach.jp],56000,TRUE,0,43,1,[InputImage/1755436_tropical_beach(copy).jp],56000,TRUE,25,90,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+785587,4,37,0,[],0,TRUE,0,43,1,[InputImage/1755436_tropical_beach(copy).jp],56000,TRUE,25,90,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+786587,3,37,1,[InputImage/1755436_tropical_beac(copy).jp],56000,TRUE,0,43,0,[],0,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+787588,2,37,1,[InputImage/1755436_tropical_beac(copy).jp],56000,TRUE,0,43,1,[InputImage/2900101_hdwallpapers5.jp],92750,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+788588,2,37,1,[InputImage/1755436_tropical_beac(copy).jp],56000,TRUE,0,44,1,[InputImage/2900101_hdwallpapers5.jp],92750,TRUE,25,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+789589,2,37,0,[],0,TRUE,0,44,1,[InputImage/2900101_hdwallpapers5.jp],92750,TRUE,25,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+790590,1,37,1,[InputImage/2900101_hdwallpaper(copy).jp],92750,TRUE,25,44,1,[InputImage/2900101_hdwallpapers5.jp],92750,TRUE,25,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+791590,1,37,1,[InputImage/2900101_hdwallpaper(copy).jp],92750,TRUE,25,25,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+792591,0,37,1,[InputImage/2900101_hdwallpaper(copy).jp],92750,TRUE,0,25,1,[InputImage/2900101_hdwallpapers5(copy).jp],92750,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+793591,0,37,1,[InputImage/2900101_hdwallpaper(copy).jp],92750,TRUE,0,26,1,[InputImage/2900101_hdwallpapers5(copy).jp],92750,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+794592,0,37,0,[],0,TRUE,0,26,1,[InputImage/2900101_hdwallpapers5(copy).jp],92750,TRUE,25,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+795593,0,37,0,[],0,TRUE,0,25,1,[InputImage/2900101_hdwallpapers5(copy).jp],92750,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+796593,0,37,0,[],0,TRUE,0,25,0,[],0,TRUE,0,89,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+797593,0,37,0,[],0,TRUE,0,25,0,[],0,TRUE,0,89,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+798594,0,37,0,[],0,TRUE,0,26,0,[],0,TRUE,0,87,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+799595,0,37,0,[],0,TRUE,0,26,0,[],0,TRUE,0,87,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+800596,0,37,0,[],0,TRUE,25,26,0,[],0,TRUE,0,87,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+801596,0,37,0,[],0,TRUE,25,26,0,[],0,TRUE,0,87,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+802596,0,37,0,[],0,TRUE,0,26,0,[],0,TRUE,25,87,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+803596,0,37,0,[],0,TRUE,0,26,0,[],0,TRUE,25,89,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+804598,0,37,0,[],0,TRUE,0,26,0,[],0,TRUE,25,89,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+805598,0,37,0,[],0,TRUE,0,26,0,[],0,TRUE,0,89,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+806599,0,37,0,[],0,TRUE,0,26,0,[],0,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+807599,0,37,0,[],0,TRUE,0,26,0,[],0,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+808599,0,37,0,[],0,TRUE,0,26,0,[],0,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+809601,0,37,0,[],0,TRUE,0,19,0,[],0,TRUE,25,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+810601,0,37,0,[],0,TRUE,0,19,0,[],0,TRUE,25,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+811601,0,37,0,[],0,TRUE,0,19,0,[],0,TRUE,25,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+812601,0,37,0,[],0,TRUE,0,19,0,[],0,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+813602,0,37,0,[],0,TRUE,0,19,0,[],0,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+814603,0,37,0,[],0,TRUE,0,19,0,[],0,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+815603,0,37,0,[],0,TRUE,0,19,0,[],0,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+816604,0,37,0,[],0,TRUE,0,19,0,[],0,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+817604,0,37,0,[],0,TRUE,0,19,0,[],0,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+818604,0,37,0,[],0,TRUE,0,19,0,[],0,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+819606,0,37,0,[],0,TRUE,0,19,0,[],0,TRUE,25,91,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+820606,0,37,0,[],0,TRUE,0,19,0,[],0,TRUE,25,91,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+821606,0,37,0,[],0,TRUE,25,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+822606,0,37,0,[],0,TRUE,25,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+823608,0,37,0,[],0,TRUE,25,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,TRUE,100
+824608,0,37,0,[],0,TRUE,25,19,0,[],0,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,TRUE,100
+825609,0,37,0,[],0,TRUE,25,19,0,[],0,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,TRUE,100
+826609,0,37,0,[],0,TRUE,25,19,0,[],0,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,25
+827609,0,37,0,[],0,TRUE,25,19,0,[],0,TRUE,0,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,25
+828610,0,37,0,[],0,TRUE,0,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+829611,0,37,0,[],0,TRUE,0,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+830611,0,37,0,[],0,TRUE,0,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+831611,0,37,0,[],0,TRUE,0,19,0,[],0,TRUE,25,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,0
+832612,0,34,0,[],0,TRUE,0,19,0,[],0,TRUE,25,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,0
+833612,0,34,0,[],0,TRUE,0,19,0,[],0,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,25
+834613,0,34,0,[],0,TRUE,0,19,0,[],0,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,25
+835614,0,32,0,[],0,TRUE,0,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,0
+836614,0,32,0,[],0,TRUE,0,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,0
+837614,0,32,0,[],0,TRUE,25,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,0
+838615,0,32,0,[],0,TRUE,25,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,0
+839617,0,32,0,[],0,TRUE,0,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,0
+840617,0,32,0,[],0,TRUE,0,19,0,[],0,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,25
+841617,0,32,0,[],0,TRUE,0,19,0,[],0,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,25
+842618,0,32,0,[],0,TRUE,25,19,0,[],0,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+843618,0,32,0,[],0,TRUE,25,19,0,[],0,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+844619,0,32,0,[],0,TRUE,0,19,0,[],0,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+845619,0,32,0,[],0,TRUE,0,19,0,[],0,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+846620,0,32,0,[],0,TRUE,0,19,0,[],0,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+847620,0,32,0,[],0,TRUE,0,19,0,[],0,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+848620,0,32,0,[],0,TRUE,0,19,0,[],0,TRUE,25,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+849622,0,32,0,[],0,TRUE,0,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,25
+850622,0,32,0,[],0,TRUE,0,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,25
+851623,0,32,0,[],0,TRUE,0,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,25
+852623,0,32,0,[],0,TRUE,0,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+853623,0,32,0,[],0,TRUE,0,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+854625,0,32,0,[],0,TRUE,0,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,25
+855840,0,100,0,[],0,FALSE,100,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,25
+856840,0,100,0,[],0,FALSE,100,19,0,[],0,TRUE,0,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+858083,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+859083,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,25
+860084,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,25
+861085,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,25
+862085,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,25
+863085,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,25
+864085,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,0
+865087,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,0
+866087,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,0
+867087,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,0
+868088,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,0
+869088,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+870089,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+871089,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+872090,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+873090,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,25
+874090,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,25
+875092,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,25
+876092,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,0
+877092,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,0
+878093,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,25,0,[],0,TRUE,25
+879093,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,25
+880094,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,0
+881095,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,0
+882095,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,0
+883095,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,25,0,[],0,TRUE,25
+884387,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+885388,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+886388,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+887388,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+888389,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+889389,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+890390,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+891391,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+892391,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+893391,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+894391,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+895393,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+896393,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+897393,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+898394,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+899394,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+900395,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+901396,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+902396,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+903396,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+904397,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+905398,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+906398,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+907398,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+908399,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+909399,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+910400,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+911401,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+912401,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+913401,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+914401,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+915403,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+916403,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+917403,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+918403,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+919404,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+920405,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+921405,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+922405,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+923406,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+924406,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+925407,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+926407,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+927408,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+928408,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+929408,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+930410,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+931410,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+932410,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+933410,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+934411,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+935412,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+936413,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+937413,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+938413,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+939413,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+940415,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+941415,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+942415,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+943415,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+944416,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+945417,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+946417,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+947418,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+948418,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+949418,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+950420,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+951420,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+952420,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+953420,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+954421,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+955422,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+956422,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+957423,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+958423,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+959423,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+960425,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+961425,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+962425,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+963426,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+964426,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+965427,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+966428,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+967428,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+968428,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+969428,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+970430,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+971430,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+972430,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+973431,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+974431,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+975432,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+976433,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+977433,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+978433,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+979434,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+980435,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+981436,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+982436,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+983436,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+984436,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+985438,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+986438,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+987438,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+988439,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+989439,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+990440,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+991441,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+992442,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+993442,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+994443,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+995444,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+996444,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+997445,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+998445,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+999445,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+1000446,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1001447,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1002447,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1003447,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1004447,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1005449,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1006449,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,92,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1007449,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+1008450,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+1009450,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+1010451,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1011452,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1012452,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1013452,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1014452,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1015454,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1016454,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1017454,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1018455,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+1019455,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+1020456,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1021457,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1022457,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1023457,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1024458,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1025459,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1026459,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1027460,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1028460,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1029460,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1030461,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+1031462,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,50,100,0,[],0,FALSE,100
+1032462,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+1033462,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+1034463,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+1035464,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1036464,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1037464,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+1038465,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,25,100,0,[],0,FALSE,100
+1039465,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1040466,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,1,[InputImage/1127748_33(copy).jp],36000,TRUE,0,100,0,[],0,FALSE,100
+1041467,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,0,[],0,TRUE,0,100,0,[],0,FALSE,100
+1042467,0,100,0,[],0,FALSE,100,100,0,[],0,FALSE,100,93,0,[],0,TRUE,50,100,0,[],0,FALSE,100
